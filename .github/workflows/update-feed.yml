@@ -2,7 +2,7 @@ name: Refresh HKJC Claude market feed
 
 on:
   schedule:
-    - cron: '3,13,23,33,43,53 * * * *'
+    - cron: '2,7,12,17,22,27,32,37,42,47,52,57 * * * *'
   workflow_dispatch:
   push:
     branches: [main]
@@ -69,7 +69,6 @@ jobs:
           assert d["scope"] == "PREEVENT_PUBLIC_MARKETS_ONLY"
           assert d["match_count"] == len(d["matches"]) > 0
           assert p.stat().st_size < 500_000, f"feed too large for reliable retrieval: {p.stat().st_size} bytes"
-          assert p.stat().st_size < 500_000, f"feed too large for reliable model retrieval: {p.stat().st_size} bytes"
           assert all(str(m["status"]).upper() == "PREEVENT" for m in d["matches"])
           ts = datetime.fromisoformat(d["frozen_at_utc"].replace("Z", "+00:00")).astimezone(timezone.utc)
           age = (datetime.now(timezone.utc) - ts).total_seconds()
