@@ -75,6 +75,58 @@ class FeedTests(unittest.TestCase):
         self.assertIn("hkjc_all_odds_url", out)
         self.assertNotIn("markets", out)
 
+
+    def test_last_seen_market_is_carried_as_stale_not_current(self):
+        previous = {
+            "frozen_at_hkt": "2026-09-26T02:30:00+08:00",
+            "matches": [{
+                "id": "m1",
+                "had": {
+                    "odds": {"home": 1.27, "draw": 5.5, "away": 9.0},
+                    "updated_at": "2026-09-26T02:29:00+08:00",
+                },
+                "hdc": None,
+                "hil": None,
+            }],
+        }
+        current = {
+            "frozen_at_hkt": "2026-09-26T02:50:00+08:00",
+            "matches": [{
+                "id": "m1",
+                "had": {"odds": {}, "updated_at": None},
+                "hdc": {"lines": [{"condition": "-1.0", "main": True, "odds": {"H": 1.8, "A": 1.9}}]},
+                "hil": None,
+            }],
+        }
+        out = feed.attach_last_seen_markets(current, previous)
+        stale = out["matches"][0]["last_seen_markets"]["HAD"]
+        self.assertEqual(stale["status"], "STALE_LAST_SEEN")
+        self.assertEqual(stale["payload"]["odds"]["home"], 1.27)
+        self.assertEqual(stale["age_minutes_at_freeze"], 20.0)
+        self.assertNotIn("HDC", out["matches"][0]["last_seen_markets"])
+
+    def test_last_seen_market_expires(self):
+        previous = {
+            "frozen_at_hkt": "2026-09-25T18:00:00+08:00",
+            "matches": [{
+                "id": "m1",
+                "had": {"odds": {"home": 1.5, "draw": 4.0, "away": 6.0}},
+                "hdc": None,
+                "hil": None,
+            }],
+        }
+        current = {
+            "frozen_at_hkt": "2026-09-26T02:50:00+08:00",
+            "matches": [{
+                "id": "m1",
+                "had": {"odds": {}, "updated_at": None},
+                "hdc": None,
+                "hil": None,
+            }],
+        }
+        out = feed.attach_last_seen_markets(current, previous)
+        self.assertNotIn("last_seen_markets", out["matches"][0])
+
     def test_invalid_odds_are_not_published(self):
         self.assertIsNone(feed.decimal_odds("---"))
         self.assertIsNone(feed.decimal_odds("1.00"))
