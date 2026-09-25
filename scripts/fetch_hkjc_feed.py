@@ -360,6 +360,34 @@ def _compact_pool(pool: dict[str, Any]) -> dict[str, Any]:
     }
 
 
+def _compact_pool(pool: dict[str, Any]) -> dict[str, Any]:
+    lines: list[dict[str, Any]] = []
+    for line in pool.get("lines") or []:
+        odds: dict[str, float] = {}
+        for comb in line.get("combinations") or []:
+            value = decimal_odds(comb.get("currentOdds"))
+            if value is None:
+                continue
+            code = str(comb.get("str") or "").strip()
+            if not code:
+                selections = comb.get("selections") or []
+                if selections:
+                    code = str(selections[0].get("str") or "").strip()
+            if code:
+                odds[code] = value
+        if odds:
+            lines.append({
+                "condition": line.get("condition"),
+                "main": bool(line.get("main")),
+                "odds": odds,
+            })
+    return {
+        "updated_at": pool.get("updateAt"),
+        "status": pool.get("status"),
+        "lines": lines,
+    }
+
+
 def sanitize_match(match: dict[str, Any], allowed_odds_types: set[str]) -> dict[str, Any]:
     raw_pools = [
         p
@@ -381,7 +409,7 @@ def sanitize_match(match: dict[str, Any], allowed_odds_types: set[str]) -> dict[
             by_type[typ] = pool
 
     match_id = str(match.get("id") or "")
-    result = {
+    return {
         "id": match.get("id"),
         "front_end_id": match.get("frontEndId"),
         "match_date": match.get("matchDate"),
@@ -400,7 +428,6 @@ def sanitize_match(match: dict[str, Any], allowed_odds_types: set[str]) -> dict[
             f"https://bet.hkjc.com/ch/football/allodds/{match_id}" if match_id else None
         ),
     }
-    return result
 
 def build_feed(matches: list[dict[str, Any]], start_date: str, end_date: str, odds_types: list[str]) -> dict[str, Any]:
     now_utc = datetime.now(timezone.utc)
