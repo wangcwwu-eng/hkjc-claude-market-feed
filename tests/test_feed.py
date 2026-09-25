@@ -71,7 +71,7 @@ class FeedTests(unittest.TestCase):
         self.assertNotIn("runningResult", out)
         self.assertNotIn("ggs", out)
         self.assertNotIn("pps", out)
-
+        self.assertIn("available_markets", out)\n        self.assertIn("hkjc_all_odds_url", out)\n        self.assertNotIn("markets", out)\n
     def test_invalid_odds_are_not_published(self):
         self.assertIsNone(feed.decimal_odds("---"))
         self.assertIsNone(feed.decimal_odds("1.00"))
