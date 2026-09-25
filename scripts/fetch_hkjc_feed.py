@@ -332,14 +332,83 @@ def flatten_had(pools: list[dict[str, Any]]) -> dict[str, Any]:
     return result
 
 
+def _compact_pool(pool: dict[str, Any]) -> dict[str, Any]:
+    lines: list[dict[str, Any]] = []
+    for line in pool.get("lines") or []:
+        odds: dict[str, float] = {}
+        for comb in line.get("combinations") or []:
+            value = decimal_odds(comb.get("currentOdds"))
+            if value is None:
+                continue
+            code = str(comb.get("str") or "").strip()
+            if not code:
+                selections = comb.get("selections") or []
+                if selections:
+                    code = str(selections[0].get("str") or "").strip()
+            if code:
+                odds[code] = value
+        if odds:
+            lines.append({
+                "condition": line.get("condition"),
+                "main": bool(line.get("main")),
+                "odds": odds,
+            })
+    return {
+        "updated_at": pool.get("updateAt"),
+        "status": pool.get("status"),
+        "lines": lines,
+    }
+
+
+def _compact_pool(pool: dict[str, Any]) -> dict[str, Any]:
+    lines: list[dict[str, Any]] = []
+    for line in pool.get("lines") or []:
+        odds: dict[str, float] = {}
+        for comb in line.get("combinations") or []:
+            value = decimal_odds(comb.get("currentOdds"))
+            if value is None:
+                continue
+            code = str(comb.get("str") or "").strip()
+            if not code:
+                selections = comb.get("selections") or []
+                if selections:
+                    code = str(selections[0].get("str") or "").strip()
+            if code:
+                odds[code] = value
+        if odds:
+            lines.append({
+                "condition": line.get("condition"),
+                "main": bool(line.get("main")),
+                "odds": odds,
+            })
+    return {
+        "updated_at": pool.get("updateAt"),
+        "status": pool.get("status"),
+        "lines": lines,
+    }
+
+
 def sanitize_match(match: dict[str, Any], allowed_odds_types: set[str]) -> dict[str, Any]:
     raw_pools = [
         p
         for p in (match.get("foPools") or [])
         if p.get("oddsType") in allowed_odds_types and not p.get("inplay")
     ]
-    pools = [sanitize_pool(p) for p in raw_pools]
-    pools = [p for p in pools if p["lines"]]
+    usable = [
+        p for p in raw_pools
+        if any(
+            decimal_odds(c.get("currentOdds")) is not None
+            for line in (p.get("lines") or [])
+            for c in (line.get("combinations") or [])
+        )
+    ]
+    by_type: dict[str, dict[str, Any]] = {}
+    for pool in usable:
+        typ = str(pool.get("oddsType") or "")
+        if typ and typ not in by_type:
+            by_type[typ] = pool
+
+    match_id = str(match.get("id") or "")
     return {
         "id": match.get("id"),
         "front_end_id": match.get("frontEndId"),
@@ -350,10 +419,15 @@ def sanitize_match(match: dict[str, Any], allowed_odds_types: set[str]) -> dict[
         "home": _team(match.get("homeTeam")),
         "away": _team(match.get("awayTeam")),
         "tournament": _tournament(match.get("tournament")),
+        "available_markets": sorted(by_type),
         "had": flatten_had(raw_pools),
-        "markets": pools,
+        "hdc": _compact_pool(by_type["HDC"]) if "HDC" in by_type else None,
+        "hil": _compact_pool(by_type["HIL"]) if "HIL" in by_type else None,
+        "crs_available": "CRS" in by_type,
+        "hkjc_all_odds_url": (
+            f"https://bet.hkjc.com/ch/football/allodds/{match_id}" if match_id else None
+        ),
     }
-
 
 def build_feed(matches: list[dict[str, Any]], start_date: str, end_date: str, odds_types: list[str]) -> dict[str, Any]:
     now_utc = datetime.now(timezone.utc)
