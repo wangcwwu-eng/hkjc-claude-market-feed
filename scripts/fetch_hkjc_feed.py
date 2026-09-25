@@ -360,34 +360,6 @@ def _compact_pool(pool: dict[str, Any]) -> dict[str, Any]:
     }
 
 
-def _compact_pool(pool: dict[str, Any]) -> dict[str, Any]:
-    lines: list[dict[str, Any]] = []
-    for line in pool.get("lines") or []:
-        odds: dict[str, float] = {}
-        for comb in line.get("combinations") or []:
-            value = decimal_odds(comb.get("currentOdds"))
-            if value is None:
-                continue
-            code = str(comb.get("str") or "").strip()
-            if not code:
-                selections = comb.get("selections") or []
-                if selections:
-                    code = str(selections[0].get("str") or "").strip()
-            if code:
-                odds[code] = value
-        if odds:
-            lines.append({
-                "condition": line.get("condition"),
-                "main": bool(line.get("main")),
-                "odds": odds,
-            })
-    return {
-        "updated_at": pool.get("updateAt"),
-        "status": pool.get("status"),
-        "lines": lines,
-    }
-
-
 def sanitize_match(match: dict[str, Any], allowed_odds_types: set[str]) -> dict[str, Any]:
     raw_pools = [
         p
@@ -428,6 +400,86 @@ def sanitize_match(match: dict[str, Any], allowed_odds_types: set[str]) -> dict[
             f"https://bet.hkjc.com/ch/football/allodds/{match_id}" if match_id else None
         ),
     }
+
+LAST_SEEN_MAX_AGE_MINUTES = 360
+
+
+def _parse_hkt(value: Any) -> datetime | None:
+    if not value:
+        return None
+    try:
+        dt = datetime.fromisoformat(str(value).replace("Z", "+00:00"))
+    except ValueError:
+        return None
+    if dt.tzinfo is None:
+        dt = dt.replace(tzinfo=HKT)
+    return dt.astimezone(HKT)
+
+
+def _current_market_payload(match: dict[str, Any], market: str) -> Any:
+    if market == "HAD":
+        had = match.get("had") or {}
+        return had if had.get("odds") else None
+    if market == "HDC":
+        return match.get("hdc")
+    if market == "HIL":
+        return match.get("hil")
+    return None
+
+
+def attach_last_seen_markets(feed: dict[str, Any], previous: dict[str, Any] | None) -> dict[str, Any]:
+    if not previous:
+        return feed
+
+    now = _parse_hkt(feed.get("frozen_at_hkt"))
+    prev_ts = _parse_hkt(previous.get("frozen_at_hkt"))
+    if now is None or prev_ts is None:
+        return feed
+
+    previous_matches = {
+        str(m.get("id")): m
+        for m in (previous.get("matches") or [])
+        if m.get("id")
+    }
+
+    for match in feed.get("matches") or []:
+        prior = previous_matches.get(str(match.get("id")))
+        if not prior:
+            continue
+
+        last_seen: dict[str, Any] = {}
+        inherited = prior.get("last_seen_markets") or {}
+
+        for market in ("HAD", "HDC", "HIL"):
+            if _current_market_payload(match, market) is not None:
+                continue
+
+            prior_payload = _current_market_payload(prior, market)
+            observed_at = previous.get("frozen_at_hkt")
+            if prior_payload is None and market in inherited:
+                inherited_item = inherited.get(market) or {}
+                prior_payload = inherited_item.get("payload")
+                observed_at = inherited_item.get("observed_at_hkt")
+
+            observed_dt = _parse_hkt(observed_at)
+            if prior_payload is None or observed_dt is None:
+                continue
+
+            age_minutes = (now - observed_dt).total_seconds() / 60.0
+            if age_minutes < 0 or age_minutes > LAST_SEEN_MAX_AGE_MINUTES:
+                continue
+
+            last_seen[market] = {
+                "status": "STALE_LAST_SEEN",
+                "observed_at_hkt": observed_dt.isoformat(),
+                "age_minutes_at_freeze": round(age_minutes, 1),
+                "payload": prior_payload,
+            }
+
+        if last_seen:
+            match["last_seen_markets"] = last_seen
+
+    return feed
 
 def build_feed(matches: list[dict[str, Any]], start_date: str, end_date: str, odds_types: list[str]) -> dict[str, Any]:
     now_utc = datetime.now(timezone.utc)
@@ -512,10 +564,18 @@ def main() -> int:
     end_date = (today_hkt + timedelta(days=max(args.days, 0))).isoformat()
 
     try:
+        out = Path(args.out)
+        previous = None
+        if out.exists() and out.stat().st_size:
+            try:
+                previous = json.loads(out.read_text(encoding="utf-8"))
+            except Exception:
+                previous = None
+
         matches = fetch_window(start_date, end_date, args.odds)
         feed = build_feed(matches, start_date, end_date, args.odds)
+        feed = attach_last_seen_markets(feed, previous)
         validate_feed(feed)
-        out = Path(args.out)
         out.parent.mkdir(parents=True, exist_ok=True)
         out.write_text(
             json.dumps(feed, ensure_ascii=False, indent=2, sort_keys=True) + "\n",
