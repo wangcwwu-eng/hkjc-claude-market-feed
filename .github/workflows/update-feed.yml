@@ -68,7 +68,7 @@ jobs:
           assert d["schema_version"] == "hkjc-claude-market-feed-v1"
           assert d["scope"] == "PREEVENT_PUBLIC_MARKETS_ONLY"
           assert d["match_count"] == len(d["matches"]) > 0
-          assert p.stat().st_size < 500_000, f"feed too large for reliable model retrieval: {p.stat().st_size} bytes"
+          assert p.stat().st_size < 500_000, f"feed too large for reliable retrieval: {p.stat().st_size} bytes"\n          assert p.stat().st_size < 500_000, f"feed too large for reliable model retrieval: {p.stat().st_size} bytes"
           assert all(str(m["status"]).upper() == "PREEVENT" for m in d["matches"])
           ts = datetime.fromisoformat(d["frozen_at_utc"].replace("Z", "+00:00")).astimezone(timezone.utc)
           age = (datetime.now(timezone.utc) - ts).total_seconds()
