@@ -38,4 +38,6 @@ Every feed declares that it contains no model predictions, PPS, GGS, C2, H3, or 
 
 The collector fails closed: a zero-match pre-event result, malformed schema, duplicate fixture IDs, or a non-PREEVENT leak causes the workflow to fail rather than overwrite the last known good public feed.
 
-The rolling feed is intentionally compact so Claude can retrieve it reliably. Full correct-score grids are not duplicated into the index; Claude can follow the per-match official HKJC all-odds URL when it needs that detail.\n\nNo Actions artifacts or large runners are used. Historical PIT states remain recoverable from ordinary Git history.\n
+The rolling feed is intentionally compact so Claude can retrieve it reliably. Full correct-score grids are not duplicated into the index; Claude can follow the per-match official HKJC all-odds URL when it needs that detail.
+
+No Actions artifacts or large runners are used. Historical PIT states remain recoverable from ordinary Git history.
