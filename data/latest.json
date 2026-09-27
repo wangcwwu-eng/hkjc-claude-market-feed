@@ -1,6 +1,6 @@
 {
-  "frozen_at_hkt": "2026-09-27T08:54:41.603860+08:00",
-  "frozen_at_utc": "2026-09-27T00:54:41.603860+00:00",
+  "frozen_at_hkt": "2026-09-27T13:56:23.847974+08:00",
+  "frozen_at_utc": "2026-09-27T05:56:23.847974+00:00",
   "independence_contract": {
     "contains_betting_selections": false,
     "contains_c2": false,
@@ -9,745 +9,9 @@
     "contains_model_predictions": false,
     "contains_pps": false
   },
-  "market_payload_sha256": "573eeac7d05e75a33f9fc90b6d0a16a3d9fd1a8d2534f3dd2117cb5e2adf2b03",
-  "match_count": 87,
+  "market_payload_sha256": "da2ccc0a089524988703bd58e7562a2065718af24ee13be3e2016695da289cd0",
+  "match_count": 77,
   "matches": [
-    {
-      "available_markets": [
-        "CRS",
-        "HAD",
-        "HIL"
-      ],
-      "away": {
-        "id": "50601676",
-        "name_ch": "杜蘭高蠍子",
-        "name_en": "Alacranes de Durango"
-      },
-      "crs_available": true,
-      "front_end_id": "FB5860",
-      "had": {
-        "no_vig_prob": {
-          "away": 0.36738978,
-          "draw": 0.27991603,
-          "home": 0.35269419
-        },
-        "odds": {
-          "away": 2.4,
-          "draw": 3.15,
-          "home": 2.5
-        },
-        "overround": 1.13412698,
-        "updated_at": "2026-09-25T19:30:00.826+08:00"
-      },
-      "hdc": null,
-      "hil": {
-        "lines": [
-          {
-            "condition": "2.5",
-            "main": true,
-            "odds": {
-              "H": 1.74,
-              "L": 1.97
-            }
-          },
-          {
-            "condition": "2.5/3.0",
-            "main": false,
-            "odds": {
-              "H": 1.94,
-              "L": 1.76
-            }
-          },
-          {
-            "condition": "3.5",
-            "main": false,
-            "odds": {
-              "H": 2.88,
-              "L": 1.35
-            }
-          }
-        ],
-        "status": "SELLINGSTARTED",
-        "updated_at": "2026-09-25T19:30:00.826+08:00"
-      },
-      "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50076498",
-      "home": {
-        "id": "50001003",
-        "name_ch": "多拉多斯",
-        "name_en": "Dorados"
-      },
-      "id": "50076498",
-      "kickoff": "2026-09-27T09:00:00.000+08:00",
-      "match_date": "2026-09-27+08:00",
-      "status": "PREEVENT",
-      "tournament": {
-        "code": "MD1",
-        "front_end_id": "",
-        "id": "50071767",
-        "name_ch": "墨西哥甲組聯賽",
-        "name_en": "Mexican Division 1"
-      },
-      "updated_at": "2026-09-20T10:01:26.085+08:00"
-    },
-    {
-      "available_markets": [
-        "HDC"
-      ],
-      "away": {
-        "id": "50000798",
-        "name_ch": "哥倫比亞",
-        "name_en": "Colombia"
-      },
-      "crs_available": false,
-      "front_end_id": "FB5873",
-      "had": {
-        "odds": {},
-        "updated_at": null
-      },
-      "hdc": {
-        "lines": [
-          {
-            "condition": "0.0",
-            "main": true,
-            "odds": {
-              "A": 1.82,
-              "H": 1.95
-            }
-          },
-          {
-            "condition": "0.0/+0.5",
-            "main": false,
-            "odds": {
-              "A": 2.11,
-              "H": 1.69
-            }
-          }
-        ],
-        "status": "SELLINGSTARTED",
-        "updated_at": "2026-09-25T19:30:00.826+08:00"
-      },
-      "hil": null,
-      "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50076826",
-      "home": {
-        "id": "50002084",
-        "name_ch": "墨西哥",
-        "name_en": "Mexico"
-      },
-      "id": "50076826",
-      "kickoff": "2026-09-27T09:00:00.000+08:00",
-      "match_date": "2026-09-27+08:00",
-      "status": "PREEVENT",
-      "tournament": {
-        "code": "INT",
-        "front_end_id": "",
-        "id": "50071381",
-        "name_ch": "國際賽",
-        "name_en": "International Matches"
-      },
-      "updated_at": "2026-09-24T15:17:48.067+08:00"
-    },
-    {
-      "available_markets": [],
-      "away": {
-        "id": "50002244",
-        "name_ch": "新英倫革命",
-        "name_en": "New England Revolution"
-      },
-      "crs_available": false,
-      "front_end_id": "FB5827",
-      "had": {
-        "odds": {},
-        "updated_at": null
-      },
-      "hdc": null,
-      "hil": null,
-      "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50063049",
-      "home": {
-        "id": "50002609",
-        "name_ch": "皇家鹽湖城",
-        "name_en": "Real Salt Lake"
-      },
-      "id": "50063049",
-      "kickoff": "2026-09-27T09:30:00.000+08:00",
-      "last_seen_markets": {
-        "HDC": {
-          "age_minutes_at_freeze": 129.5,
-          "observed_at_hkt": "2026-09-27T06:45:14.068855+08:00",
-          "payload": {
-            "lines": [
-              {
-                "condition": "0.0/-0.5",
-                "main": true,
-                "odds": {
-                  "A": 1.9,
-                  "H": 1.9
-                }
-              },
-              {
-                "condition": "0.0",
-                "main": false,
-                "odds": {
-                  "A": 2.12,
-                  "H": 1.7
-                }
-              }
-            ],
-            "status": "SELLINGSTARTED",
-            "updated_at": "2026-09-25T19:30:00.826+08:00"
-          },
-          "status": "STALE_LAST_SEEN"
-        }
-      },
-      "match_date": "2026-09-27+08:00",
-      "status": "PREEVENT",
-      "tournament": {
-        "code": "MLS",
-        "front_end_id": "",
-        "id": "50062774",
-        "name_ch": "美國職業聯賽",
-        "name_en": "US Major League"
-      },
-      "updated_at": "2026-09-24T10:17:50.584+08:00"
-    },
-    {
-      "available_markets": [
-        "CRS",
-        "HAD",
-        "HIL"
-      ],
-      "away": {
-        "id": "50000231",
-        "name_ch": "鳳凰城復活",
-        "name_en": "Phoenix Rising"
-      },
-      "crs_available": true,
-      "front_end_id": "FB5783",
-      "had": {
-        "no_vig_prob": {
-          "away": 0.350113,
-          "draw": 0.25949552,
-          "home": 0.39039149
-        },
-        "odds": {
-          "away": 2.52,
-          "draw": 3.4,
-          "home": 2.26
-        },
-        "overround": 1.13342092,
-        "updated_at": "2026-09-24T19:30:01.630+08:00"
-      },
-      "hdc": null,
-      "hil": {
-        "lines": [
-          {
-            "condition": "2.5",
-            "main": true,
-            "odds": {
-              "H": 1.63,
-              "L": 2.13
-            }
-          },
-          {
-            "condition": "2.5/3.0",
-            "main": false,
-            "odds": {
-              "H": 1.8,
-              "L": 1.9
-            }
-          },
-          {
-            "condition": "3.5",
-            "main": false,
-            "odds": {
-              "H": 2.6,
-              "L": 1.43
-            }
-          }
-        ],
-        "status": "SELLINGSTARTED",
-        "updated_at": "2026-09-24T19:30:01.630+08:00"
-      },
-      "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50076554",
-      "home": {
-        "id": "50283457",
-        "name_ch": "奧克蘭根源",
-        "name_en": "Oakland Roots"
-      },
-      "id": "50076554",
-      "kickoff": "2026-09-27T10:00:00.000+08:00",
-      "match_date": "2026-09-27+08:00",
-      "status": "PREEVENT",
-      "tournament": {
-        "code": "USL",
-        "front_end_id": "",
-        "id": "50064216",
-        "name_ch": "美國冠軍聯賽",
-        "name_en": "USL Championship"
-      },
-      "updated_at": "2026-09-21T05:17:40.308+08:00"
-    },
-    {
-      "available_markets": [
-        "CRS",
-        "HAD",
-        "HDC",
-        "HIL"
-      ],
-      "away": {
-        "id": "50002461",
-        "name_ch": "匹茲堡獵犬",
-        "name_en": "Pittsburgh Riverhounds"
-      },
-      "crs_available": true,
-      "front_end_id": "FB5789",
-      "had": {
-        "no_vig_prob": {
-          "away": 0.4013495,
-          "draw": 0.30135457,
-          "home": 0.29729593
-        },
-        "odds": {
-          "away": 2.2,
-          "draw": 2.93,
-          "home": 2.97
-        },
-        "overround": 1.13254272,
-        "updated_at": "2026-09-24T19:30:01.630+08:00"
-      },
-      "hdc": {
-        "lines": [
-          {
-            "condition": "0.0/+0.5",
-            "main": true,
-            "odds": {
-              "A": 1.98,
-              "H": 1.79
-            }
-          }
-        ],
-        "status": "SELLINGSTARTED",
-        "updated_at": "2026-09-24T19:30:01.630+08:00"
-      },
-      "hil": {
-        "lines": [
-          {
-            "condition": "2.5",
-            "main": true,
-            "odds": {
-              "H": 2.22,
-              "L": 1.58
-            }
-          },
-          {
-            "condition": "2.0/2.5",
-            "main": false,
-            "odds": {
-              "H": 1.94,
-              "L": 1.76
-            }
-          },
-          {
-            "condition": "3.5",
-            "main": false,
-            "odds": {
-              "H": 3.8,
-              "L": 1.21
-            }
-          }
-        ],
-        "status": "SELLINGSTARTED",
-        "updated_at": "2026-09-24T19:30:01.630+08:00"
-      },
-      "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50076929",
-      "home": {
-        "id": "50002348",
-        "name_ch": "SC奧蘭治郡",
-        "name_en": "Orange County SC"
-      },
-      "id": "50076929",
-      "kickoff": "2026-09-27T10:00:00.000+08:00",
-      "match_date": "2026-09-27+08:00",
-      "status": "PREEVENT",
-      "tournament": {
-        "code": "USL",
-        "front_end_id": "",
-        "id": "50064216",
-        "name_ch": "美國冠軍聯賽",
-        "name_en": "USL Championship"
-      },
-      "updated_at": "2026-09-23T11:05:19.266+08:00"
-    },
-    {
-      "available_markets": [
-        "CRS",
-        "HAD",
-        "HIL"
-      ],
-      "away": {
-        "id": "50002488",
-        "name_ch": "波特蘭伐木者",
-        "name_en": "Portland Timbers"
-      },
-      "crs_available": true,
-      "front_end_id": "FB5825",
-      "had": {
-        "no_vig_prob": {
-          "away": 0.31769037,
-          "draw": 0.2293972,
-          "home": 0.45291243
-        },
-        "odds": {
-          "away": 2.78,
-          "draw": 3.85,
-          "home": 1.95
-        },
-        "overround": 1.132273,
-        "updated_at": "2026-09-25T19:30:00.826+08:00"
-      },
-      "hdc": null,
-      "hil": {
-        "lines": [
-          {
-            "condition": "3.5",
-            "main": true,
-            "odds": {
-              "H": 1.85,
-              "L": 1.85
-            }
-          },
-          {
-            "condition": "3.5/4.0",
-            "main": false,
-            "odds": {
-              "H": 2.07,
-              "L": 1.67
-            }
-          },
-          {
-            "condition": "4.5",
-            "main": false,
-            "odds": {
-              "H": 2.98,
-              "L": 1.33
-            }
-          }
-        ],
-        "status": "SELLINGSTARTED",
-        "updated_at": "2026-09-25T19:30:00.826+08:00"
-      },
-      "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50062987",
-      "home": {
-        "id": "50002715",
-        "name_ch": "聖荷西地震",
-        "name_en": "San Jose Earthquakes"
-      },
-      "id": "50062987",
-      "kickoff": "2026-09-27T10:30:00.000+08:00",
-      "match_date": "2026-09-27+08:00",
-      "status": "PREEVENT",
-      "tournament": {
-        "code": "MLS",
-        "front_end_id": "",
-        "id": "50062774",
-        "name_ch": "美國職業聯賽",
-        "name_en": "US Major League"
-      },
-      "updated_at": "2026-08-29T00:01:00.943+08:00"
-    },
-    {
-      "available_markets": [
-        "HDC"
-      ],
-      "away": {
-        "id": "50000925",
-        "name_ch": "華盛頓聯隊",
-        "name_en": "DC United"
-      },
-      "crs_available": false,
-      "front_end_id": "FB5829",
-      "had": {
-        "odds": {},
-        "updated_at": null
-      },
-      "hdc": {
-        "lines": [
-          {
-            "condition": "-1.5/-2.0",
-            "main": true,
-            "odds": {
-              "A": 1.99,
-              "H": 1.81
-            }
-          }
-        ],
-        "status": "SELLINGSTARTED",
-        "updated_at": "2026-09-25T19:30:00.826+08:00"
-      },
-      "hil": null,
-      "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50063079",
-      "home": {
-        "id": "50003266",
-        "name_ch": "溫哥華白帽",
-        "name_en": "Vancouver Whitecaps"
-      },
-      "id": "50063079",
-      "kickoff": "2026-09-27T10:30:00.000+08:00",
-      "match_date": "2026-09-27+08:00",
-      "status": "PREEVENT",
-      "tournament": {
-        "code": "MLS",
-        "front_end_id": "",
-        "id": "50062774",
-        "name_ch": "美國職業聯賽",
-        "name_en": "US Major League"
-      },
-      "updated_at": "2026-09-24T10:17:50.287+08:00"
-    },
-    {
-      "available_markets": [
-        "HDC"
-      ],
-      "away": {
-        "id": "50000818",
-        "name_ch": "科羅拉多急流",
-        "name_en": "Colorado Rapids"
-      },
-      "crs_available": false,
-      "front_end_id": "FB5832",
-      "had": {
-        "odds": {},
-        "updated_at": null
-      },
-      "hdc": {
-        "lines": [
-          {
-            "condition": "0.0/-0.5",
-            "main": true,
-            "odds": {
-              "A": 1.89,
-              "H": 1.91
-            }
-          }
-        ],
-        "status": "SELLINGSTARTED",
-        "updated_at": "2026-09-25T19:30:00.826+08:00"
-      },
-      "hil": null,
-      "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50063156",
-      "home": {
-        "id": "50001852",
-        "name_ch": "洛杉磯銀河",
-        "name_en": "LA Galaxy"
-      },
-      "id": "50063156",
-      "kickoff": "2026-09-27T10:30:00.000+08:00",
-      "match_date": "2026-09-27+08:00",
-      "status": "PREEVENT",
-      "tournament": {
-        "code": "MLS",
-        "front_end_id": "",
-        "id": "50062774",
-        "name_ch": "美國職業聯賽",
-        "name_en": "US Major League"
-      },
-      "updated_at": "2026-09-24T10:17:50.100+08:00"
-    },
-    {
-      "available_markets": [
-        "HDC"
-      ],
-      "away": {
-        "id": "50002381",
-        "name_ch": "帕丘卡",
-        "name_en": "Pachuca"
-      },
-      "crs_available": false,
-      "front_end_id": "FB5837",
-      "had": {
-        "odds": {},
-        "updated_at": null
-      },
-      "hdc": {
-        "lines": [
-          {
-            "condition": "0.0/+0.5",
-            "main": true,
-            "odds": {
-              "A": 1.74,
-              "H": 2.05
-            }
-          }
-        ],
-        "status": "SELLINGSTARTED",
-        "updated_at": "2026-09-25T19:30:00.826+08:00"
-      },
-      "hil": null,
-      "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50071148",
-      "home": {
-        "id": "50002740",
-        "name_ch": "拿根亞",
-        "name_en": "Santos Laguna"
-      },
-      "id": "50071148",
-      "kickoff": "2026-09-27T11:05:00.000+08:00",
-      "match_date": "2026-09-27+08:00",
-      "status": "PREEVENT",
-      "tournament": {
-        "code": "MXL",
-        "front_end_id": "",
-        "id": "50071090",
-        "name_ch": "墨西哥超級聯賽",
-        "name_en": "Mexican Premier"
-      },
-      "updated_at": "2026-09-24T11:45:44.250+08:00"
-    },
-    {
-      "available_markets": [
-        "HDC"
-      ],
-      "away": {
-        "id": "50002537",
-        "name_ch": "普埃布拉",
-        "name_en": "Puebla"
-      },
-      "crs_available": false,
-      "front_end_id": "FB5836",
-      "had": {
-        "odds": {},
-        "updated_at": null
-      },
-      "hdc": {
-        "lines": [
-          {
-            "condition": "-1.0",
-            "main": true,
-            "odds": {
-              "A": 1.81,
-              "H": 1.96
-            }
-          }
-        ],
-        "status": "SELLINGSTARTED",
-        "updated_at": "2026-09-25T19:30:00.826+08:00"
-      },
-      "hil": null,
-      "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50071147",
-      "home": {
-        "id": "50003075",
-        "name_ch": "堤格雷斯",
-        "name_en": "Tigres UANL"
-      },
-      "id": "50071147",
-      "kickoff": "2026-09-27T11:10:00.000+08:00",
-      "match_date": "2026-09-27+08:00",
-      "status": "PREEVENT",
-      "tournament": {
-        "code": "MXL",
-        "front_end_id": "",
-        "id": "50071090",
-        "name_ch": "墨西哥超級聯賽",
-        "name_en": "Mexican Premier"
-      },
-      "updated_at": "2026-09-24T11:49:40.130+08:00"
-    },
-    {
-      "available_markets": [
-        "HDC"
-      ],
-      "away": {
-        "id": "50355595",
-        "name_ch": "浦和紅鑽女足",
-        "name_en": "Urawa Reds Women"
-      },
-      "crs_available": false,
-      "front_end_id": "FB5900",
-      "had": {
-        "odds": {},
-        "updated_at": null
-      },
-      "hdc": {
-        "lines": [
-          {
-            "condition": "+0.5/+1.0",
-            "main": true,
-            "odds": {
-              "A": 1.92,
-              "H": 1.78
-            }
-          }
-        ],
-        "status": "SELLINGSTARTED",
-        "updated_at": "2026-09-26T19:31:24.282+08:00"
-      },
-      "hil": null,
-      "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50076582",
-      "home": {
-        "id": "50355585",
-        "name_ch": "新潟天鵝女足",
-        "name_en": "Albirex Niigata Women"
-      },
-      "id": "50076582",
-      "kickoff": "2026-09-27T12:00:00.000+08:00",
-      "match_date": "2026-09-27+08:00",
-      "status": "PREEVENT",
-      "tournament": {
-        "code": "JLCW",
-        "front_end_id": "",
-        "id": "50075714",
-        "name_ch": "女子日本聯賽盃",
-        "name_en": "Women Japanese League Cup"
-      },
-      "updated_at": "2026-09-24T11:29:54.147+08:00"
-    },
-    {
-      "available_markets": [
-        "HDC"
-      ],
-      "away": {
-        "id": "50355586",
-        "name_ch": "埼玉伊分女足",
-        "name_en": "Elfen Saitama Women"
-      },
-      "crs_available": false,
-      "front_end_id": "FB5895",
-      "had": {
-        "odds": {},
-        "updated_at": null
-      },
-      "hdc": {
-        "lines": [
-          {
-            "condition": "0.0/-0.5",
-            "main": true,
-            "odds": {
-              "A": 2.08,
-              "H": 1.66
-            }
-          }
-        ],
-        "status": "SELLINGSTARTED",
-        "updated_at": "2026-09-26T19:31:24.282+08:00"
-      },
-      "hil": null,
-      "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50076032",
-      "home": {
-        "id": "50355590",
-        "name_ch": "仙台邁那比女足",
-        "name_en": "Mynavi Sendai Women"
-      },
-      "id": "50076032",
-      "kickoff": "2026-09-27T13:00:00.000+08:00",
-      "match_date": "2026-09-27+08:00",
-      "status": "PREEVENT",
-      "tournament": {
-        "code": "JLCW",
-        "front_end_id": "",
-        "id": "50075714",
-        "name_ch": "女子日本聯賽盃",
-        "name_en": "Women Japanese League Cup"
-      },
-      "updated_at": "2026-09-24T11:30:26.077+08:00"
-    },
     {
       "available_markets": [
         "HDC"
@@ -769,8 +33,8 @@
             "condition": "0.0/-0.5",
             "main": true,
             "odds": {
-              "A": 1.91,
-              "H": 1.79
+              "A": 1.81,
+              "H": 1.89
             }
           }
         ],
@@ -815,8 +79,16 @@
       "hdc": {
         "lines": [
           {
-            "condition": "0.0/-0.5",
+            "condition": "0.0",
             "main": true,
+            "odds": {
+              "A": 1.87,
+              "H": 1.83
+            }
+          },
+          {
+            "condition": "0.0/-0.5",
+            "main": false,
             "odds": {
               "A": 1.72,
               "H": 2.0
@@ -901,8 +173,8 @@
             "condition": "+0.5/+1.0",
             "main": true,
             "odds": {
-              "A": 1.97,
-              "H": 1.74
+              "A": 2.04,
+              "H": 1.69
             }
           }
         ],
@@ -950,8 +222,8 @@
             "condition": "0.0/-0.5",
             "main": true,
             "odds": {
-              "A": 1.77,
-              "H": 2.0
+              "A": 1.87,
+              "H": 1.89
             }
           }
         ],
@@ -1115,6 +387,55 @@
         "name_en": "Women Spanish Division 1"
       },
       "updated_at": "2026-09-23T18:06:12.073+08:00"
+    },
+    {
+      "available_markets": [
+        "HDC"
+      ],
+      "away": {
+        "id": "50356299",
+        "name_ch": "川迪女足",
+        "name_en": "Twente Women"
+      },
+      "crs_available": false,
+      "front_end_id": "FB5937",
+      "had": {
+        "odds": {},
+        "updated_at": null
+      },
+      "hdc": {
+        "lines": [
+          {
+            "condition": "+1.5/+2.0",
+            "main": true,
+            "odds": {
+              "A": 1.8,
+              "H": 1.9
+            }
+          }
+        ],
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-09-27T12:00:00.618+08:00"
+      },
+      "hil": null,
+      "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50076040",
+      "home": {
+        "id": "50362115",
+        "name_ch": "阿爾克馬爾女足",
+        "name_en": "AZ Alkmaar Women"
+      },
+      "id": "50076040",
+      "kickoff": "2026-09-27T18:15:00.000+08:00",
+      "match_date": "2026-09-27+08:00",
+      "status": "PREEVENT",
+      "tournament": {
+        "code": "DFLW",
+        "front_end_id": "",
+        "id": "50073343",
+        "name_ch": "女子荷蘭甲組聯賽",
+        "name_en": "Women Dutch Division 1"
+      },
+      "updated_at": "2026-09-24T11:04:58.397+08:00"
     },
     {
       "available_markets": [
@@ -1422,8 +743,8 @@
             "condition": "0.0/+0.5",
             "main": true,
             "odds": {
-              "A": 1.95,
-              "H": 1.82
+              "A": 1.79,
+              "H": 1.98
             }
           }
         ],
@@ -1443,7 +764,7 @@
       "status": "PREEVENT",
       "tournament": {
         "code": "INT",
-        "front_end_id": "",
+        "front_end_id": null,
         "id": "50071381",
         "name_ch": "國際賽",
         "name_en": "International Matches"
@@ -1471,8 +792,8 @@
             "condition": "0.0/-0.5",
             "main": true,
             "odds": {
-              "A": 1.75,
-              "H": 2.03
+              "A": 1.76,
+              "H": 2.02
             }
           }
         ],
@@ -1541,7 +862,7 @@
       "status": "PREEVENT",
       "tournament": {
         "code": "EPLW",
-        "front_end_id": "",
+        "front_end_id": null,
         "id": "50075060",
         "name_ch": "女子英格蘭超級聯賽",
         "name_en": "Women English Super League"
@@ -1618,8 +939,8 @@
             "condition": "0.0/-0.5",
             "main": true,
             "odds": {
-              "A": 1.8,
-              "H": 1.97
+              "A": 1.87,
+              "H": 1.93
             }
           }
         ],
@@ -1708,7 +1029,7 @@
       "status": "PREEVENT",
       "tournament": {
         "code": "EPLW",
-        "front_end_id": "",
+        "front_end_id": null,
         "id": "50075060",
         "name_ch": "女子英格蘭超級聯賽",
         "name_en": "Women English Super League"
@@ -1736,8 +1057,8 @@
             "condition": "+1.0/+1.5",
             "main": true,
             "odds": {
-              "A": 1.88,
-              "H": 1.82
+              "A": 1.85,
+              "H": 1.85
             }
           }
         ],
@@ -1826,7 +1147,7 @@
       "status": "PREEVENT",
       "tournament": {
         "code": "EPLW",
-        "front_end_id": "",
+        "front_end_id": null,
         "id": "50075060",
         "name_ch": "女子英格蘭超級聯賽",
         "name_en": "Women English Super League"
@@ -1875,7 +1196,7 @@
       "status": "PREEVENT",
       "tournament": {
         "code": "EPLW",
-        "front_end_id": "",
+        "front_end_id": null,
         "id": "50075060",
         "name_ch": "女子英格蘭超級聯賽",
         "name_en": "Women English Super League"
@@ -2276,7 +1597,56 @@
         "name_ch": "女子俄羅斯盃",
         "name_en": "Women Russian Cup"
       },
-      "updated_at": "2026-09-23T11:10:49.884+08:00"
+      "updated_at": "2026-09-27T10:11:12.112+08:00"
+    },
+    {
+      "available_markets": [
+        "HDC"
+      ],
+      "away": {
+        "id": "50362123",
+        "name_ch": "烏德勒支女足",
+        "name_en": "Utrecht Women"
+      },
+      "crs_available": false,
+      "front_end_id": "FB5938",
+      "had": {
+        "odds": {},
+        "updated_at": null
+      },
+      "hdc": {
+        "lines": [
+          {
+            "condition": "0.0/-0.5",
+            "main": true,
+            "odds": {
+              "A": 1.78,
+              "H": 1.92
+            }
+          }
+        ],
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-09-27T12:00:00.618+08:00"
+      },
+      "hil": null,
+      "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50076943",
+      "home": {
+        "id": "50362119",
+        "name_ch": "海倫芬女足",
+        "name_en": "Heerenveen Women"
+      },
+      "id": "50076943",
+      "kickoff": "2026-09-27T22:45:00.000+08:00",
+      "match_date": "2026-09-27+08:00",
+      "status": "PREEVENT",
+      "tournament": {
+        "code": "DFLW",
+        "front_end_id": "",
+        "id": "50073343",
+        "name_ch": "女子荷蘭甲組聯賽",
+        "name_en": "Women Dutch Division 1"
+      },
+      "updated_at": "2026-09-24T11:05:30.483+08:00"
     },
     {
       "available_markets": [
@@ -2480,7 +1850,7 @@
       "status": "PREEVENT",
       "tournament": {
         "code": "EPLW",
-        "front_end_id": "",
+        "front_end_id": null,
         "id": "50075060",
         "name_ch": "女子英格蘭超級聯賽",
         "name_en": "Women English Super League"
@@ -2554,11 +1924,19 @@
       "hdc": {
         "lines": [
           {
-            "condition": "-1.0",
+            "condition": "-1.0/-1.5",
             "main": true,
             "odds": {
-              "A": 1.95,
-              "H": 1.82
+              "A": 1.82,
+              "H": 1.95
+            }
+          },
+          {
+            "condition": "-1.0",
+            "main": false,
+            "odds": {
+              "A": 2.05,
+              "H": 1.74
             }
           }
         ],
@@ -2909,16 +2287,16 @@
       "front_end_id": "FB5800",
       "had": {
         "no_vig_prob": {
-          "away": 0.23499843,
-          "draw": 0.29374804,
-          "home": 0.47125353
+          "away": 0.25970619,
+          "draw": 0.29433368,
+          "home": 0.44596013
         },
         "odds": {
-          "away": 3.75,
+          "away": 3.4,
           "draw": 3.0,
-          "home": 1.87
+          "home": 1.98
         },
-        "overround": 1.13475936,
+        "overround": 1.13250149,
         "updated_at": "2026-09-24T19:31:41.091+08:00"
       },
       "hdc": null,
@@ -2928,24 +2306,24 @@
             "condition": "2.5",
             "main": true,
             "odds": {
-              "H": 2.2,
-              "L": 1.59
+              "H": 2.17,
+              "L": 1.61
             }
           },
           {
             "condition": "2.0/2.5",
             "main": false,
             "odds": {
-              "H": 1.93,
-              "L": 1.77
+              "H": 1.89,
+              "L": 1.81
             }
           },
           {
             "condition": "3.5",
             "main": false,
             "odds": {
-              "H": 3.95,
-              "L": 1.19
+              "H": 3.9,
+              "L": 1.2
             }
           }
         ],
@@ -3055,7 +2433,7 @@
       "status": "PREEVENT",
       "tournament": {
         "code": "INT",
-        "front_end_id": "",
+        "front_end_id": null,
         "id": "50071381",
         "name_ch": "國際賽",
         "name_en": "International Matches"
@@ -3077,16 +2455,16 @@
       "front_end_id": "FB5850",
       "had": {
         "no_vig_prob": {
-          "away": 0.1260885,
-          "draw": 0.20526035,
-          "home": 0.66865115
+          "away": 0.11384983,
+          "draw": 0.21261112,
+          "home": 0.67353905
         },
         "odds": {
-          "away": 7.0,
-          "draw": 4.3,
-          "home": 1.32
+          "away": 7.75,
+          "draw": 4.15,
+          "home": 1.31
         },
-        "overround": 1.13299104,
+        "overround": 1.13335489,
         "updated_at": "2026-09-25T19:30:00.826+08:00"
       },
       "hdc": null,
@@ -3096,6 +2474,14 @@
             "condition": "2.5",
             "main": true,
             "odds": {
+              "H": 1.9,
+              "L": 1.8
+            }
+          },
+          {
+            "condition": "2.0/2.5",
+            "main": false,
+            "odds": {
               "H": 1.7,
               "L": 2.02
             }
@@ -3104,16 +2490,16 @@
             "condition": "2.5/3.0",
             "main": false,
             "odds": {
-              "H": 1.9,
-              "L": 1.8
+              "H": 2.19,
+              "L": 1.6
             }
           },
           {
             "condition": "3.5",
             "main": false,
             "odds": {
-              "H": 2.8,
-              "L": 1.37
+              "H": 3.25,
+              "L": 1.28
             }
           }
         ],
@@ -3377,8 +2763,8 @@
             "condition": "0.0",
             "main": true,
             "odds": {
-              "A": 1.83,
-              "H": 1.93
+              "A": 1.98,
+              "H": 1.82
             }
           }
         ],
@@ -3675,11 +3061,19 @@
       "hdc": {
         "lines": [
           {
-            "condition": "+0.5/+1.0",
+            "condition": "0.0/+0.5",
             "main": true,
             "odds": {
-              "A": 2.12,
-              "H": 1.68
+              "A": 1.73,
+              "H": 2.06
+            }
+          },
+          {
+            "condition": "+0.5/+1.0",
+            "main": false,
+            "odds": {
+              "A": 2.24,
+              "H": 1.61
             }
           }
         ],
@@ -3790,7 +3184,7 @@
       "status": "PREEVENT",
       "tournament": {
         "code": "INT",
-        "front_end_id": "",
+        "front_end_id": null,
         "id": "50071381",
         "name_ch": "國際賽",
         "name_en": "International Matches"
@@ -3971,24 +3365,24 @@
             "condition": "2.5",
             "main": true,
             "odds": {
-              "H": 1.75,
-              "L": 1.95
+              "H": 1.8,
+              "L": 1.9
             }
           },
           {
             "condition": "2.5/3.0",
             "main": false,
             "odds": {
-              "H": 1.97,
-              "L": 1.74
+              "H": 2.02,
+              "L": 1.7
             }
           },
           {
             "condition": "3.5",
             "main": false,
             "odds": {
-              "H": 2.88,
-              "L": 1.35
+              "H": 2.98,
+              "L": 1.33
             }
           }
         ],
@@ -4110,7 +3504,7 @@
         "name_ch": "中北美國家聯賽",
         "name_en": "CONCACAF Nations League"
       },
-      "updated_at": "2026-09-24T10:17:50.381+08:00"
+      "updated_at": "2026-09-27T10:10:42.994+08:00"
     },
     {
       "available_markets": [
@@ -4133,8 +3527,8 @@
             "condition": "-1.5/-2.0",
             "main": true,
             "odds": {
-              "A": 1.72,
-              "H": 2.07
+              "A": 1.67,
+              "H": 2.14
             }
           }
         ],
@@ -4228,11 +3622,27 @@
       "hdc": {
         "lines": [
           {
-            "condition": "0.0/+0.5",
+            "condition": "0.0/-0.5",
             "main": true,
             "odds": {
-              "A": 1.96,
-              "H": 1.81
+              "A": 1.75,
+              "H": 2.03
+            }
+          },
+          {
+            "condition": "0.0",
+            "main": false,
+            "odds": {
+              "A": 1.93,
+              "H": 1.83
+            }
+          },
+          {
+            "condition": "0.0/+0.5",
+            "main": false,
+            "odds": {
+              "A": 2.14,
+              "H": 1.67
             }
           }
         ],
@@ -4350,7 +3760,7 @@
       "status": "PREEVENT",
       "tournament": {
         "code": "INT",
-        "front_end_id": "",
+        "front_end_id": null,
         "id": "50071381",
         "name_ch": "國際賽",
         "name_en": "International Matches"
@@ -4399,7 +3809,7 @@
       "status": "PREEVENT",
       "tournament": {
         "code": "INT",
-        "front_end_id": "",
+        "front_end_id": null,
         "id": "50071381",
         "name_ch": "國際賽",
         "name_en": "International Matches"
@@ -4672,8 +4082,8 @@
             "condition": "+0.5/+1.0",
             "main": true,
             "odds": {
-              "A": 2.09,
-              "H": 1.7
+              "A": 2.06,
+              "H": 1.73
             }
           }
         ],
