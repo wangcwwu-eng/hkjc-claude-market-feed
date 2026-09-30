@@ -1,6 +1,6 @@
 {
-  "frozen_at_hkt": "2026-09-30T04:58:06.493513+08:00",
-  "frozen_at_utc": "2026-09-29T20:58:06.493513+00:00",
+  "frozen_at_hkt": "2026-09-30T08:03:40.663073+08:00",
+  "frozen_at_utc": "2026-09-30T00:03:40.663073+00:00",
   "independence_contract": {
     "contains_betting_selections": false,
     "contains_c2": false,
@@ -9,117 +9,11 @@
     "contains_model_predictions": false,
     "contains_pps": false
   },
-  "market_payload_sha256": "e81f3ee94e54cc70b47752ec726e278f067a8fc3fd75d29e0d861a2a0745d675",
-  "match_count": 47,
+  "market_payload_sha256": "b931a0b476053b6336f496d98b3c732734dbff5904c6e0ad706e4d4163879b3c",
+  "match_count": 45,
   "matches": [
     {
       "available_markets": [],
-      "away": {
-        "id": "50000796",
-        "name_ch": "高路高路",
-        "name_en": "Colo Colo"
-      },
-      "crs_available": false,
-      "front_end_id": "FB6006",
-      "had": {
-        "odds": {},
-        "updated_at": null
-      },
-      "hdc": null,
-      "hil": null,
-      "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50077165",
-      "home": {
-        "id": "50002538",
-        "name_ch": "蒙特港",
-        "name_en": "Puerto Montt"
-      },
-      "id": "50077165",
-      "kickoff": "2026-09-30T04:57:00.000+08:00",
-      "last_seen_markets": {
-        "HDC": {
-          "age_minutes_at_freeze": 268.6,
-          "observed_at_hkt": "2026-09-30T00:29:28.152040+08:00",
-          "payload": {
-            "lines": [
-              {
-                "condition": "+1.0/+1.5",
-                "main": true,
-                "odds": {
-                  "A": 2.05,
-                  "H": 1.74
-                }
-              }
-            ],
-            "status": "SELLINGSTARTED",
-            "updated_at": "2026-09-29T07:30:03.182+08:00"
-          },
-          "status": "STALE_LAST_SEEN"
-        }
-      },
-      "match_date": "2026-09-30+08:00",
-      "status": "PREEVENT",
-      "tournament": {
-        "code": "CHC",
-        "front_end_id": "FB5792",
-        "id": "50061296",
-        "name_ch": "智利盃",
-        "name_en": "Chilean Cup"
-      },
-      "updated_at": "2026-09-29T09:46:42.364+08:00"
-    },
-    {
-      "available_markets": [
-        "HDC"
-      ],
-      "away": {
-        "id": "50288598",
-        "name_ch": "荷屬聖馬丁",
-        "name_en": "Sint Maarten"
-      },
-      "crs_available": false,
-      "front_end_id": "FB6021",
-      "had": {
-        "odds": {},
-        "updated_at": null
-      },
-      "hdc": {
-        "lines": [
-          {
-            "condition": "-0.5/-1.0",
-            "main": true,
-            "odds": {
-              "A": 1.74,
-              "H": 2.05
-            }
-          }
-        ],
-        "status": "SELLINGSTARTED",
-        "updated_at": "2026-09-29T12:00:04.729+08:00"
-      },
-      "hil": null,
-      "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50076925",
-      "home": {
-        "id": "50001313",
-        "name_ch": "法屬圭亞那",
-        "name_en": "French Guiana"
-      },
-      "id": "50076925",
-      "kickoff": "2026-09-30T05:00:00.000+08:00",
-      "match_date": "2026-09-30+08:00",
-      "status": "PREEVENT",
-      "tournament": {
-        "code": "CNL",
-        "front_end_id": "",
-        "id": "50076611",
-        "name_ch": "中北美國家聯賽",
-        "name_en": "CONCACAF Nations League"
-      },
-      "updated_at": "2026-09-29T12:00:04.729+08:00"
-    },
-    {
-      "available_markets": [
-        "HDC"
-      ],
       "away": {
         "id": "50000743",
         "name_ch": "智利",
@@ -131,28 +25,7 @@
         "odds": {},
         "updated_at": null
       },
-      "hdc": {
-        "lines": [
-          {
-            "condition": "-1.0/-1.5",
-            "main": true,
-            "odds": {
-              "A": 1.81,
-              "H": 1.96
-            }
-          },
-          {
-            "condition": "-1.0",
-            "main": false,
-            "odds": {
-              "A": 2.0,
-              "H": 1.77
-            }
-          }
-        ],
-        "status": "SELLINGSTARTED",
-        "updated_at": "2026-09-29T07:30:03.182+08:00"
-      },
+      "hdc": null,
       "hil": null,
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50077031",
       "home": {
@@ -162,6 +35,35 @@
       },
       "id": "50077031",
       "kickoff": "2026-09-30T08:00:00.000+08:00",
+      "last_seen_markets": {
+        "HDC": {
+          "age_minutes_at_freeze": 185.6,
+          "observed_at_hkt": "2026-09-30T04:58:06.493513+08:00",
+          "payload": {
+            "lines": [
+              {
+                "condition": "-1.0/-1.5",
+                "main": true,
+                "odds": {
+                  "A": 1.81,
+                  "H": 1.96
+                }
+              },
+              {
+                "condition": "-1.0",
+                "main": false,
+                "odds": {
+                  "A": 2.0,
+                  "H": 1.77
+                }
+              }
+            ],
+            "status": "SELLINGSTARTED",
+            "updated_at": "2026-09-29T07:30:03.182+08:00"
+          },
+          "status": "STALE_LAST_SEEN"
+        }
+      },
       "match_date": "2026-09-30+08:00",
       "status": "PREEVENT",
       "tournament": {
@@ -196,35 +98,6 @@
       },
       "id": "50077030",
       "kickoff": "2026-09-30T09:00:00.000+08:00",
-      "last_seen_markets": {
-        "HDC": {
-          "age_minutes_at_freeze": 268.6,
-          "observed_at_hkt": "2026-09-30T00:29:28.152040+08:00",
-          "payload": {
-            "lines": [
-              {
-                "condition": "-1.0",
-                "main": true,
-                "odds": {
-                  "A": 1.8,
-                  "H": 1.97
-                }
-              },
-              {
-                "condition": "-1.0/-1.5",
-                "main": false,
-                "odds": {
-                  "A": 1.82,
-                  "H": 1.95
-                }
-              }
-            ],
-            "status": "SELLINGSTARTED",
-            "updated_at": "2026-09-29T07:30:03.182+08:00"
-          },
-          "status": "STALE_LAST_SEEN"
-        }
-      },
       "match_date": "2026-09-30+08:00",
       "status": "PREEVENT",
       "tournament": {
@@ -237,9 +110,7 @@
       "updated_at": "2026-09-28T19:30:00.658+08:00"
     },
     {
-      "available_markets": [
-        "HDC"
-      ],
+      "available_markets": [],
       "away": {
         "id": "50002970",
         "name_ch": "聖文森",
@@ -251,20 +122,7 @@
         "odds": {},
         "updated_at": null
       },
-      "hdc": {
-        "lines": [
-          {
-            "condition": "0.0",
-            "main": true,
-            "odds": {
-              "A": 1.83,
-              "H": 1.93
-            }
-          }
-        ],
-        "status": "SELLINGSTARTED",
-        "updated_at": "2026-09-29T12:00:04.729+08:00"
-      },
+      "hdc": null,
       "hil": null,
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50076989",
       "home": {
@@ -274,6 +132,27 @@
       },
       "id": "50076989",
       "kickoff": "2026-09-30T10:00:00.000+08:00",
+      "last_seen_markets": {
+        "HDC": {
+          "age_minutes_at_freeze": 185.6,
+          "observed_at_hkt": "2026-09-30T04:58:06.493513+08:00",
+          "payload": {
+            "lines": [
+              {
+                "condition": "0.0",
+                "main": true,
+                "odds": {
+                  "A": 1.83,
+                  "H": 1.93
+                }
+              }
+            ],
+            "status": "SELLINGSTARTED",
+            "updated_at": "2026-09-29T12:00:04.729+08:00"
+          },
+          "status": "STALE_LAST_SEEN"
+        }
+      },
       "match_date": "2026-09-30+08:00",
       "status": "PREEVENT",
       "tournament": {
@@ -363,8 +242,8 @@
             "condition": "-0.5/-1.0",
             "main": true,
             "odds": {
-              "A": 1.8,
-              "H": 1.97
+              "A": 1.83,
+              "H": 1.93
             }
           },
           {
@@ -838,8 +717,8 @@
             "condition": "0.0/-0.5",
             "main": true,
             "odds": {
-              "A": 2.08,
-              "H": 1.71
+              "A": 2.15,
+              "H": 1.66
             }
           }
         ],
