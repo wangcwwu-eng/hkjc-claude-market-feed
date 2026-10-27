@@ -1,6 +1,6 @@
 {
-  "frozen_at_hkt": "2026-10-27T06:54:51.900791+08:00",
-  "frozen_at_utc": "2026-10-26T22:54:51.900791+00:00",
+  "frozen_at_hkt": "2026-10-27T09:40:46.044971+08:00",
+  "frozen_at_utc": "2026-10-27T01:40:46.044971+00:00",
   "independence_contract": {
     "contains_betting_selections": false,
     "contains_c2": false,
@@ -9,296 +9,9 @@
     "contains_model_predictions": false,
     "contains_pps": false
   },
-  "market_payload_sha256": "dc10dc63adfbe0c7be4fac2ffa03988ae733dfc5c383d931edec299072b2ab0b",
-  "match_count": 93,
+  "market_payload_sha256": "a34dbc78b1c16416e3b4e0a73182d18591540d9f36831017ccd73c89eba484e3",
+  "match_count": 88,
   "matches": [
-    {
-      "available_markets": [],
-      "away": {
-        "id": "50000276",
-        "name_ch": "明尼路",
-        "name_en": "Atletico Mineiro"
-      },
-      "crs_available": false,
-      "front_end_id": "FB7598",
-      "had": {
-        "odds": {},
-        "updated_at": null
-      },
-      "hdc": null,
-      "hil": null,
-      "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50077674",
-      "home": {
-        "id": "50001246",
-        "name_ch": "法林明高",
-        "name_en": "Flamengo"
-      },
-      "id": "50077674",
-      "kickoff": "2026-10-27T07:00:00.000+08:00",
-      "last_seen_markets": {
-        "HDC": {
-          "age_minutes_at_freeze": 242.1,
-          "observed_at_hkt": "2026-10-27T02:52:48.117068+08:00",
-          "payload": {
-            "lines": [
-              {
-                "condition": "-1.5/-2.0",
-                "main": true,
-                "odds": {
-                  "A": 1.89,
-                  "H": 1.89
-                }
-              }
-            ],
-            "status": "SELLINGSTARTED",
-            "updated_at": "2026-10-23T19:30:07.027+08:00"
-          },
-          "status": "STALE_LAST_SEEN"
-        }
-      },
-      "match_date": "2026-10-27+08:00",
-      "status": "PREEVENT",
-      "tournament": {
-        "code": "BD1",
-        "front_end_id": "",
-        "id": "50060945",
-        "name_ch": "巴西甲組聯賽",
-        "name_en": "Brazilian Division 1"
-      },
-      "updated_at": "2026-10-22T13:59:59.444+08:00"
-    },
-    {
-      "available_markets": [
-        "CRS",
-        "HAD",
-        "HIL"
-      ],
-      "away": {
-        "id": "50353920",
-        "name_ch": "普埃布拉女足",
-        "name_en": "Puebla Women"
-      },
-      "crs_available": true,
-      "front_end_id": "FB7781",
-      "had": {
-        "no_vig_prob": {
-          "away": 0.10601336,
-          "draw": 0.15902004,
-          "home": 0.73496659
-        },
-        "odds": {
-          "away": 8.25,
-          "draw": 5.5,
-          "home": 1.19
-        },
-        "overround": 1.14336644,
-        "updated_at": "2026-10-26T19:30:01.256+08:00"
-      },
-      "hdc": null,
-      "hil": {
-        "lines": [
-          {
-            "condition": "3.5",
-            "main": true,
-            "odds": {
-              "H": 1.87,
-              "L": 1.83
-            }
-          },
-          {
-            "condition": "4.5",
-            "main": false,
-            "odds": {
-              "H": 2.98,
-              "L": 1.33
-            }
-          }
-        ],
-        "status": "SELLINGSTARTED",
-        "updated_at": "2026-10-26T19:30:01.256+08:00"
-      },
-      "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50078504",
-      "home": {
-        "id": "50353921",
-        "name_ch": "阿特拿斯女足",
-        "name_en": "Atlas Women"
-      },
-      "id": "50078504",
-      "kickoff": "2026-10-27T07:00:00.000+08:00",
-      "match_date": "2026-10-27+08:00",
-      "status": "PREEVENT",
-      "tournament": {
-        "code": "MXLW",
-        "front_end_id": "",
-        "id": "50072148",
-        "name_ch": "女子墨西哥超級聯賽",
-        "name_en": "Women Mexican Premier"
-      },
-      "updated_at": "2026-10-15T01:58:55.154+08:00"
-    },
-    {
-      "available_markets": [
-        "HDC"
-      ],
-      "away": {
-        "id": "50002214",
-        "name_ch": "紐迪高",
-        "name_en": "Nautico Recife"
-      },
-      "crs_available": false,
-      "front_end_id": "FB7675",
-      "had": {
-        "odds": {},
-        "updated_at": null
-      },
-      "hdc": {
-        "lines": [
-          {
-            "condition": "-1.0/-1.5",
-            "main": true,
-            "odds": {
-              "A": 1.82,
-              "H": 1.95
-            }
-          },
-          {
-            "condition": "-1.0",
-            "main": false,
-            "odds": {
-              "A": 2.15,
-              "H": 1.66
-            }
-          }
-        ],
-        "status": "SELLINGSTARTED",
-        "updated_at": "2026-10-23T19:30:07.027+08:00"
-      },
-      "hil": null,
-      "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50078432",
-      "home": {
-        "id": "50001739",
-        "name_ch": "青年人",
-        "name_en": "Juventude"
-      },
-      "id": "50078432",
-      "kickoff": "2026-10-27T07:28:00.000+08:00",
-      "match_date": "2026-10-27+08:00",
-      "status": "PREEVENT",
-      "tournament": {
-        "code": "BD2",
-        "front_end_id": "",
-        "id": "50069839",
-        "name_ch": "巴西乙組聯賽",
-        "name_en": "Brazilian Division 2"
-      },
-      "updated_at": "2026-10-22T14:00:37.523+08:00"
-    },
-    {
-      "available_markets": [
-        "HDC"
-      ],
-      "away": {
-        "id": "50312807",
-        "name_ch": "萊斯查",
-        "name_en": "Deportivo Riestra"
-      },
-      "crs_available": false,
-      "front_end_id": "FB7670",
-      "had": {
-        "odds": {},
-        "updated_at": null
-      },
-      "hdc": {
-        "lines": [
-          {
-            "condition": "-0.5/-1.0",
-            "main": true,
-            "odds": {
-              "A": 1.77,
-              "H": 2.03
-            }
-          }
-        ],
-        "status": "SELLINGSTARTED",
-        "updated_at": "2026-10-23T19:30:07.027+08:00"
-      },
-      "hil": null,
-      "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50078313",
-      "home": {
-        "id": "50001607",
-        "name_ch": "科爾多瓦學院",
-        "name_en": "Instituto de Cordoba"
-      },
-      "id": "50078313",
-      "kickoff": "2026-10-27T08:13:00.000+08:00",
-      "match_date": "2026-10-27+08:00",
-      "status": "PREEVENT",
-      "tournament": {
-        "code": "APL",
-        "front_end_id": "",
-        "id": "50071523",
-        "name_ch": "阿根廷甲組聯賽",
-        "name_en": "Argentine Division 1"
-      },
-      "updated_at": "2026-10-22T14:01:09.484+08:00"
-    },
-    {
-      "available_markets": [
-        "HDC"
-      ],
-      "away": {
-        "id": "50353918",
-        "name_ch": "利昂女足",
-        "name_en": "Club Leon Women"
-      },
-      "crs_available": false,
-      "front_end_id": "FB7770",
-      "had": {
-        "odds": {},
-        "updated_at": null
-      },
-      "hdc": {
-        "lines": [
-          {
-            "condition": "+0.5/+1.0",
-            "main": true,
-            "odds": {
-              "A": 2.08,
-              "H": 1.66
-            }
-          },
-          {
-            "condition": "0.0/+0.5",
-            "main": false,
-            "odds": {
-              "A": 1.65,
-              "H": 2.1
-            }
-          }
-        ],
-        "status": "SELLINGSTARTED",
-        "updated_at": "2026-10-26T19:30:01.256+08:00"
-      },
-      "hil": null,
-      "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50078386",
-      "home": {
-        "id": "50353928",
-        "name_ch": "拿根亞女足",
-        "name_en": "Santos Laguna Women"
-      },
-      "id": "50078386",
-      "kickoff": "2026-10-27T09:06:00.000+08:00",
-      "match_date": "2026-10-27+08:00",
-      "status": "PREEVENT",
-      "tournament": {
-        "code": "MXLW",
-        "front_end_id": "",
-        "id": "50072148",
-        "name_ch": "女子墨西哥超級聯賽",
-        "name_en": "Women Mexican Premier"
-      },
-      "updated_at": "2026-10-22T14:01:35.775+08:00"
-    },
     {
       "available_markets": [
         "HDC"
@@ -366,11 +79,19 @@
       "hdc": {
         "lines": [
           {
-            "condition": "0.0",
+            "condition": "0.0/-0.5",
             "main": true,
             "odds": {
-              "A": 1.93,
-              "H": 1.83
+              "A": 1.74,
+              "H": 2.05
+            }
+          },
+          {
+            "condition": "0.0",
+            "main": false,
+            "odds": {
+              "A": 2.07,
+              "H": 1.72
             }
           },
           {
@@ -524,8 +245,8 @@
             "condition": "+1.0/+1.5",
             "main": true,
             "odds": {
-              "A": 1.73,
-              "H": 2.06
+              "A": 1.81,
+              "H": 1.96
             }
           }
         ],
@@ -622,8 +343,8 @@
             "condition": "0.0",
             "main": true,
             "odds": {
-              "A": 1.92,
-              "H": 1.84
+              "A": 1.88,
+              "H": 1.88
             }
           }
         ],
@@ -720,8 +441,8 @@
             "condition": "-0.5/-1.0",
             "main": true,
             "odds": {
-              "A": 1.73,
-              "H": 2.06
+              "A": 1.69,
+              "H": 2.11
             }
           }
         ],
@@ -1528,16 +1249,16 @@
       "front_end_id": "FB7800",
       "had": {
         "no_vig_prob": {
-          "away": 0.27583573,
-          "draw": 0.24182858,
-          "home": 0.48233569
+          "away": 0.26316962,
+          "draw": 0.24153924,
+          "home": 0.49529114
         },
         "odds": {
-          "away": 3.2,
+          "away": 3.35,
           "draw": 3.65,
-          "home": 1.83
+          "home": 1.78
         },
-        "overround": 1.13292069,
+        "overround": 1.13427782,
         "updated_at": "2026-10-26T19:30:01.256+08:00"
       },
       "hdc": {
@@ -1546,8 +1267,8 @@
             "condition": "0.0/-0.5",
             "main": true,
             "odds": {
-              "A": 2.09,
-              "H": 1.7
+              "A": 2.14,
+              "H": 1.67
             }
           }
         ],
