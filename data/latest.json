@@ -1,6 +1,6 @@
 {
-  "frozen_at_hkt": "2026-10-30T08:11:11.543412+08:00",
-  "frozen_at_utc": "2026-10-30T00:11:11.543412+00:00",
+  "frozen_at_hkt": "2026-10-30T13:41:27.284738+08:00",
+  "frozen_at_utc": "2026-10-30T05:41:27.284738+00:00",
   "independence_contract": {
     "contains_betting_selections": false,
     "contains_c2": false,
@@ -9,127 +9,9 @@
     "contains_model_predictions": false,
     "contains_pps": false
   },
-  "market_payload_sha256": "e5eadb18ac0d4a53ebc1e05bdf3e46991132def6d37caf3ad352e81d0c5c663a",
-  "match_count": 166,
+  "market_payload_sha256": "b96cd66bf9217b997ae0dd86444033c4e9b6ac92e8151dd43e484325cb88838d",
+  "match_count": 167,
   "matches": [
-    {
-      "available_markets": [],
-      "away": {
-        "id": "50000253",
-        "name_ch": "帕拉尼恩斯",
-        "name_en": "Athletico Paranaense"
-      },
-      "crs_available": false,
-      "front_end_id": "FB7850",
-      "had": {
-        "odds": {},
-        "updated_at": null
-      },
-      "hdc": null,
-      "hil": null,
-      "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50077681",
-      "home": {
-        "id": "50001456",
-        "name_ch": "甘美奧",
-        "name_en": "Gremio"
-      },
-      "id": "50077681",
-      "kickoff": "2026-10-30T08:30:00.000+08:00",
-      "last_seen_markets": {
-        "HDC": {
-          "age_minutes_at_freeze": 219.1,
-          "observed_at_hkt": "2026-10-30T04:32:04.991131+08:00",
-          "payload": {
-            "lines": [
-              {
-                "condition": "0.0/-0.5",
-                "main": true,
-                "odds": {
-                  "A": 1.77,
-                  "H": 2.0
-                }
-              },
-              {
-                "condition": "0.0",
-                "main": false,
-                "odds": {
-                  "A": 2.03,
-                  "H": 1.77
-                }
-              }
-            ],
-            "status": "SELLINGSTARTED",
-            "updated_at": "2026-10-27T19:30:06.186+08:00"
-          },
-          "status": "STALE_LAST_SEEN"
-        }
-      },
-      "match_date": "2026-10-30+08:00",
-      "status": "PREEVENT",
-      "tournament": {
-        "code": "BD1",
-        "front_end_id": "",
-        "id": "50060945",
-        "name_ch": "巴西甲組聯賽",
-        "name_en": "Brazilian Division 1"
-      },
-      "updated_at": "2026-10-28T09:51:54.979+08:00"
-    },
-    {
-      "available_markets": [],
-      "away": {
-        "id": "50002123",
-        "name_ch": "薩卡特卡斯",
-        "name_en": "Mineros Zacatecas"
-      },
-      "crs_available": false,
-      "front_end_id": "FB7890",
-      "had": {
-        "odds": {},
-        "updated_at": null
-      },
-      "hdc": null,
-      "hil": null,
-      "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50079131",
-      "home": {
-        "id": "50002315",
-        "name_ch": "奧沙卡",
-        "name_en": "Oaxaca"
-      },
-      "id": "50079131",
-      "kickoff": "2026-10-30T09:00:00.000+08:00",
-      "last_seen_markets": {
-        "HDC": {
-          "age_minutes_at_freeze": 219.1,
-          "observed_at_hkt": "2026-10-30T04:32:04.991131+08:00",
-          "payload": {
-            "lines": [
-              {
-                "condition": "0.0/+0.5",
-                "main": true,
-                "odds": {
-                  "A": 2.0,
-                  "H": 1.77
-                }
-              }
-            ],
-            "status": "SELLINGSTARTED",
-            "updated_at": "2026-10-27T19:30:06.186+08:00"
-          },
-          "status": "STALE_LAST_SEEN"
-        }
-      },
-      "match_date": "2026-10-30+08:00",
-      "status": "PREEVENT",
-      "tournament": {
-        "code": "MD1",
-        "front_end_id": "",
-        "id": "50071767",
-        "name_ch": "墨西哥甲組聯賽",
-        "name_en": "Mexican Division 1"
-      },
-      "updated_at": "2026-10-28T09:53:09.737+08:00"
-    },
     {
       "available_markets": [
         "HDC"
@@ -151,13 +33,13 @@
             "condition": "0.0/+0.5",
             "main": true,
             "odds": {
-              "A": 1.89,
-              "H": 1.83
+              "A": 2.02,
+              "H": 1.76
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hil": null,
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50079195",
@@ -201,12 +83,12 @@
             "main": true,
             "odds": {
               "A": 2.0,
-              "H": 1.74
+              "H": 1.77
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hil": null,
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50079197",
@@ -249,13 +131,13 @@
             "condition": "0.0",
             "main": true,
             "odds": {
-              "A": 1.79,
-              "H": 1.98
+              "A": 1.84,
+              "H": 1.92
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hil": null,
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50078576",
@@ -303,8 +185,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hil": null,
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50078579",
@@ -347,13 +229,13 @@
             "condition": "+1.0/+1.5",
             "main": true,
             "odds": {
-              "A": 1.9,
-              "H": 1.86
+              "A": 1.95,
+              "H": 1.82
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hil": null,
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50079196",
@@ -401,8 +283,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hil": null,
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50079452",
@@ -445,13 +327,13 @@
             "condition": "0.0/-0.5",
             "main": true,
             "odds": {
-              "A": 1.75,
-              "H": 2.03
+              "A": 1.72,
+              "H": 2.07
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hil": null,
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50079198",
@@ -478,6 +360,55 @@
         "HDC"
       ],
       "away": {
+        "id": "50430033",
+        "name_ch": "卡斯洛達女足",
+        "name_en": "FK Krasnodar Women"
+      },
+      "crs_available": false,
+      "front_end_id": "FB8075",
+      "had": {
+        "odds": {},
+        "updated_at": null
+      },
+      "hdc": {
+        "lines": [
+          {
+            "condition": "-2.0/-2.5",
+            "main": true,
+            "odds": {
+              "A": 2.0,
+              "H": 1.72
+            }
+          }
+        ],
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T12:00:03.931+08:00"
+      },
+      "hil": null,
+      "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50079559",
+      "home": {
+        "id": "50430028",
+        "name_ch": "莫斯科中央陸軍女足",
+        "name_en": "CSKA Moscow Women"
+      },
+      "id": "50079559",
+      "kickoff": "2026-10-30T23:00:00.000+08:00",
+      "match_date": "2026-10-30+08:00",
+      "status": "PREEVENT",
+      "tournament": {
+        "code": "RPLW",
+        "front_end_id": "",
+        "id": "50064616",
+        "name_ch": "女子俄羅斯超級聯賽",
+        "name_en": "Women Russian Premier"
+      },
+      "updated_at": "2026-10-30T12:00:03.931+08:00"
+    },
+    {
+      "available_markets": [
+        "HDC"
+      ],
+      "away": {
         "id": "50334368",
         "name_ch": "卡塔爾SC",
         "name_en": "Qatar SC"
@@ -494,13 +425,13 @@
             "condition": "-0.5/-1.0",
             "main": true,
             "odds": {
-              "A": 1.82,
-              "H": 1.95
+              "A": 1.77,
+              "H": 2.0
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hil": null,
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50079366",
@@ -548,8 +479,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hil": null,
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50079368",
@@ -592,13 +523,13 @@
             "condition": "0.0/+0.5",
             "main": true,
             "odds": {
-              "A": 1.97,
-              "H": 1.8
+              "A": 1.98,
+              "H": 1.81
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T08:10:02.501+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hil": null,
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50078995",
@@ -618,7 +549,7 @@
         "name_ch": "德國乙組聯賽",
         "name_en": "German Division 2"
       },
-      "updated_at": "2026-10-29T10:32:36.850+08:00"
+      "updated_at": "2026-10-29T12:00:05.955+08:00"
     },
     {
       "available_markets": [
@@ -641,13 +572,13 @@
             "condition": "-0.5/-1.0",
             "main": true,
             "odds": {
-              "A": 1.73,
-              "H": 2.06
+              "A": 1.74,
+              "H": 2.07
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hil": null,
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50079187",
@@ -694,7 +625,7 @@
           "home": 1.92
         },
         "overround": 1.13418158,
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hdc": null,
       "hil": {
@@ -724,8 +655,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50078580",
       "home": {
@@ -767,13 +698,13 @@
             "condition": "+1.5/+2.0",
             "main": true,
             "odds": {
-              "A": 1.8,
-              "H": 1.97
+              "A": 1.93,
+              "H": 1.87
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T08:10:08.645+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hil": null,
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50078581",
@@ -793,7 +724,7 @@
         "name_ch": "法國甲組聯賽",
         "name_en": "French Division 1"
       },
-      "updated_at": "2026-10-29T10:32:36.075+08:00"
+      "updated_at": "2026-10-29T12:00:05.955+08:00"
     },
     {
       "available_markets": [
@@ -816,13 +747,13 @@
             "condition": "0.0",
             "main": true,
             "odds": {
-              "A": 1.8,
-              "H": 1.97
+              "A": 1.87,
+              "H": 1.93
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hil": null,
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50078655",
@@ -859,17 +790,17 @@
       "front_end_id": "FB8041",
       "had": {
         "no_vig_prob": {
-          "away": 0.51551493,
-          "draw": 0.22896897,
-          "home": 0.2555161
+          "away": 0.52520769,
+          "draw": 0.22624331,
+          "home": 0.24854899
         },
         "odds": {
-          "away": 1.71,
-          "draw": 3.85,
-          "home": 3.45
+          "away": 1.68,
+          "draw": 3.9,
+          "home": 3.55
         },
-        "overround": 1.13439065,
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "overround": 1.13333849,
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hdc": null,
       "hil": {
@@ -878,29 +809,29 @@
             "condition": "3.5",
             "main": true,
             "odds": {
-              "H": 2.19,
-              "L": 1.6
+              "H": 2.15,
+              "L": 1.62
             }
           },
           {
             "condition": "3.0/3.5",
             "main": false,
             "odds": {
-              "H": 1.95,
-              "L": 1.75
+              "H": 1.91,
+              "L": 1.79
             }
           },
           {
             "condition": "4.5",
             "main": false,
             "odds": {
-              "H": 3.7,
-              "L": 1.22
+              "H": 3.55,
+              "L": 1.24
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50079166",
       "home": {
@@ -937,17 +868,17 @@
       "front_end_id": "FB7956",
       "had": {
         "no_vig_prob": {
-          "away": 0.20498392,
-          "draw": 0.2073955,
-          "home": 0.58762058
+          "away": 0.20015096,
+          "draw": 0.20480564,
+          "home": 0.5950434
         },
         "odds": {
-          "away": 4.3,
-          "draw": 4.25,
-          "home": 1.5
+          "away": 4.4,
+          "draw": 4.3,
+          "home": 1.48
         },
-        "overround": 1.13451892,
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "overround": 1.13550654,
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hdc": {
         "lines": [
@@ -955,13 +886,13 @@
             "condition": "-1.0",
             "main": true,
             "odds": {
-              "A": 1.8,
-              "H": 1.97
+              "A": 1.84,
+              "H": 1.92
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hil": {
         "lines": [
@@ -969,29 +900,29 @@
             "condition": "3.5",
             "main": true,
             "odds": {
-              "H": 1.86,
-              "L": 1.84
+              "H": 1.81,
+              "L": 1.89
             }
           },
           {
             "condition": "3.5/4.0",
             "main": false,
             "odds": {
-              "H": 2.08,
-              "L": 1.66
+              "H": 2.01,
+              "L": 1.71
             }
           },
           {
             "condition": "4.5",
             "main": false,
             "odds": {
-              "H": 2.98,
-              "L": 1.33
+              "H": 2.88,
+              "L": 1.35
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50079194",
       "home": {
@@ -1028,17 +959,17 @@
       "front_end_id": "FB7960",
       "had": {
         "no_vig_prob": {
-          "away": 0.27126595,
-          "draw": 0.26715586,
-          "home": 0.46157819
+          "away": 0.32338456,
+          "draw": 0.27164303,
+          "home": 0.40497241
         },
         "odds": {
-          "away": 3.25,
-          "draw": 3.3,
-          "home": 1.91
+          "away": 2.73,
+          "draw": 3.25,
+          "home": 2.18
         },
-        "overround": 1.13428282,
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "overround": 1.13270827,
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hdc": {
         "lines": [
@@ -1046,13 +977,13 @@
             "condition": "0.0/-0.5",
             "main": true,
             "odds": {
-              "A": 2.0,
-              "H": 1.77
+              "A": 1.77,
+              "H": 2.0
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hil": {
         "lines": [
@@ -1060,29 +991,29 @@
             "condition": "2.5",
             "main": true,
             "odds": {
-              "H": 1.79,
-              "L": 1.91
+              "H": 1.83,
+              "L": 1.87
             }
           },
           {
             "condition": "2.5/3.0",
             "main": false,
             "odds": {
-              "H": 2.01,
-              "L": 1.71
+              "H": 2.07,
+              "L": 1.67
             }
           },
           {
             "condition": "3.5",
             "main": false,
             "odds": {
-              "H": 3.05,
-              "L": 1.32
+              "H": 3.1,
+              "L": 1.31
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50079490",
       "home": {
@@ -1129,7 +1060,7 @@
           "home": 2.93
         },
         "overround": 1.13226583,
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hdc": {
         "lines": [
@@ -1142,8 +1073,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hil": {
         "lines": [
@@ -1172,8 +1103,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50078582",
       "home": {
@@ -1219,7 +1150,7 @@
           "home": 2.49
         },
         "overround": 1.13654618,
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hdc": null,
       "hil": {
@@ -1249,8 +1180,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50078583",
       "home": {
@@ -1296,7 +1227,7 @@
           "home": 1.82
         },
         "overround": 1.13342327,
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hdc": null,
       "hil": {
@@ -1326,8 +1257,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50078584",
       "home": {
@@ -1364,17 +1295,17 @@
       "front_end_id": "FB7933",
       "had": {
         "no_vig_prob": {
-          "away": 0.15483871,
-          "draw": 0.23225806,
-          "home": 0.61290323
+          "away": 0.14470405,
+          "draw": 0.22927135,
+          "home": 0.6260246
         },
         "odds": {
-          "away": 5.7,
-          "draw": 3.8,
-          "home": 1.44
+          "away": 6.1,
+          "draw": 3.85,
+          "home": 1.41
         },
-        "overround": 1.13304094,
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "overround": 1.13289454,
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hdc": {
         "lines": [
@@ -1382,13 +1313,13 @@
             "condition": "-1.0",
             "main": true,
             "odds": {
-              "A": 1.84,
-              "H": 1.92
+              "A": 1.89,
+              "H": 1.87
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hil": {
         "lines": [
@@ -1417,8 +1348,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50078585",
       "home": {
@@ -1464,7 +1395,7 @@
           "home": 2.01
         },
         "overround": 1.13380466,
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hdc": null,
       "hil": {
@@ -1481,8 +1412,8 @@
             "condition": "3.5/4.0",
             "main": false,
             "odds": {
-              "H": 2.1,
-              "L": 1.65
+              "H": 2.08,
+              "L": 1.66
             }
           },
           {
@@ -1494,8 +1425,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50078586",
       "home": {
@@ -1541,7 +1472,7 @@
           "home": 2.0
         },
         "overround": 1.1331007,
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hdc": null,
       "hil": {
@@ -1571,8 +1502,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50078587",
       "home": {
@@ -1618,7 +1549,7 @@
           "home": 1.72
         },
         "overround": 1.1337763,
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hdc": null,
       "hil": {
@@ -1648,8 +1579,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50078588",
       "home": {
@@ -1695,7 +1626,7 @@
           "home": 1.95
         },
         "overround": 1.13286713,
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hdc": null,
       "hil": {
@@ -1725,8 +1656,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50078589",
       "home": {
@@ -1773,8 +1704,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hil": null,
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50078590",
@@ -1817,13 +1748,13 @@
             "condition": "0.0/+0.5",
             "main": true,
             "odds": {
-              "A": 1.88,
-              "H": 1.88
+              "A": 1.9,
+              "H": 1.9
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hil": null,
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50078591",
@@ -1861,17 +1792,17 @@
       "front_end_id": "FB7940",
       "had": {
         "no_vig_prob": {
-          "away": 0.65299981,
-          "draw": 0.18958059,
-          "home": 0.1574196
+          "away": 0.66760365,
+          "draw": 0.18552354,
+          "home": 0.1468728
         },
         "odds": {
-          "away": 1.35,
-          "draw": 4.65,
-          "home": 5.6
+          "away": 1.32,
+          "draw": 4.75,
+          "home": 6.0
         },
-        "overround": 1.13436593,
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "overround": 1.13476874,
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hdc": {
         "lines": [
@@ -1879,13 +1810,13 @@
             "condition": "+1.0/+1.5",
             "main": true,
             "odds": {
-              "A": 1.93,
-              "H": 1.83
+              "A": 1.9,
+              "H": 1.9
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hil": {
         "lines": [
@@ -1909,13 +1840,13 @@
             "condition": "4.5",
             "main": false,
             "odds": {
-              "H": 3.4,
-              "L": 1.26
+              "H": 3.45,
+              "L": 1.25
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50078592",
       "home": {
@@ -1961,7 +1892,7 @@
           "home": 3.5
         },
         "overround": 1.13222285,
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hdc": null,
       "hil": {
@@ -1970,16 +1901,16 @@
             "condition": "2.5",
             "main": true,
             "odds": {
-              "H": 1.85,
-              "L": 1.85
+              "H": 1.83,
+              "L": 1.87
             }
           },
           {
             "condition": "2.5/3.0",
             "main": false,
             "odds": {
-              "H": 2.12,
-              "L": 1.64
+              "H": 2.1,
+              "L": 1.65
             }
           },
           {
@@ -1991,8 +1922,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50079191",
       "home": {
@@ -2034,13 +1965,13 @@
             "condition": "-1.0/-1.5",
             "main": true,
             "odds": {
-              "A": 1.82,
-              "H": 1.95
+              "A": 1.91,
+              "H": 1.89
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hil": null,
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50078593",
@@ -2088,7 +2019,7 @@
           "home": 2.27
         },
         "overround": 1.13347965,
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hdc": {
         "lines": [
@@ -2096,13 +2027,13 @@
             "condition": "0.0",
             "main": true,
             "odds": {
-              "A": 2.06,
-              "H": 1.73
+              "A": 2.07,
+              "H": 1.74
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hil": {
         "lines": [
@@ -2131,8 +2062,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50079190",
       "home": {
@@ -2171,16 +2102,24 @@
       "hdc": {
         "lines": [
           {
-            "condition": "0.0/-0.5",
+            "condition": "0.0",
             "main": true,
             "odds": {
-              "A": 1.76,
-              "H": 2.02
+              "A": 1.87,
+              "H": 1.93
+            }
+          },
+          {
+            "condition": "0.0/-0.5",
+            "main": false,
+            "odds": {
+              "A": 1.69,
+              "H": 2.16
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hil": null,
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50078594",
@@ -2223,13 +2162,13 @@
             "condition": "+1.5/+2.0",
             "main": true,
             "odds": {
-              "A": 2.03,
-              "H": 1.75
+              "A": 2.04,
+              "H": 1.76
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hil": null,
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50079484",
@@ -2267,17 +2206,17 @@
       "front_end_id": "FB7950",
       "had": {
         "no_vig_prob": {
-          "away": 0.10666911,
-          "draw": 0.16604153,
-          "home": 0.72728936
+          "away": 0.09771101,
+          "draw": 0.15703555,
+          "home": 0.74525345
         },
         "odds": {
-          "away": 8.25,
-          "draw": 5.3,
-          "home": 1.21
+          "away": 9.0,
+          "draw": 5.6,
+          "home": 1.18
         },
-        "overround": 1.13633765,
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "overround": 1.13714017,
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hdc": {
         "lines": [
@@ -2285,13 +2224,13 @@
             "condition": "-1.5/-2.0",
             "main": true,
             "odds": {
-              "A": 1.73,
-              "H": 2.06
+              "A": 1.79,
+              "H": 1.98
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hil": {
         "lines": [
@@ -2299,29 +2238,29 @@
             "condition": "3.5",
             "main": true,
             "odds": {
-              "H": 2.07,
-              "L": 1.67
+              "H": 2.04,
+              "L": 1.69
             }
           },
           {
             "condition": "3.0/3.5",
             "main": false,
             "odds": {
-              "H": 1.85,
-              "L": 1.85
+              "H": 1.83,
+              "L": 1.87
             }
           },
           {
             "condition": "4.5",
             "main": false,
             "odds": {
-              "H": 3.4,
-              "L": 1.26
+              "H": 3.35,
+              "L": 1.27
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50079009",
       "home": {
@@ -2367,7 +2306,7 @@
           "home": 1.57
         },
         "overround": 1.13368658,
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hdc": null,
       "hil": {
@@ -2397,8 +2336,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50079019",
       "home": {
@@ -2440,13 +2379,13 @@
             "condition": "0.0/-0.5",
             "main": true,
             "odds": {
-              "A": 1.9,
-              "H": 1.86
+              "A": 1.83,
+              "H": 1.93
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hil": null,
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50078838",
@@ -2483,17 +2422,17 @@
       "front_end_id": "FB7948",
       "had": {
         "no_vig_prob": {
-          "away": 0.50953435,
-          "draw": 0.27546701,
-          "home": 0.21499864
+          "away": 0.51506093,
+          "draw": 0.27523569,
+          "home": 0.20970338
         },
         "odds": {
-          "away": 1.73,
+          "away": 1.71,
           "draw": 3.2,
-          "home": 4.1
+          "home": 4.2
         },
-        "overround": 1.13443712,
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "overround": 1.13539056,
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hdc": null,
       "hil": {
@@ -2523,8 +2462,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50078896",
       "home": {
@@ -2571,7 +2510,7 @@
           "home": 1.62
         },
         "overround": 1.13474427,
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hdc": {
         "lines": [
@@ -2584,8 +2523,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hil": {
         "lines": [
@@ -2614,8 +2553,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50079497",
       "home": {
@@ -2657,13 +2596,13 @@
             "condition": "-0.5/-1.0",
             "main": true,
             "odds": {
-              "A": 1.72,
-              "H": 2.07
+              "A": 1.68,
+              "H": 2.12
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hil": null,
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50077680",
@@ -2700,17 +2639,17 @@
       "front_end_id": "FB8063",
       "had": {
         "no_vig_prob": {
-          "away": 0.23829603,
-          "draw": 0.27990327,
-          "home": 0.48180071
+          "away": 0.24182858,
+          "draw": 0.27583573,
+          "home": 0.48233569
         },
         "odds": {
-          "away": 3.7,
-          "draw": 3.15,
+          "away": 3.65,
+          "draw": 3.2,
           "home": 1.83
         },
-        "overround": 1.13417868,
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "overround": 1.13292069,
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hdc": null,
       "hil": {
@@ -2719,29 +2658,29 @@
             "condition": "2.5",
             "main": true,
             "odds": {
-              "H": 2.02,
-              "L": 1.7
+              "H": 1.94,
+              "L": 1.76
             }
           },
           {
             "condition": "2.5/3.0",
             "main": false,
             "odds": {
-              "H": 2.35,
-              "L": 1.52
+              "H": 2.22,
+              "L": 1.58
             }
           },
           {
             "condition": "3.5",
             "main": false,
             "odds": {
-              "H": 3.45,
-              "L": 1.25
+              "H": 3.25,
+              "L": 1.28
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50079498",
       "home": {
@@ -2788,8 +2727,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hil": null,
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50079480",
@@ -2836,7 +2775,7 @@
           "home": 1.94
         },
         "overround": 1.13451154,
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hdc": null,
       "hil": {
@@ -2866,8 +2805,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50079478",
       "home": {
@@ -2903,17 +2842,17 @@
       "front_end_id": "FB7945",
       "had": {
         "no_vig_prob": {
-          "away": 0.18420435,
-          "draw": 0.25262311,
-          "home": 0.56317254
+          "away": 0.19270475,
+          "draw": 0.2532691,
+          "home": 0.55402615
         },
         "odds": {
-          "away": 4.8,
+          "away": 4.6,
           "draw": 3.5,
-          "home": 1.57
+          "home": 1.6
         },
-        "overround": 1.13099029,
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "overround": 1.12810559,
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hdc": null,
       "hil": {
@@ -2943,8 +2882,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50078835",
       "home": {
@@ -2986,13 +2925,13 @@
             "condition": "+0.5/+1.0",
             "main": true,
             "odds": {
-              "A": 2.07,
-              "H": 1.72
+              "A": 2.15,
+              "H": 1.66
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hil": null,
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50078849",
@@ -3040,8 +2979,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hil": null,
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50071114",
@@ -3089,8 +3028,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hil": null,
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50071115",
@@ -3137,7 +3076,7 @@
           "home": 1.88
         },
         "overround": 1.13227332,
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hdc": null,
       "hil": {
@@ -3167,8 +3106,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50079479",
       "home": {
@@ -3215,8 +3154,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hil": null,
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50071113",
@@ -3264,8 +3203,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hil": null,
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50078603",
@@ -3313,8 +3252,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hil": null,
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50078604",
@@ -3361,7 +3300,7 @@
           "home": 11.0
         },
         "overround": 1.13301997,
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hdc": null,
       "hil": {
@@ -3391,8 +3330,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50079324",
       "home": {
@@ -3438,7 +3377,7 @@
           "home": 3.2
         },
         "overround": 1.13293344,
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hdc": null,
       "hil": {
@@ -3468,8 +3407,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50079325",
       "home": {
@@ -3516,7 +3455,7 @@
           "home": 2.44
         },
         "overround": 1.13241671,
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hdc": {
         "lines": [
@@ -3529,8 +3468,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hil": {
         "lines": [
@@ -3559,8 +3498,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50079491",
       "home": {
@@ -3607,7 +3546,7 @@
           "home": 3.35
         },
         "overround": 1.13494446,
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hdc": {
         "lines": [
@@ -3620,8 +3559,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hil": {
         "lines": [
@@ -3650,8 +3589,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50079494",
       "home": {
@@ -3697,7 +3636,7 @@
           "home": 3.2
         },
         "overround": 1.13261421,
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hdc": null,
       "hil": {
@@ -3727,8 +3666,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50078606",
       "home": {
@@ -3774,7 +3713,7 @@
           "home": 2.18
         },
         "overround": 1.13211627,
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hdc": null,
       "hil": {
@@ -3804,8 +3743,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50078607",
       "home": {
@@ -3852,7 +3791,7 @@
           "home": 1.81
         },
         "overround": 1.13329427,
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hdc": {
         "lines": [
@@ -3865,8 +3804,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hil": {
         "lines": [
@@ -3895,8 +3834,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50078608",
       "home": {
@@ -3942,7 +3881,7 @@
           "home": 3.05
         },
         "overround": 1.13441647,
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hdc": null,
       "hil": {
@@ -3972,8 +3911,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50078609",
       "home": {
@@ -4019,7 +3958,7 @@
           "home": 2.58
         },
         "overround": 1.13225,
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hdc": null,
       "hil": {
@@ -4049,8 +3988,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50078610",
       "home": {
@@ -4096,7 +4035,7 @@
           "home": 3.4
         },
         "overround": 1.13316565,
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hdc": null,
       "hil": {
@@ -4126,8 +4065,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50078611",
       "home": {
@@ -4174,7 +4113,7 @@
           "home": 2.48
         },
         "overround": 1.13338454,
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hdc": {
         "lines": [
@@ -4187,8 +4126,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hil": {
         "lines": [
@@ -4217,8 +4156,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50078612",
       "home": {
@@ -4264,7 +4203,7 @@
           "home": 1.72
         },
         "overround": 1.1348592,
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hdc": null,
       "hil": {
@@ -4294,8 +4233,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50078613",
       "home": {
@@ -4341,7 +4280,7 @@
           "home": 2.78
         },
         "overround": 1.13202553,
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hdc": null,
       "hil": {
@@ -4371,8 +4310,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50078614",
       "home": {
@@ -4419,7 +4358,7 @@
           "home": 3.45
         },
         "overround": 1.13422858,
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hdc": {
         "lines": [
@@ -4432,8 +4371,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hil": {
         "lines": [
@@ -4462,8 +4401,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50078615",
       "home": {
@@ -4510,8 +4449,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hil": null,
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50078616",
@@ -4559,7 +4498,7 @@
           "home": 5.4
         },
         "overround": 1.13632412,
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hdc": {
         "lines": [
@@ -4572,8 +4511,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hil": {
         "lines": [
@@ -4602,8 +4541,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50079150",
       "home": {
@@ -4650,8 +4589,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hil": null,
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50079492",
@@ -4699,8 +4638,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hil": null,
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50079500",
@@ -4747,7 +4686,7 @@
           "home": 1.85
         },
         "overround": 1.13316565,
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hdc": null,
       "hil": {
@@ -4777,8 +4716,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50078617",
       "home": {
@@ -4825,8 +4764,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hil": null,
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50078618",
@@ -4874,8 +4813,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hil": null,
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50078619",
@@ -4923,7 +4862,7 @@
           "home": 1.85
         },
         "overround": 1.13342592,
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hdc": {
         "lines": [
@@ -4936,8 +4875,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hil": {
         "lines": [
@@ -4966,8 +4905,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50078621",
       "home": {
@@ -5014,8 +4953,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hil": null,
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50078622",
@@ -5063,8 +5002,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hil": null,
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50078623",
@@ -5111,7 +5050,7 @@
           "home": 2.58
         },
         "overround": 1.13253293,
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hdc": null,
       "hil": {
@@ -5141,8 +5080,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50078624",
       "home": {
@@ -5188,7 +5127,7 @@
           "home": 2.49
         },
         "overround": 1.13654618,
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hdc": null,
       "hil": {
@@ -5218,8 +5157,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50078625",
       "home": {
@@ -5266,8 +5205,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hil": null,
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50079501",
@@ -5315,8 +5254,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hil": null,
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50078628",
@@ -5364,7 +5303,7 @@
           "home": 2.63
         },
         "overround": 1.13306138,
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hdc": {
         "lines": [
@@ -5377,8 +5316,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hil": {
         "lines": [
@@ -5407,8 +5346,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50078629",
       "home": {
@@ -5455,8 +5394,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hil": null,
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50078867",
@@ -5504,8 +5443,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hil": null,
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50078996",
@@ -5548,13 +5487,13 @@
             "condition": "-0.5/-1.0",
             "main": true,
             "odds": {
-              "A": 1.74,
-              "H": 2.05
+              "A": 1.76,
+              "H": 2.02
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hil": null,
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50078677",
@@ -5602,8 +5541,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hil": null,
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50078633",
@@ -5651,8 +5590,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hil": null,
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50078635",
@@ -5700,7 +5639,7 @@
           "home": 2.64
         },
         "overround": 1.13214185,
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hdc": {
         "lines": [
@@ -5713,8 +5652,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hil": {
         "lines": [
@@ -5743,8 +5682,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50078840",
       "home": {
@@ -5791,8 +5730,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hil": null,
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50078843",
@@ -5840,7 +5779,7 @@
           "home": 2.73
         },
         "overround": 1.13408307,
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hdc": {
         "lines": [
@@ -5853,8 +5792,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hil": {
         "lines": [
@@ -5883,8 +5822,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50078844",
       "home": {
@@ -5931,8 +5870,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hil": null,
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50078845",
@@ -5980,7 +5919,7 @@
           "home": 1.75
         },
         "overround": 1.13309393,
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hdc": {
         "lines": [
@@ -5993,8 +5932,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hil": {
         "lines": [
@@ -6023,8 +5962,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50078852",
       "home": {
@@ -6071,8 +6010,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hil": null,
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50078676",
@@ -6120,8 +6059,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hil": null,
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50078678",
@@ -6169,8 +6108,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hil": null,
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50078679",
@@ -6218,8 +6157,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hil": null,
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50078692",
@@ -6267,8 +6206,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hil": null,
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50078693",
@@ -6316,7 +6255,7 @@
           "home": 3.6
         },
         "overround": 1.13267974,
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hdc": {
         "lines": [
@@ -6329,8 +6268,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hil": {
         "lines": [
@@ -6359,8 +6298,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50079336",
       "home": {
@@ -6407,8 +6346,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hil": null,
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50078647",
@@ -6456,8 +6395,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hil": null,
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50078649",
@@ -6504,7 +6443,7 @@
           "home": 2.74
         },
         "overround": 1.13293736,
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hdc": null,
       "hil": {
@@ -6534,8 +6473,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50078650",
       "home": {
@@ -6582,7 +6521,7 @@
           "home": 2.76
         },
         "overround": 1.13266557,
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hdc": {
         "lines": [
@@ -6595,8 +6534,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hil": {
         "lines": [
@@ -6625,8 +6564,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50078871",
       "home": {
@@ -6673,8 +6612,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hil": null,
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50078673",
@@ -6722,7 +6661,7 @@
           "home": 1.8
         },
         "overround": 1.13472222,
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hdc": {
         "lines": [
@@ -6735,8 +6674,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hil": {
         "lines": [
@@ -6765,8 +6704,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50079339",
       "home": {
@@ -6813,8 +6752,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hil": null,
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50078674",
@@ -6862,8 +6801,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hil": null,
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50078697",
@@ -6911,8 +6850,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hil": null,
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50078850",
@@ -6959,7 +6898,7 @@
           "home": 1.04
         },
         "overround": 1.11153846,
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hdc": null,
       "hil": {
@@ -6989,8 +6928,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50078699",
       "home": {
@@ -7036,7 +6975,7 @@
           "home": 1.84
         },
         "overround": 1.13246131,
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hdc": null,
       "hil": {
@@ -7066,8 +7005,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50078700",
       "home": {
@@ -7114,8 +7053,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hil": null,
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50078990",
@@ -7163,8 +7102,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hil": null,
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50078704",
@@ -7212,7 +7151,7 @@
           "home": 2.22
         },
         "overround": 1.13332082,
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hdc": {
         "lines": [
@@ -7225,8 +7164,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hil": {
         "lines": [
@@ -7255,8 +7194,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50078708",
       "home": {
@@ -7303,8 +7242,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hil": null,
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50078690",
@@ -7352,8 +7291,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hil": null,
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50078709",
@@ -7401,7 +7340,7 @@
           "home": 1.6
         },
         "overround": 1.13556911,
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hdc": {
         "lines": [
@@ -7414,8 +7353,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hil": {
         "lines": [
@@ -7444,8 +7383,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50078711",
       "home": {
@@ -7491,7 +7430,7 @@
           "home": 2.8
         },
         "overround": 1.13401361,
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hdc": null,
       "hil": {
@@ -7521,8 +7460,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50078712",
       "home": {
@@ -7569,8 +7508,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hil": null,
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50078870",
@@ -7618,8 +7557,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hil": null,
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50078762",
@@ -7667,8 +7606,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hil": null,
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50078763",
@@ -7716,8 +7655,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hil": null,
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50078764",
@@ -7764,7 +7703,7 @@
           "home": 2.07
         },
         "overround": 1.13265909,
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hdc": null,
       "hil": {
@@ -7794,8 +7733,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50079467",
       "home": {
@@ -7841,7 +7780,7 @@
           "home": 2.74
         },
         "overround": 1.13287427,
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hdc": null,
       "hil": {
@@ -7871,8 +7810,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50078768",
       "home": {
@@ -7918,7 +7857,7 @@
           "home": 1.19
         },
         "overround": 1.13663243,
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hdc": null,
       "hil": {
@@ -7948,8 +7887,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50078769",
       "home": {
@@ -7996,7 +7935,7 @@
           "home": 2.82
         },
         "overround": 1.13292923,
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hdc": {
         "lines": [
@@ -8009,8 +7948,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hil": {
         "lines": [
@@ -8039,8 +7978,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50078770",
       "home": {
@@ -8087,8 +8026,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hil": null,
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50078771",
@@ -8135,7 +8074,7 @@
           "home": 2.41
         },
         "overround": 1.13343161,
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hdc": null,
       "hil": {
@@ -8165,8 +8104,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50079507",
       "home": {
@@ -8213,8 +8152,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hil": null,
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50079519",
@@ -8262,8 +8201,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hil": null,
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50078772",
@@ -8311,8 +8250,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hil": null,
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50078773",
@@ -8360,8 +8299,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hil": null,
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50079466",
@@ -8409,8 +8348,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hil": null,
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50078774",
@@ -8457,7 +8396,7 @@
           "home": 2.1
         },
         "overround": 1.13263384,
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hdc": null,
       "hil": {
@@ -8487,8 +8426,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50078775",
       "home": {
@@ -8534,7 +8473,7 @@
           "home": 1.91
         },
         "overround": 1.13428282,
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hdc": null,
       "hil": {
@@ -8564,8 +8503,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50079508",
       "home": {
@@ -8612,8 +8551,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hil": null,
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50079509",
@@ -8661,8 +8600,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hil": null,
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50078776",
@@ -8710,8 +8649,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hil": null,
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50078780",
@@ -8759,8 +8698,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hil": null,
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50078781",
@@ -8808,8 +8747,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hil": null,
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50078782",
@@ -8857,7 +8796,7 @@
           "home": 1.84
         },
         "overround": 1.13375604,
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hdc": {
         "lines": [
@@ -8870,8 +8809,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hil": {
         "lines": [
@@ -8900,8 +8839,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50078868",
       "home": {
@@ -8948,8 +8887,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hil": null,
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50078993",
@@ -8997,8 +8936,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hil": null,
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50078994",
@@ -9018,7 +8957,7 @@
         "name_ch": "德國乙組聯賽",
         "name_en": "German Division 2"
       },
-      "updated_at": "2026-10-29T19:30:10.060+08:00"
+      "updated_at": "2026-10-30T10:31:44.637+08:00"
     },
     {
       "available_markets": [
@@ -9045,7 +8984,7 @@
           "home": 1.32
         },
         "overround": 1.13614101,
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hdc": null,
       "hil": {
@@ -9075,8 +9014,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50078792",
       "home": {
@@ -9123,7 +9062,7 @@
           "home": 4.85
         },
         "overround": 1.13318815,
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hdc": {
         "lines": [
@@ -9136,8 +9075,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hil": {
         "lines": [
@@ -9166,8 +9105,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50078795",
       "home": {
@@ -9214,8 +9153,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hil": null,
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50079486",
@@ -9263,8 +9202,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hil": null,
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50078799",
@@ -9312,8 +9251,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hil": null,
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50078803",
@@ -9361,8 +9300,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hil": null,
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50078846",
@@ -9410,7 +9349,7 @@
           "home": 1.68
         },
         "overround": 1.13325818,
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hdc": {
         "lines": [
@@ -9423,8 +9362,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hil": {
         "lines": [
@@ -9453,8 +9392,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50078873",
       "home": {
@@ -9501,7 +9440,7 @@
           "home": 1.44
         },
         "overround": 1.13224349,
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hdc": {
         "lines": [
@@ -9514,8 +9453,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hil": {
         "lines": [
@@ -9544,8 +9483,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50079418",
       "home": {
@@ -9592,8 +9531,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hil": null,
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50078703",
@@ -9641,8 +9580,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hil": null,
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50078816",
@@ -9690,8 +9629,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hil": null,
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50078654",
@@ -9739,8 +9678,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hil": null,
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50078851",
@@ -9787,7 +9726,7 @@
           "home": 1.83
         },
         "overround": 1.13292069,
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hdc": null,
       "hil": {
@@ -9817,8 +9756,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50078822",
       "home": {
@@ -9865,8 +9804,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hil": null,
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50078826",
@@ -9913,7 +9852,7 @@
           "home": 1.81
         },
         "overround": 1.13329427,
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hdc": null,
       "hil": {
@@ -9943,8 +9882,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50078872",
       "home": {
@@ -9991,7 +9930,7 @@
           "home": 3.0
         },
         "overround": 1.13218498,
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hdc": {
         "lines": [
@@ -10004,8 +9943,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hil": {
         "lines": [
@@ -10034,8 +9973,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50078875",
       "home": {
@@ -10082,7 +10021,7 @@
           "home": 2.08
         },
         "overround": 1.13205128,
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hdc": {
         "lines": [
@@ -10095,8 +10034,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hil": {
         "lines": [
@@ -10125,8 +10064,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50079487",
       "home": {
@@ -10172,7 +10111,7 @@
           "home": 2.07
         },
         "overround": 1.13354129,
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hdc": null,
       "hil": {
@@ -10202,8 +10141,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50079481",
       "home": {
@@ -10250,8 +10189,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hil": null,
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50078847",
@@ -10299,8 +10238,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hil": null,
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50078848",
@@ -10347,7 +10286,7 @@
           "home": 2.16
         },
         "overround": 1.13229363,
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hdc": null,
       "hil": {
@@ -10377,8 +10316,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50079482",
       "home": {
@@ -10425,8 +10364,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hil": null,
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50079483",
@@ -10474,7 +10413,7 @@
           "home": 2.0
         },
         "overround": 1.13368483,
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hdc": {
         "lines": [
@@ -10487,8 +10426,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hil": {
         "lines": [
@@ -10517,8 +10456,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50078891",
       "home": {
@@ -10564,7 +10503,7 @@
           "home": 2.84
         },
         "overround": 1.13258703,
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hdc": null,
       "hil": {
@@ -10594,8 +10533,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50078893",
       "home": {
@@ -10641,7 +10580,7 @@
           "home": 5.1
         },
         "overround": 1.13576988,
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hdc": null,
       "hil": {
@@ -10671,8 +10610,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50078894",
       "home": {
@@ -10692,6 +10631,40 @@
         "name_en": "Dutch Division 2"
       },
       "updated_at": "2026-10-29T19:30:10.060+08:00"
+    },
+    {
+      "available_markets": [],
+      "away": {
+        "id": "50002361",
+        "name_ch": "奧斯",
+        "name_en": "Oss"
+      },
+      "crs_available": false,
+      "front_end_id": "FB8073",
+      "had": {
+        "odds": {},
+        "updated_at": null
+      },
+      "hdc": null,
+      "hil": null,
+      "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50078895",
+      "home": {
+        "id": "50001536",
+        "name_ch": "荷華高斯",
+        "name_en": "Heracles"
+      },
+      "id": "50078895",
+      "kickoff": "2026-11-03T03:00:00.000+08:00",
+      "match_date": "2026-11-03+08:00",
+      "status": "PREEVENT",
+      "tournament": {
+        "code": "DF2",
+        "front_end_id": "",
+        "id": "50072683",
+        "name_ch": "荷蘭乙組聯賽",
+        "name_en": "Dutch Division 2"
+      },
+      "updated_at": "2026-10-30T08:54:27.349+08:00"
     },
     {
       "available_markets": [
@@ -10719,7 +10692,7 @@
           "home": 2.21
         },
         "overround": 1.13221219,
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hdc": {
         "lines": [
@@ -10732,8 +10705,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hil": {
         "lines": [
@@ -10762,8 +10735,8 @@
             }
           }
         ],
-        "status": "SELLINGSTOPPED",
-        "updated_at": "2026-10-30T05:30:03.214+08:00"
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T08:25:02.722+08:00"
       },
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50078706",
       "home": {
@@ -10783,6 +10756,55 @@
         "name_en": "French Division 1"
       },
       "updated_at": "2026-10-29T19:30:10.060+08:00"
+    },
+    {
+      "available_markets": [
+        "HDC"
+      ],
+      "away": {
+        "id": "50001138",
+        "name_ch": "愛華頓",
+        "name_en": "Everton"
+      },
+      "crs_available": false,
+      "front_end_id": "FB8074",
+      "had": {
+        "odds": {},
+        "updated_at": null
+      },
+      "hdc": {
+        "lines": [
+          {
+            "condition": "0.0/-0.5",
+            "main": true,
+            "odds": {
+              "A": 1.87,
+              "H": 1.89
+            }
+          }
+        ],
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-10-30T12:00:03.931+08:00"
+      },
+      "hil": null,
+      "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50078691",
+      "home": {
+        "id": "50002252",
+        "name_ch": "紐卡素",
+        "name_en": "Newcastle"
+      },
+      "id": "50078691",
+      "kickoff": "2026-11-03T04:00:00.000+08:00",
+      "match_date": "2026-11-03+08:00",
+      "status": "PREEVENT",
+      "tournament": {
+        "code": "EPL",
+        "front_end_id": "FB1589",
+        "id": "50071337",
+        "name_ch": "英格蘭超級聯賽",
+        "name_en": "English Premier League"
+      },
+      "updated_at": "2026-10-30T12:00:03.931+08:00"
     }
   ],
   "odds_types": [
