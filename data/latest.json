@@ -1,6 +1,6 @@
 {
-  "frozen_at_hkt": "2026-11-10T10:38:34.046787+08:00",
-  "frozen_at_utc": "2026-11-10T02:38:34.046787+00:00",
+  "frozen_at_hkt": "2026-11-10T18:21:10.010799+08:00",
+  "frozen_at_utc": "2026-11-10T10:21:10.010799+00:00",
   "independence_contract": {
     "contains_betting_selections": false,
     "contains_c2": false,
@@ -9,58 +9,9 @@
     "contains_model_predictions": false,
     "contains_pps": false
   },
-  "market_payload_sha256": "8c0d65912c812bb57ec006367d951bf8a23f4d566da8d6a5801e6e1850d78076",
+  "market_payload_sha256": "af5488f2573e1f311af37c9f62f186dd96e52ee685ed4830bbeaf7f6d50d6c47",
   "match_count": 41,
   "matches": [
-    {
-      "available_markets": [
-        "HDC"
-      ],
-      "away": {
-        "id": "50302154",
-        "name_ch": "新加坡U23",
-        "name_en": "Singapore U23"
-      },
-      "crs_available": false,
-      "front_end_id": "FB8725",
-      "had": {
-        "odds": {},
-        "updated_at": null
-      },
-      "hdc": {
-        "lines": [
-          {
-            "condition": "-1.5/-2.0",
-            "main": true,
-            "odds": {
-              "A": 1.7,
-              "H": 2.05
-            }
-          }
-        ],
-        "status": "SELLINGSTARTED",
-        "updated_at": "2026-11-10T01:53:58.449+08:00"
-      },
-      "hil": null,
-      "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50080221",
-      "home": {
-        "id": "50002549",
-        "name_ch": "卡塔爾U23",
-        "name_en": "Qatar U23"
-      },
-      "id": "50080221",
-      "kickoff": "2026-11-10T16:00:00.000+08:00",
-      "match_date": "2026-11-10+08:00",
-      "status": "PREEVENT",
-      "tournament": {
-        "code": "INT",
-        "front_end_id": "",
-        "id": "50071381",
-        "name_ch": "國際賽",
-        "name_en": "International Matches"
-      },
-      "updated_at": "2026-11-10T01:53:58.449+08:00"
-    },
     {
       "available_markets": [
         "HDC"
@@ -82,8 +33,8 @@
             "condition": "-0.5/-1.0",
             "main": true,
             "odds": {
-              "A": 1.74,
-              "H": 2.0
+              "A": 1.65,
+              "H": 2.12
             }
           }
         ],
@@ -131,8 +82,8 @@
             "condition": "+2.0",
             "main": true,
             "odds": {
-              "A": 1.95,
-              "H": 1.75
+              "A": 1.91,
+              "H": 1.79
             }
           }
         ],
@@ -260,11 +211,19 @@
       "hdc": {
         "lines": [
           {
-            "condition": "0.0",
+            "condition": "0.0/-0.5",
             "main": true,
             "odds": {
-              "A": 2.03,
-              "H": 1.75
+              "A": 1.85,
+              "H": 1.91
+            }
+          },
+          {
+            "condition": "0.0",
+            "main": false,
+            "odds": {
+              "A": 2.08,
+              "H": 1.71
             }
           }
         ],
@@ -306,16 +265,16 @@
       "front_end_id": "FB8697",
       "had": {
         "no_vig_prob": {
-          "away": 0.13572001,
-          "draw": 0.16965001,
-          "home": 0.69462998
+          "away": 0.13120936,
+          "draw": 0.15983685,
+          "home": 0.70895379
         },
         "odds": {
-          "away": 6.5,
-          "draw": 5.2,
-          "home": 1.27
+          "away": 6.7,
+          "draw": 5.5,
+          "home": 1.24
         },
-        "overround": 1.13355542,
+        "overround": 1.13752353,
         "updated_at": "2026-11-09T12:00:01.405+08:00"
       },
       "hdc": null,
@@ -325,24 +284,24 @@
             "condition": "3.5",
             "main": true,
             "odds": {
-              "H": 1.77,
-              "L": 1.93
+              "H": 1.61,
+              "L": 2.17
             }
           },
           {
             "condition": "3.5/4.0",
             "main": false,
             "odds": {
-              "H": 1.98,
-              "L": 1.73
+              "H": 1.76,
+              "L": 1.94
             }
           },
           {
             "condition": "4.5",
             "main": false,
             "odds": {
-              "H": 2.75,
-              "L": 1.38
+              "H": 2.4,
+              "L": 1.5
             }
           }
         ],
@@ -537,16 +496,16 @@
       "front_end_id": "FB8700",
       "had": {
         "no_vig_prob": {
-          "away": 0.34607913,
-          "draw": 0.26343336,
-          "home": 0.39048751
+          "away": 0.34771147,
+          "draw": 0.25976092,
+          "home": 0.39252761
         },
         "odds": {
-          "away": 2.55,
-          "draw": 3.35,
-          "home": 2.26
+          "away": 2.54,
+          "draw": 3.4,
+          "home": 2.25
         },
-        "overround": 1.1331422,
+        "overround": 1.13226288,
         "updated_at": "2026-11-09T12:00:01.405+08:00"
       },
       "hdc": null,
@@ -556,24 +515,24 @@
             "condition": "3.5",
             "main": true,
             "odds": {
-              "H": 2.58,
-              "L": 1.44
+              "H": 2.5,
+              "L": 1.46
             }
           },
           {
             "condition": "3.0/3.5",
             "main": false,
             "odds": {
-              "H": 2.22,
-              "L": 1.58
+              "H": 2.17,
+              "L": 1.61
             }
           },
           {
             "condition": "4.5",
             "main": false,
             "odds": {
-              "H": 4.05,
-              "L": 1.18
+              "H": 3.95,
+              "L": 1.19
             }
           }
         ],
@@ -692,16 +651,16 @@
       "front_end_id": "FB8702",
       "had": {
         "no_vig_prob": {
-          "away": 0.28037383,
-          "draw": 0.25233645,
-          "home": 0.46728972
+          "away": 0.28940709,
+          "draw": 0.2385653,
+          "home": 0.47202761
         },
         "odds": {
-          "away": 3.15,
-          "draw": 3.5,
-          "home": 1.89
+          "away": 3.05,
+          "draw": 3.7,
+          "home": 1.87
         },
-        "overround": 1.13227513,
+        "overround": 1.13289848,
         "updated_at": "2026-11-09T12:00:01.405+08:00"
       },
       "hdc": {
@@ -724,24 +683,24 @@
             "condition": "3.5",
             "main": true,
             "odds": {
-              "H": 2.4,
-              "L": 1.5
+              "H": 2.12,
+              "L": 1.64
             }
           },
           {
             "condition": "3.0/3.5",
             "main": false,
             "odds": {
-              "H": 2.13,
-              "L": 1.63
+              "H": 1.87,
+              "L": 1.83
             }
           },
           {
             "condition": "4.5",
             "main": false,
             "odds": {
-              "H": 3.9,
-              "L": 1.2
+              "H": 3.45,
+              "L": 1.25
             }
           }
         ],
@@ -782,16 +741,16 @@
       "front_end_id": "FB8703",
       "had": {
         "no_vig_prob": {
-          "away": 0.11747216,
-          "draw": 0.16623419,
-          "home": 0.71629365
+          "away": 0.12140487,
+          "draw": 0.16299729,
+          "home": 0.71559784
         },
         "odds": {
-          "away": 7.5,
-          "draw": 5.3,
+          "away": 7.25,
+          "draw": 5.4,
           "home": 1.23
         },
-        "overround": 1.13502071,
+        "overround": 1.13612435,
         "updated_at": "2026-11-09T12:00:01.405+08:00"
       },
       "hdc": null,
@@ -801,24 +760,24 @@
             "condition": "3.5",
             "main": true,
             "odds": {
-              "H": 1.95,
-              "L": 1.75
+              "H": 1.85,
+              "L": 1.85
             }
           },
           {
             "condition": "3.5/4.0",
             "main": false,
             "odds": {
-              "H": 2.19,
-              "L": 1.6
+              "H": 2.08,
+              "L": 1.66
             }
           },
           {
             "condition": "4.5",
             "main": false,
             "odds": {
-              "H": 3.1,
-              "L": 1.31
+              "H": 2.98,
+              "L": 1.33
             }
           }
         ],
@@ -865,8 +824,8 @@
             "condition": "0.0/-0.5",
             "main": true,
             "odds": {
-              "A": 1.96,
-              "H": 1.81
+              "A": 2.06,
+              "H": 1.73
             }
           }
         ],
@@ -1042,8 +1001,8 @@
             "condition": "3.0/3.5",
             "main": false,
             "odds": {
-              "H": 1.85,
-              "L": 1.85
+              "H": 1.88,
+              "L": 1.82
             }
           },
           {
@@ -1111,8 +1070,8 @@
             "condition": "2.5",
             "main": true,
             "odds": {
-              "H": 1.95,
-              "L": 1.75
+              "H": 1.93,
+              "L": 1.77
             }
           },
           {
@@ -1175,8 +1134,8 @@
             "condition": "-0.5/-1.0",
             "main": true,
             "odds": {
-              "A": 1.88,
-              "H": 1.88
+              "A": 1.99,
+              "H": 1.78
             }
           }
         ],
@@ -1419,8 +1378,8 @@
             "condition": "+1.0/+1.5",
             "main": true,
             "odds": {
-              "A": 1.8,
-              "H": 1.9
+              "A": 1.75,
+              "H": 1.95
             }
           }
         ],
@@ -1468,8 +1427,8 @@
             "condition": "0.0/-0.5",
             "main": true,
             "odds": {
-              "A": 1.88,
-              "H": 1.88
+              "A": 1.78,
+              "H": 1.99
             }
           }
         ],
@@ -2037,6 +1996,97 @@
     },
     {
       "available_markets": [
+        "CRS",
+        "HAD",
+        "HDC",
+        "HIL"
+      ],
+      "away": {
+        "id": "50001453",
+        "name_ch": "希臘U21",
+        "name_en": "Greece U21"
+      },
+      "crs_available": true,
+      "front_end_id": "FB8730",
+      "had": {
+        "no_vig_prob": {
+          "away": 0.42,
+          "draw": 0.28,
+          "home": 0.3
+        },
+        "odds": {
+          "away": 2.1,
+          "draw": 3.15,
+          "home": 2.94
+        },
+        "overround": 1.13378685,
+        "updated_at": "2026-11-10T12:00:04.587+08:00"
+      },
+      "hdc": {
+        "lines": [
+          {
+            "condition": "0.0/+0.5",
+            "main": true,
+            "odds": {
+              "A": 1.92,
+              "H": 1.84
+            }
+          }
+        ],
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-11-10T12:00:04.587+08:00"
+      },
+      "hil": {
+        "lines": [
+          {
+            "condition": "2.5",
+            "main": true,
+            "odds": {
+              "H": 1.68,
+              "L": 2.05
+            }
+          },
+          {
+            "condition": "2.5/3.0",
+            "main": false,
+            "odds": {
+              "H": 1.87,
+              "L": 1.83
+            }
+          },
+          {
+            "condition": "3.5",
+            "main": false,
+            "odds": {
+              "H": 2.65,
+              "L": 1.41
+            }
+          }
+        ],
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-11-10T12:00:04.587+08:00"
+      },
+      "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50079982",
+      "home": {
+        "id": "50001584",
+        "name_ch": "冰島U21",
+        "name_en": "Iceland U21"
+      },
+      "id": "50079982",
+      "kickoff": "2026-11-12T21:00:00.000+08:00",
+      "match_date": "2026-11-12+08:00",
+      "status": "PREEVENT",
+      "tournament": {
+        "code": "E2Q",
+        "front_end_id": "",
+        "id": "50048730",
+        "name_ch": "U21歐國外",
+        "name_en": "U21 Euro Qualifiers"
+      },
+      "updated_at": "2026-11-10T12:00:04.587+08:00"
+    },
+    {
+      "available_markets": [
         "HDC"
       ],
       "away": {
@@ -2102,8 +2152,16 @@
       "hdc": {
         "lines": [
           {
-            "condition": "-2.0/-2.5",
+            "condition": "-2.0",
             "main": true,
+            "odds": {
+              "A": 1.88,
+              "H": 1.82
+            }
+          },
+          {
+            "condition": "-2.0/-2.5",
+            "main": false,
             "odds": {
               "A": 1.75,
               "H": 1.95
@@ -2252,8 +2310,8 @@
             "condition": "+2.0",
             "main": true,
             "odds": {
-              "A": 1.86,
-              "H": 1.9
+              "A": 1.96,
+              "H": 1.81
             }
           }
         ],
