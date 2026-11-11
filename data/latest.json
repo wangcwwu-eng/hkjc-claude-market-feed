@@ -1,6 +1,6 @@
 {
-  "frozen_at_hkt": "2026-11-11T06:49:40.381414+08:00",
-  "frozen_at_utc": "2026-11-10T22:49:40.381414+00:00",
+  "frozen_at_hkt": "2026-11-11T10:17:55.091611+08:00",
+  "frozen_at_utc": "2026-11-11T02:17:55.091611+00:00",
   "independence_contract": {
     "contains_betting_selections": false,
     "contains_c2": false,
@@ -9,111 +9,11 @@
     "contains_model_predictions": false,
     "contains_pps": false
   },
-  "market_payload_sha256": "4f704c2e8352dea396fa3075b1c5a7d6cd4a8383a183450fcc6d6c6fa595604c",
-  "match_count": 37,
+  "market_payload_sha256": "7927b45a3c88942fdaeb930ec099c5db762ce4830fade6e4f4b39496c22f8510",
+  "match_count": 35,
   "matches": [
     {
-      "available_markets": [
-        "HDC"
-      ],
-      "away": {
-        "id": "50001737",
-        "name_ch": "拿斯派達斯青年",
-        "name_en": "Juventud Las Piedras"
-      },
-      "crs_available": false,
-      "front_end_id": "FB8721",
-      "had": {
-        "odds": {},
-        "updated_at": null
-      },
-      "hdc": {
-        "lines": [
-          {
-            "condition": "0.0/-0.5",
-            "main": true,
-            "odds": {
-              "A": 1.93,
-              "H": 1.83
-            }
-          }
-        ],
-        "status": "SELLINGSTARTED",
-        "updated_at": "2026-11-09T19:30:08.601+08:00"
-      },
-      "hil": null,
-      "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50080325",
-      "home": {
-        "id": "50002154",
-        "name_ch": "蒙特維多利物浦",
-        "name_en": "Montevideo Liverpool"
-      },
-      "id": "50080325",
-      "kickoff": "2026-11-11T07:57:00.000+08:00",
-      "match_date": "2026-11-11+08:00",
-      "status": "PREEVENT",
-      "tournament": {
-        "code": "UDC",
-        "front_end_id": "FB7825",
-        "id": "50074248",
-        "name_ch": "烏拉圭盃",
-        "name_en": "Uruguayan Cup"
-      },
-      "updated_at": "2026-11-09T19:30:08.601+08:00"
-    },
-    {
-      "available_markets": [
-        "HDC"
-      ],
-      "away": {
-        "id": "50353914",
-        "name_ch": "堤格雷斯女足",
-        "name_en": "Tigres UANL Women"
-      },
-      "crs_available": false,
-      "front_end_id": "FB8729",
-      "had": {
-        "odds": {},
-        "updated_at": null
-      },
-      "hdc": {
-        "lines": [
-          {
-            "condition": "+0.5/+1.0",
-            "main": true,
-            "odds": {
-              "A": 1.92,
-              "H": 1.78
-            }
-          }
-        ],
-        "status": "SELLINGSTARTED",
-        "updated_at": "2026-11-10T04:26:31.730+08:00"
-      },
-      "hil": null,
-      "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50080536",
-      "home": {
-        "id": "50353915",
-        "name_ch": "普馬斯女足",
-        "name_en": "Pumas UNAM Women"
-      },
-      "id": "50080536",
-      "kickoff": "2026-11-11T09:00:00.000+08:00",
-      "match_date": "2026-11-11+08:00",
-      "status": "PREEVENT",
-      "tournament": {
-        "code": "MXLW",
-        "front_end_id": "",
-        "id": "50072148",
-        "name_ch": "女子墨西哥超級聯賽",
-        "name_en": "Women Mexican Premier"
-      },
-      "updated_at": "2026-11-10T10:23:03.913+08:00"
-    },
-    {
-      "available_markets": [
-        "HDC"
-      ],
+      "available_markets": [],
       "away": {
         "id": "50353912",
         "name_ch": "瓜達拉哈拉女足",
@@ -125,20 +25,7 @@
         "odds": {},
         "updated_at": null
       },
-      "hdc": {
-        "lines": [
-          {
-            "condition": "0.0/-0.5",
-            "main": true,
-            "odds": {
-              "A": 1.91,
-              "H": 1.79
-            }
-          }
-        ],
-        "status": "SELLINGSTARTED",
-        "updated_at": "2026-11-10T04:26:31.730+08:00"
-      },
+      "hdc": null,
       "hil": null,
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50080535",
       "home": {
@@ -148,6 +35,27 @@
       },
       "id": "50080535",
       "kickoff": "2026-11-11T11:00:00.000+08:00",
+      "last_seen_markets": {
+        "HDC": {
+          "age_minutes_at_freeze": 208.2,
+          "observed_at_hkt": "2026-11-11T06:49:40.381414+08:00",
+          "payload": {
+            "lines": [
+              {
+                "condition": "0.0/-0.5",
+                "main": true,
+                "odds": {
+                  "A": 1.91,
+                  "H": 1.79
+                }
+              }
+            ],
+            "status": "SELLINGSTARTED",
+            "updated_at": "2026-11-10T04:26:31.730+08:00"
+          },
+          "status": "STALE_LAST_SEEN"
+        }
+      },
       "match_date": "2026-11-11+08:00",
       "status": "PREEVENT",
       "tournament": {
