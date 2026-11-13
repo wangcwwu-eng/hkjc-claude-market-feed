@@ -1,6 +1,6 @@
 {
-  "frozen_at_hkt": "2026-11-13T04:20:16.478010+08:00",
-  "frozen_at_utc": "2026-11-12T20:20:16.478010+00:00",
+  "frozen_at_hkt": "2026-11-13T09:12:16.245840+08:00",
+  "frozen_at_utc": "2026-11-13T01:12:16.245840+00:00",
   "independence_contract": {
     "contains_betting_selections": false,
     "contains_c2": false,
@@ -9,318 +9,9 @@
     "contains_model_predictions": false,
     "contains_pps": false
   },
-  "market_payload_sha256": "ab97f72a033b23ca812461489aaf11166262a2ce2574168a5202ea03ca10ad7e",
-  "match_count": 121,
+  "market_payload_sha256": "9bf2145d7465fba0ba45308a00d57602650bcd77cef90c6434414289b96c5ffc",
+  "match_count": 116,
   "matches": [
-    {
-      "available_markets": [
-        "CRS",
-        "HAD",
-        "HIL"
-      ],
-      "away": {
-        "id": "50000618",
-        "name_ch": "CA普格雷素",
-        "name_en": "CA Progresso"
-      },
-      "crs_available": true,
-      "front_end_id": "FB8727",
-      "had": {
-        "no_vig_prob": {
-          "away": 0.20480888,
-          "draw": 0.27097791,
-          "home": 0.52421321
-        },
-        "odds": {
-          "away": 4.3,
-          "draw": 3.25,
-          "home": 1.68
-        },
-        "overround": 1.13548854,
-        "updated_at": "2026-11-10T04:04:57.385+08:00"
-      },
-      "hdc": null,
-      "hil": {
-        "lines": [
-          {
-            "condition": "2.5",
-            "main": true,
-            "odds": {
-              "H": 2.15,
-              "L": 1.62
-            }
-          },
-          {
-            "condition": "2.0/2.5",
-            "main": false,
-            "odds": {
-              "H": 1.88,
-              "L": 1.82
-            }
-          },
-          {
-            "condition": "3.5",
-            "main": false,
-            "odds": {
-              "H": 3.95,
-              "L": 1.19
-            }
-          }
-        ],
-        "status": "SELLINGSTARTED",
-        "updated_at": "2026-11-10T04:04:57.385+08:00"
-      },
-      "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50080195",
-      "home": {
-        "id": "50000702",
-        "name_ch": "切洛拉高",
-        "name_en": "Cerro Largo"
-      },
-      "id": "50080195",
-      "kickoff": "2026-11-13T06:57:00.000+08:00",
-      "match_date": "2026-11-13+08:00",
-      "status": "PREEVENT",
-      "tournament": {
-        "code": "UD1",
-        "front_end_id": "",
-        "id": "50061959",
-        "name_ch": "烏拉圭甲組聯賽",
-        "name_en": "Uruguayan Division 1"
-      },
-      "updated_at": "2026-11-08T11:30:39.869+08:00"
-    },
-    {
-      "available_markets": [
-        "HDC"
-      ],
-      "away": {
-        "id": "50001595",
-        "name_ch": "利華達維亞獨立",
-        "name_en": "Independiente Rivadavia"
-      },
-      "crs_available": false,
-      "front_end_id": "FB8710",
-      "had": {
-        "odds": {},
-        "updated_at": null
-      },
-      "hdc": {
-        "lines": [
-          {
-            "condition": "0.0/-0.5",
-            "main": true,
-            "odds": {
-              "A": 1.82,
-              "H": 1.95
-            }
-          },
-          {
-            "condition": "0.0",
-            "main": false,
-            "odds": {
-              "A": 2.14,
-              "H": 1.67
-            }
-          }
-        ],
-        "status": "SELLINGSTARTED",
-        "updated_at": "2026-11-09T12:00:01.405+08:00"
-      },
-      "hil": null,
-      "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50080214",
-      "home": {
-        "id": "50001126",
-        "name_ch": "學生隊",
-        "name_en": "Estudiantes"
-      },
-      "id": "50080214",
-      "kickoff": "2026-11-13T06:58:00.000+08:00",
-      "match_date": "2026-11-13+08:00",
-      "status": "PREEVENT",
-      "tournament": {
-        "code": "AUC",
-        "front_end_id": "FB8712",
-        "id": "50080213",
-        "name_ch": "阿根廷超級盃",
-        "name_en": "Argentine Super Cup"
-      },
-      "updated_at": "2026-11-09T10:54:16.304+08:00"
-    },
-    {
-      "available_markets": [
-        "CRS",
-        "HAD",
-        "HIL"
-      ],
-      "away": {
-        "id": "50585201",
-        "name_ch": "競技體育會",
-        "name_en": "Athletic Club MG"
-      },
-      "crs_available": true,
-      "front_end_id": "FB8792",
-      "had": {
-        "no_vig_prob": {
-          "away": 0.21004098,
-          "draw": 0.25204918,
-          "home": 0.53790984
-        },
-        "odds": {
-          "away": 4.2,
-          "draw": 3.5,
-          "home": 1.64
-        },
-        "overround": 1.13356562,
-        "updated_at": "2026-11-12T12:00:04.892+08:00"
-      },
-      "hdc": null,
-      "hil": {
-        "lines": [
-          {
-            "condition": "2.5",
-            "main": true,
-            "odds": {
-              "H": 1.92,
-              "L": 1.78
-            }
-          },
-          {
-            "condition": "2.5/3.0",
-            "main": false,
-            "odds": {
-              "H": 2.2,
-              "L": 1.59
-            }
-          },
-          {
-            "condition": "3.5",
-            "main": false,
-            "odds": {
-              "H": 3.4,
-              "L": 1.26
-            }
-          }
-        ],
-        "status": "SELLINGSTARTED",
-        "updated_at": "2026-11-12T12:00:04.892+08:00"
-      },
-      "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50080399",
-      "home": {
-        "id": "50002743",
-        "name_ch": "聖貝拿度",
-        "name_en": "Sao Bernardo"
-      },
-      "id": "50080399",
-      "kickoff": "2026-11-13T06:58:00.000+08:00",
-      "match_date": "2026-11-13+08:00",
-      "status": "PREEVENT",
-      "tournament": {
-        "code": "BD2",
-        "front_end_id": "",
-        "id": "50069839",
-        "name_ch": "巴西乙組聯賽",
-        "name_en": "Brazilian Division 2"
-      },
-      "updated_at": "2026-11-11T10:14:48.715+08:00"
-    },
-    {
-      "available_markets": [
-        "HDC"
-      ],
-      "away": {
-        "id": "50003123",
-        "name_ch": "千里達",
-        "name_en": "Trinidad and Tobago"
-      },
-      "crs_available": false,
-      "front_end_id": "FB8780",
-      "had": {
-        "odds": {},
-        "updated_at": null
-      },
-      "hdc": {
-        "lines": [
-          {
-            "condition": "+1.5/+2.0",
-            "main": true,
-            "odds": {
-              "A": 2.15,
-              "H": 1.66
-            }
-          }
-        ],
-        "status": "SELLINGSTARTED",
-        "updated_at": "2026-11-12T06:03:42.343+08:00"
-      },
-      "hil": null,
-      "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50080215",
-      "home": {
-        "id": "50000185",
-        "name_ch": "安提瓜和巴布達",
-        "name_en": "Antigua and Barbuda"
-      },
-      "id": "50080215",
-      "kickoff": "2026-11-13T07:00:00.000+08:00",
-      "match_date": "2026-11-13+08:00",
-      "status": "PREEVENT",
-      "tournament": {
-        "code": "CNL",
-        "front_end_id": "",
-        "id": "50076611",
-        "name_ch": "中北美國家聯賽",
-        "name_en": "CONCACAF Nations League"
-      },
-      "updated_at": "2026-11-09T10:17:54.587+08:00"
-    },
-    {
-      "available_markets": [
-        "HDC"
-      ],
-      "away": {
-        "id": "50002398",
-        "name_ch": "巴拿馬",
-        "name_en": "Panama"
-      },
-      "crs_available": false,
-      "front_end_id": "FB8779",
-      "had": {
-        "odds": {},
-        "updated_at": null
-      },
-      "hdc": {
-        "lines": [
-          {
-            "condition": "0.0/+0.5",
-            "main": true,
-            "odds": {
-              "A": 1.79,
-              "H": 1.98
-            }
-          }
-        ],
-        "status": "SELLINGSTARTED",
-        "updated_at": "2026-11-12T06:03:42.343+08:00"
-      },
-      "hil": null,
-      "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50080138",
-      "home": {
-        "id": "50000912",
-        "name_ch": "庫拉索",
-        "name_en": "Curacao"
-      },
-      "id": "50080138",
-      "kickoff": "2026-11-13T08:30:00.000+08:00",
-      "match_date": "2026-11-13+08:00",
-      "status": "PREEVENT",
-      "tournament": {
-        "code": "CNL",
-        "front_end_id": "",
-        "id": "50076611",
-        "name_ch": "中北美國家聯賽",
-        "name_en": "CONCACAF Nations League"
-      },
-      "updated_at": "2026-11-11T01:18:33.697+08:00"
-    },
     {
       "available_markets": [
         "HDC"
@@ -342,7 +33,7 @@
             "condition": "-0.5/-1.0",
             "main": true,
             "odds": {
-              "A": 1.95,
+              "A": 1.99,
               "H": 1.78
             }
           }
@@ -391,8 +82,8 @@
             "condition": "0.0/-0.5",
             "main": true,
             "odds": {
-              "A": 1.77,
-              "H": 1.96
+              "A": 1.78,
+              "H": 1.99
             }
           }
         ],
@@ -2121,8 +1812,8 @@
             "condition": "0.0/-0.5",
             "main": true,
             "odds": {
-              "A": 1.9,
-              "H": 1.86
+              "A": 1.83,
+              "H": 1.93
             }
           }
         ],
