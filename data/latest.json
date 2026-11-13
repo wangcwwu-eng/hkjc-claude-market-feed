@@ -1,6 +1,6 @@
 {
-  "frozen_at_hkt": "2026-11-13T09:12:16.245840+08:00",
-  "frozen_at_utc": "2026-11-13T01:12:16.245840+00:00",
+  "frozen_at_hkt": "2026-11-13T15:54:54.954000+08:00",
+  "frozen_at_utc": "2026-11-13T07:54:54.954000+00:00",
   "independence_contract": {
     "contains_betting_selections": false,
     "contains_c2": false,
@@ -9,8 +9,8 @@
     "contains_model_predictions": false,
     "contains_pps": false
   },
-  "market_payload_sha256": "9bf2145d7465fba0ba45308a00d57602650bcd77cef90c6434414289b96c5ffc",
-  "match_count": 116,
+  "market_payload_sha256": "5fd12e48c5a1c245b15c7fd31468944152d53e31450f73660461c981a8043599",
+  "match_count": 122,
   "matches": [
     {
       "available_markets": [
@@ -30,11 +30,27 @@
       "hdc": {
         "lines": [
           {
-            "condition": "-0.5/-1.0",
+            "condition": "-1.0/-1.5",
             "main": true,
             "odds": {
-              "A": 1.99,
-              "H": 1.78
+              "A": 1.78,
+              "H": 1.99
+            }
+          },
+          {
+            "condition": "-1.0",
+            "main": false,
+            "odds": {
+              "A": 2.03,
+              "H": 1.75
+            }
+          },
+          {
+            "condition": "-0.5/-1.0",
+            "main": false,
+            "odds": {
+              "A": 2.05,
+              "H": 1.74
             }
           }
         ],
@@ -59,7 +75,7 @@
         "name_ch": "澳洲冠軍聯賽盃",
         "name_en": "Australian Championship"
       },
-      "updated_at": "2026-11-12T10:46:43.792+08:00"
+      "updated_at": "2026-11-12T12:00:04.892+08:00"
     },
     {
       "available_markets": [
@@ -82,8 +98,16 @@
             "condition": "0.0/-0.5",
             "main": true,
             "odds": {
-              "A": 1.78,
-              "H": 1.99
+              "A": 1.72,
+              "H": 2.07
+            }
+          },
+          {
+            "condition": "0.0",
+            "main": false,
+            "odds": {
+              "A": 1.98,
+              "H": 1.79
             }
           }
         ],
@@ -108,7 +132,56 @@
         "name_ch": "澳洲冠軍聯賽盃",
         "name_en": "Australian Championship"
       },
-      "updated_at": "2026-11-12T10:48:22.831+08:00"
+      "updated_at": "2026-11-12T12:00:04.892+08:00"
+    },
+    {
+      "available_markets": [
+        "HDC"
+      ],
+      "away": {
+        "id": "50003292",
+        "name_ch": "委內瑞拉U20",
+        "name_en": "Venezuela U20"
+      },
+      "crs_available": false,
+      "front_end_id": "FB8913",
+      "had": {
+        "odds": {},
+        "updated_at": null
+      },
+      "hdc": {
+        "lines": [
+          {
+            "condition": "0.0/-0.5",
+            "main": true,
+            "odds": {
+              "A": 1.98,
+              "H": 1.75
+            }
+          }
+        ],
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-11-13T12:00:00.791+08:00"
+      },
+      "hil": null,
+      "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50080741",
+      "home": {
+        "id": "50003247",
+        "name_ch": "烏茲別克U20",
+        "name_en": "Uzbekistan U20"
+      },
+      "id": "50080741",
+      "kickoff": "2026-11-13T19:00:00.000+08:00",
+      "match_date": "2026-11-13+08:00",
+      "status": "PREEVENT",
+      "tournament": {
+        "code": "INT",
+        "front_end_id": "",
+        "id": "50071381",
+        "name_ch": "國際賽",
+        "name_en": "International Matches"
+      },
+      "updated_at": "2026-11-13T12:00:00.791+08:00"
     },
     {
       "available_markets": [
@@ -157,7 +230,7 @@
         "name_ch": "國際賽",
         "name_en": "International Matches"
       },
-      "updated_at": "2026-11-12T16:28:08.474+08:00"
+      "updated_at": "2026-11-12T19:30:01.472+08:00"
     },
     {
       "available_markets": [
@@ -206,7 +279,7 @@
         "name_ch": "非國盃外圍賽",
         "name_en": "Africa Cup of Nations Qualifiers"
       },
-      "updated_at": "2026-11-12T11:33:21.484+08:00"
+      "updated_at": "2026-11-12T19:30:01.472+08:00"
     },
     {
       "available_markets": [
@@ -223,16 +296,16 @@
       "front_end_id": "FB8847",
       "had": {
         "no_vig_prob": {
-          "away": 0.22061596,
-          "draw": 0.32683847,
-          "home": 0.45254557
+          "away": 0.2005814,
+          "draw": 0.31976744,
+          "home": 0.47965116
         },
         "odds": {
-          "away": 4.0,
-          "draw": 2.7,
-          "home": 1.95
+          "away": 4.4,
+          "draw": 2.76,
+          "home": 1.84
         },
-        "overround": 1.13319088,
+        "overround": 1.13306983,
         "updated_at": "2026-11-12T19:30:01.472+08:00"
       },
       "hdc": null,
@@ -283,7 +356,7 @@
         "name_ch": "非國盃外圍賽",
         "name_en": "Africa Cup of Nations Qualifiers"
       },
-      "updated_at": "2026-11-11T12:05:17.303+08:00"
+      "updated_at": "2026-11-12T19:30:01.472+08:00"
     },
     {
       "available_markets": [
@@ -332,7 +405,7 @@
         "name_ch": "非國盃外圍賽",
         "name_en": "Africa Cup of Nations Qualifiers"
       },
-      "updated_at": "2026-11-12T10:46:43.248+08:00"
+      "updated_at": "2026-11-12T19:30:01.472+08:00"
     },
     {
       "available_markets": [
@@ -349,16 +422,16 @@
       "front_end_id": "FB8885",
       "had": {
         "no_vig_prob": {
-          "away": 0.28940663,
-          "draw": 0.29423007,
-          "home": 0.41636331
+          "away": 0.3131524,
+          "draw": 0.29436326,
+          "home": 0.39248434
         },
         "odds": {
-          "away": 3.05,
+          "away": 2.82,
           "draw": 3.0,
-          "home": 2.12
+          "home": 2.25
         },
-        "overround": 1.1329003,
+        "overround": 1.13238771,
         "updated_at": "2026-11-12T19:30:01.472+08:00"
       },
       "hdc": null,
@@ -409,7 +482,7 @@
         "name_ch": "國際賽",
         "name_en": "International Matches"
       },
-      "updated_at": "2026-11-12T14:51:47.309+08:00"
+      "updated_at": "2026-11-13T10:26:27.770+08:00"
     },
     {
       "available_markets": [
@@ -486,7 +559,7 @@
         "name_ch": "國際賽",
         "name_en": "International Matches"
       },
-      "updated_at": "2026-11-12T15:09:26.770+08:00"
+      "updated_at": "2026-11-12T19:30:01.472+08:00"
     },
     {
       "available_markets": [
@@ -543,7 +616,7 @@
         "name_ch": "國際賽",
         "name_en": "International Matches"
       },
-      "updated_at": "2026-11-12T16:43:08.986+08:00"
+      "updated_at": "2026-11-12T19:30:01.472+08:00"
     },
     {
       "available_markets": [
@@ -592,7 +665,7 @@
         "name_ch": "國際賽",
         "name_en": "International Matches"
       },
-      "updated_at": "2026-11-12T16:34:12.607+08:00"
+      "updated_at": "2026-11-12T19:30:01.472+08:00"
     },
     {
       "available_markets": [
@@ -641,7 +714,7 @@
         "name_ch": "國際賽",
         "name_en": "International Matches"
       },
-      "updated_at": "2026-11-12T16:43:32.230+08:00"
+      "updated_at": "2026-11-13T09:49:49.465+08:00"
     },
     {
       "available_markets": [
@@ -732,7 +805,7 @@
         "name_ch": "非國盃外圍賽",
         "name_en": "Africa Cup of Nations Qualifiers"
       },
-      "updated_at": "2026-11-12T15:26:30.587+08:00"
+      "updated_at": "2026-11-12T19:30:01.472+08:00"
     },
     {
       "available_markets": [
@@ -823,7 +896,7 @@
         "name_ch": "U21歐國外",
         "name_en": "U21 Euro Qualifiers"
       },
-      "updated_at": "2026-11-10T14:47:34.064+08:00"
+      "updated_at": "2026-11-11T19:30:00.837+08:00"
     },
     {
       "available_markets": [
@@ -900,7 +973,7 @@
         "name_ch": "非國盃外圍賽",
         "name_en": "Africa Cup of Nations Qualifiers"
       },
-      "updated_at": "2026-11-10T11:28:34.065+08:00"
+      "updated_at": "2026-11-12T19:30:01.472+08:00"
     },
     {
       "available_markets": [
@@ -949,7 +1022,7 @@
         "name_ch": "非國盃外圍賽",
         "name_en": "Africa Cup of Nations Qualifiers"
       },
-      "updated_at": "2026-11-12T10:46:43.126+08:00"
+      "updated_at": "2026-11-12T19:30:01.472+08:00"
     },
     {
       "available_markets": [
@@ -1026,35 +1099,22 @@
         "name_ch": "非國盃外圍賽",
         "name_en": "Africa Cup of Nations Qualifiers"
       },
-      "updated_at": "2026-11-10T19:45:16.967+08:00"
+      "updated_at": "2026-11-12T19:30:01.472+08:00"
     },
     {
       "available_markets": [
-        "CRS",
-        "HAD",
-        "HDC",
-        "HIL"
+        "HDC"
       ],
       "away": {
         "id": "50002624",
         "name_ch": "愛爾蘭U21",
         "name_en": "Republic of Ireland U21"
       },
-      "crs_available": true,
+      "crs_available": false,
       "front_end_id": "FB8763",
       "had": {
-        "no_vig_prob": {
-          "away": 0.23870809,
-          "draw": 0.27600623,
-          "home": 0.48528568
-        },
-        "odds": {
-          "away": 3.7,
-          "draw": 3.2,
-          "home": 1.82
-        },
-        "overround": 1.13222082,
-        "updated_at": "2026-11-11T19:30:00.837+08:00"
+        "odds": {},
+        "updated_at": null
       },
       "hdc": {
         "lines": [
@@ -1070,36 +1130,7 @@
         "status": "SELLINGSTARTED",
         "updated_at": "2026-11-12T19:06:51.993+08:00"
       },
-      "hil": {
-        "lines": [
-          {
-            "condition": "2.5",
-            "main": true,
-            "odds": {
-              "H": 1.88,
-              "L": 1.82
-            }
-          },
-          {
-            "condition": "2.5/3.0",
-            "main": false,
-            "odds": {
-              "H": 2.15,
-              "L": 1.62
-            }
-          },
-          {
-            "condition": "3.5",
-            "main": false,
-            "odds": {
-              "H": 3.25,
-              "L": 1.28
-            }
-          }
-        ],
-        "status": "SELLINGSTARTED",
-        "updated_at": "2026-11-11T19:30:00.837+08:00"
-      },
+      "hil": null,
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50080218",
       "home": {
         "id": "50001243",
@@ -1117,7 +1148,7 @@
         "name_ch": "U21歐國外",
         "name_en": "U21 Euro Qualifiers"
       },
-      "updated_at": "2026-11-10T16:25:03.767+08:00"
+      "updated_at": "2026-11-13T10:31:34.840+08:00"
     },
     {
       "available_markets": [
@@ -1174,7 +1205,7 @@
         "name_ch": "國際賽",
         "name_en": "International Matches"
       },
-      "updated_at": "2026-11-12T14:52:13.746+08:00"
+      "updated_at": "2026-11-12T19:30:01.472+08:00"
     },
     {
       "available_markets": [
@@ -1194,8 +1225,16 @@
       "hdc": {
         "lines": [
           {
-            "condition": "0.0/-0.5",
+            "condition": "0.0",
             "main": true,
+            "odds": {
+              "A": 1.99,
+              "H": 1.78
+            }
+          },
+          {
+            "condition": "0.0/-0.5",
+            "main": false,
             "odds": {
               "A": 1.72,
               "H": 2.07
@@ -1223,7 +1262,7 @@
         "name_ch": "歐洲國家聯賽",
         "name_en": "Euro Nations League"
       },
-      "updated_at": "2026-11-12T10:46:41.861+08:00"
+      "updated_at": "2026-11-12T12:00:04.892+08:00"
     },
     {
       "available_markets": [
@@ -1243,11 +1282,19 @@
       "hdc": {
         "lines": [
           {
-            "condition": "-1.0",
+            "condition": "-0.5/-1.0",
             "main": true,
             "odds": {
-              "A": 1.77,
-              "H": 2.0
+              "A": 1.91,
+              "H": 1.85
+            }
+          },
+          {
+            "condition": "-1.0",
+            "main": false,
+            "odds": {
+              "A": 1.71,
+              "H": 2.08
             }
           }
         ],
@@ -1272,7 +1319,7 @@
         "name_ch": "國際賽",
         "name_en": "International Matches"
       },
-      "updated_at": "2026-11-12T14:52:19.048+08:00"
+      "updated_at": "2026-11-12T19:30:01.472+08:00"
     },
     {
       "available_markets": [
@@ -1290,16 +1337,16 @@
       "front_end_id": "FB8764",
       "had": {
         "no_vig_prob": {
-          "away": 0.45704393,
-          "draw": 0.26730145,
-          "home": 0.27565462
+          "away": 0.44793765,
+          "draw": 0.2674052,
+          "home": 0.28465715
         },
         "odds": {
-          "away": 1.93,
+          "away": 1.97,
           "draw": 3.3,
-          "home": 3.2
+          "home": 3.1
         },
-        "overround": 1.13366502,
+        "overround": 1.13322516,
         "updated_at": "2026-11-11T19:30:00.837+08:00"
       },
       "hdc": {
@@ -1308,8 +1355,8 @@
             "condition": "0.0/+0.5",
             "main": true,
             "odds": {
-              "A": 1.78,
-              "H": 1.99
+              "A": 1.81,
+              "H": 1.96
             }
           }
         ],
@@ -1363,7 +1410,7 @@
         "name_ch": "U21歐國外",
         "name_en": "U21 Euro Qualifiers"
       },
-      "updated_at": "2026-11-10T14:48:24.470+08:00"
+      "updated_at": "2026-11-11T19:30:00.837+08:00"
     },
     {
       "available_markets": [
@@ -1432,7 +1479,7 @@
         "name_ch": "女子德國甲組聯賽",
         "name_en": "Women German Division 1"
       },
-      "updated_at": "2026-11-11T10:46:46.223+08:00"
+      "updated_at": "2026-11-12T19:30:01.472+08:00"
     },
     {
       "available_markets": [
@@ -1481,35 +1528,91 @@
         "name_ch": "國際賽",
         "name_en": "International Matches"
       },
-      "updated_at": "2026-11-12T14:52:24.599+08:00"
+      "updated_at": "2026-11-12T19:30:01.472+08:00"
     },
     {
       "available_markets": [
         "CRS",
         "HAD",
-        "HDC",
         "HIL"
+      ],
+      "away": {
+        "id": "50462440",
+        "name_ch": "朗斯女足",
+        "name_en": "Lens Women"
+      },
+      "crs_available": true,
+      "front_end_id": "FB8911",
+      "had": {
+        "no_vig_prob": {
+          "away": 0.20798242,
+          "draw": 0.24606371,
+          "home": 0.54595386
+        },
+        "odds": {
+          "away": 4.2,
+          "draw": 3.55,
+          "home": 1.6
+        },
+        "overround": 1.14478538,
+        "updated_at": "2026-11-13T12:00:00.791+08:00"
+      },
+      "hdc": null,
+      "hil": {
+        "lines": [
+          {
+            "condition": "2.5",
+            "main": true,
+            "odds": {
+              "H": 1.8,
+              "L": 1.9
+            }
+          },
+          {
+            "condition": "3.5",
+            "main": false,
+            "odds": {
+              "H": 2.98,
+              "L": 1.33
+            }
+          }
+        ],
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-11-13T12:00:00.791+08:00"
+      },
+      "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50080292",
+      "home": {
+        "id": "50362125",
+        "name_ch": "南特女足",
+        "name_en": "Nantes Women"
+      },
+      "id": "50080292",
+      "kickoff": "2026-11-14T02:00:00.000+08:00",
+      "match_date": "2026-11-14+08:00",
+      "status": "PREEVENT",
+      "tournament": {
+        "code": "FFLW",
+        "front_end_id": "",
+        "id": "50075062",
+        "name_ch": "女子法國甲組聯賽",
+        "name_en": "Women French Division 1"
+      },
+      "updated_at": "2026-11-13T12:00:00.791+08:00"
+    },
+    {
+      "available_markets": [
+        "HDC"
       ],
       "away": {
         "id": "50258219",
         "name_ch": "日本U21",
         "name_en": "Japan U21"
       },
-      "crs_available": true,
+      "crs_available": false,
       "front_end_id": "FB8879",
       "had": {
-        "no_vig_prob": {
-          "away": 0.12570536,
-          "draw": 0.18143042,
-          "home": 0.69286421
-        },
-        "odds": {
-          "away": 7.0,
-          "draw": 4.85,
-          "home": 1.27
-        },
-        "overround": 1.13644428,
-        "updated_at": "2026-11-12T19:30:01.472+08:00"
+        "odds": {},
+        "updated_at": null
       },
       "hdc": {
         "lines": [
@@ -1525,36 +1628,7 @@
         "status": "SELLINGSTARTED",
         "updated_at": "2026-11-12T19:30:01.472+08:00"
       },
-      "hil": {
-        "lines": [
-          {
-            "condition": "3.5",
-            "main": true,
-            "odds": {
-              "H": 2.25,
-              "L": 1.57
-            }
-          },
-          {
-            "condition": "3.0/3.5",
-            "main": false,
-            "odds": {
-              "H": 2.0,
-              "L": 1.72
-            }
-          },
-          {
-            "condition": "4.5",
-            "main": false,
-            "odds": {
-              "H": 3.7,
-              "L": 1.22
-            }
-          }
-        ],
-        "status": "SELLINGSTARTED",
-        "updated_at": "2026-11-12T19:30:01.472+08:00"
-      },
+      "hil": null,
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50080639",
       "home": {
         "id": "50002897",
@@ -1572,7 +1646,7 @@
         "name_ch": "國際賽",
         "name_en": "International Matches"
       },
-      "updated_at": "2026-11-12T15:26:56.285+08:00"
+      "updated_at": "2026-11-13T09:53:35.398+08:00"
     },
     {
       "available_markets": [
@@ -1595,8 +1669,8 @@
             "condition": "-2.0/-2.5",
             "main": true,
             "odds": {
-              "A": 1.71,
-              "H": 2.04
+              "A": 1.77,
+              "H": 1.96
             }
           }
         ],
@@ -1621,7 +1695,7 @@
         "name_ch": "非國盃外圍賽",
         "name_en": "Africa Cup of Nations Qualifiers"
       },
-      "updated_at": "2026-11-12T10:46:42.904+08:00"
+      "updated_at": "2026-11-12T19:30:01.472+08:00"
     },
     {
       "available_markets": [
@@ -1712,7 +1786,7 @@
         "name_ch": "非國盃外圍賽",
         "name_en": "Africa Cup of Nations Qualifiers"
       },
-      "updated_at": "2026-11-12T15:26:43.769+08:00"
+      "updated_at": "2026-11-12T19:30:01.472+08:00"
     },
     {
       "available_markets": [
@@ -1789,7 +1863,7 @@
         "name_ch": "法國足總盃",
         "name_en": "French FA Cup"
       },
-      "updated_at": "2026-11-09T15:40:00.341+08:00"
+      "updated_at": "2026-11-12T19:30:12.489+08:00"
     },
     {
       "available_markets": [
@@ -1812,8 +1886,8 @@
             "condition": "0.0/-0.5",
             "main": true,
             "odds": {
-              "A": 1.83,
-              "H": 1.93
+              "A": 1.75,
+              "H": 2.03
             }
           }
         ],
@@ -1838,7 +1912,7 @@
         "name_ch": "西班牙乙組聯賽",
         "name_en": "Spanish Division 2"
       },
-      "updated_at": "2026-11-12T11:17:39.508+08:00"
+      "updated_at": "2026-11-12T12:00:04.892+08:00"
     },
     {
       "available_markets": [
@@ -1915,7 +1989,7 @@
         "name_ch": "國際賽",
         "name_en": "International Matches"
       },
-      "updated_at": "2026-11-12T15:27:01.430+08:00"
+      "updated_at": "2026-11-12T19:30:01.472+08:00"
     },
     {
       "available_markets": [
@@ -1938,8 +2012,8 @@
             "condition": "+1.5/+2.0",
             "main": true,
             "odds": {
-              "A": 2.02,
-              "H": 1.76
+              "A": 1.97,
+              "H": 1.8
             }
           }
         ],
@@ -1964,7 +2038,7 @@
         "name_ch": "歐洲國家聯賽",
         "name_en": "Euro Nations League"
       },
-      "updated_at": "2026-11-12T10:46:41.623+08:00"
+      "updated_at": "2026-11-12T12:00:04.892+08:00"
     },
     {
       "available_markets": [
@@ -1981,16 +2055,16 @@
       "front_end_id": "FB8783",
       "had": {
         "no_vig_prob": {
-          "away": 0.24197324,
-          "draw": 0.30040896,
-          "home": 0.45761779
+          "away": 0.27590648,
+          "draw": 0.30763092,
+          "home": 0.41646261
         },
         "odds": {
-          "away": 3.65,
-          "draw": 2.94,
-          "home": 1.93
+          "away": 3.2,
+          "draw": 2.87,
+          "home": 2.12
         },
-        "overround": 1.13224337,
+        "overround": 1.13263017,
         "updated_at": "2026-11-12T12:00:04.892+08:00"
       },
       "hdc": null,
@@ -2000,16 +2074,16 @@
             "condition": "2.5",
             "main": true,
             "odds": {
-              "H": 2.45,
-              "L": 1.48
+              "H": 2.48,
+              "L": 1.47
             }
           },
           {
             "condition": "2.0/2.5",
             "main": false,
             "odds": {
-              "H": 2.13,
-              "L": 1.63
+              "H": 2.15,
+              "L": 1.62
             }
           },
           {
@@ -2041,7 +2115,7 @@
         "name_ch": "歐洲國家聯賽",
         "name_en": "Euro Nations League"
       },
-      "updated_at": "2026-10-16T00:01:00.974+08:00"
+      "updated_at": "2026-11-12T12:00:04.892+08:00"
     },
     {
       "available_markets": [
@@ -2064,8 +2138,8 @@
             "condition": "-1.0",
             "main": true,
             "odds": {
-              "A": 1.97,
-              "H": 1.8
+              "A": 1.91,
+              "H": 1.85
             }
           }
         ],
@@ -2090,7 +2164,7 @@
         "name_ch": "歐洲國家聯賽",
         "name_en": "Euro Nations League"
       },
-      "updated_at": "2026-11-12T10:46:44.176+08:00"
+      "updated_at": "2026-11-12T12:00:04.892+08:00"
     },
     {
       "available_markets": [
@@ -2113,8 +2187,8 @@
             "condition": "+0.5/+1.0",
             "main": true,
             "odds": {
-              "A": 1.87,
-              "H": 1.89
+              "A": 1.93,
+              "H": 1.83
             }
           }
         ],
@@ -2139,7 +2213,7 @@
         "name_ch": "歐洲國家聯賽",
         "name_en": "Euro Nations League"
       },
-      "updated_at": "2026-11-12T10:46:44.364+08:00"
+      "updated_at": "2026-11-12T12:00:04.892+08:00"
     },
     {
       "available_markets": [
@@ -2157,16 +2231,16 @@
       "front_end_id": "FB8786",
       "had": {
         "no_vig_prob": {
-          "away": 0.06529408,
-          "draw": 0.15464388,
-          "home": 0.78006204
+          "away": 0.0550406,
+          "draw": 0.1443688,
+          "home": 0.8005906
         },
         "odds": {
-          "away": 13.5,
-          "draw": 5.7,
-          "home": 1.13
+          "away": 16.0,
+          "draw": 6.1,
+          "home": 1.1
         },
-        "overround": 1.13446842,
+        "overround": 1.13552534,
         "updated_at": "2026-11-12T12:00:04.892+08:00"
       },
       "hdc": {
@@ -2175,8 +2249,8 @@
             "condition": "-1.5/-2.0",
             "main": true,
             "odds": {
-              "A": 1.88,
-              "H": 1.88
+              "A": 1.98,
+              "H": 1.79
             }
           }
         ],
@@ -2230,7 +2304,7 @@
         "name_ch": "歐洲國家聯賽",
         "name_en": "Euro Nations League"
       },
-      "updated_at": "2026-11-12T15:26:56.848+08:00"
+      "updated_at": "2026-11-12T15:26:56.867+08:00"
     },
     {
       "available_markets": [
@@ -2307,7 +2381,7 @@
         "name_ch": "歐洲國家聯賽",
         "name_en": "Euro Nations League"
       },
-      "updated_at": "2026-10-31T03:48:56.489+08:00"
+      "updated_at": "2026-11-12T12:00:04.892+08:00"
     },
     {
       "available_markets": [
@@ -2384,7 +2458,7 @@
         "name_ch": "歐洲國家聯賽",
         "name_en": "Euro Nations League"
       },
-      "updated_at": "2026-11-05T23:35:00.800+08:00"
+      "updated_at": "2026-11-12T12:00:04.892+08:00"
     },
     {
       "available_markets": [
@@ -2461,7 +2535,7 @@
         "name_ch": "歐洲國家聯賽",
         "name_en": "Euro Nations League"
       },
-      "updated_at": "2026-11-09T14:06:45.905+08:00"
+      "updated_at": "2026-11-12T12:00:04.892+08:00"
     },
     {
       "available_markets": [
@@ -2538,7 +2612,7 @@
         "name_ch": "歐洲國家聯賽",
         "name_en": "Euro Nations League"
       },
-      "updated_at": "2026-11-09T14:06:48.208+08:00"
+      "updated_at": "2026-11-12T12:00:04.892+08:00"
     },
     {
       "available_markets": [
@@ -2587,7 +2661,125 @@
         "name_ch": "非國盃外圍賽",
         "name_en": "Africa Cup of Nations Qualifiers"
       },
-      "updated_at": "2026-11-12T10:46:43.749+08:00"
+      "updated_at": "2026-11-12T19:30:01.472+08:00"
+    },
+    {
+      "available_markets": [
+        "CRS",
+        "HAD",
+        "HIL"
+      ],
+      "away": {
+        "id": "50429168",
+        "name_ch": "獨立隊女足",
+        "name_en": "Independiente Women"
+      },
+      "crs_available": true,
+      "front_end_id": "FB8912",
+      "had": {
+        "no_vig_prob": {
+          "away": 0.07962905,
+          "draw": 0.16526785,
+          "home": 0.7551031
+        },
+        "odds": {
+          "away": 11.0,
+          "draw": 5.3,
+          "home": 1.16
+        },
+        "overround": 1.1416573,
+        "updated_at": "2026-11-13T12:00:00.791+08:00"
+      },
+      "hdc": null,
+      "hil": {
+        "lines": [
+          {
+            "condition": "2.5",
+            "main": true,
+            "odds": {
+              "H": 1.62,
+              "L": 2.15
+            }
+          },
+          {
+            "condition": "3.5",
+            "main": false,
+            "odds": {
+              "H": 2.62,
+              "L": 1.42
+            }
+          }
+        ],
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-11-13T12:00:00.791+08:00"
+      },
+      "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50080559",
+      "home": {
+        "id": "50429170",
+        "name_ch": "競賽會女足",
+        "name_en": "Racing Club Women"
+      },
+      "id": "50080559",
+      "kickoff": "2026-11-14T04:00:00.000+08:00",
+      "match_date": "2026-11-14+08:00",
+      "status": "PREEVENT",
+      "tournament": {
+        "code": "APLW",
+        "front_end_id": "",
+        "id": "50064772",
+        "name_ch": "女子阿根廷甲組聯賽",
+        "name_en": "Women Argentine Division 1"
+      },
+      "updated_at": "2026-11-13T12:00:00.791+08:00"
+    },
+    {
+      "available_markets": [
+        "HDC"
+      ],
+      "away": {
+        "id": "50001066",
+        "name_ch": "薩爾瓦多",
+        "name_en": "El Salvador"
+      },
+      "crs_available": false,
+      "front_end_id": "FB8910",
+      "had": {
+        "odds": {},
+        "updated_at": null
+      },
+      "hdc": {
+        "lines": [
+          {
+            "condition": "+1.5/+2.0",
+            "main": true,
+            "odds": {
+              "A": 1.89,
+              "H": 1.87
+            }
+          }
+        ],
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-11-13T12:00:00.791+08:00"
+      },
+      "hil": null,
+      "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50080282",
+      "home": {
+        "id": "50354599",
+        "name_ch": "法屬聖馬丁",
+        "name_en": "Saint Martin"
+      },
+      "id": "50080282",
+      "kickoff": "2026-11-14T07:00:00.000+08:00",
+      "match_date": "2026-11-14+08:00",
+      "status": "PREEVENT",
+      "tournament": {
+        "code": "CNL",
+        "front_end_id": "",
+        "id": "50076611",
+        "name_ch": "中北美國家聯賽",
+        "name_en": "CONCACAF Nations League"
+      },
+      "updated_at": "2026-11-13T12:00:00.791+08:00"
     },
     {
       "available_markets": [
@@ -2636,7 +2828,92 @@
         "name_ch": "國際賽",
         "name_en": "International Matches"
       },
-      "updated_at": "2026-11-12T11:17:54.156+08:00"
+      "updated_at": "2026-11-12T12:00:04.892+08:00"
+    },
+    {
+      "available_markets": [
+        "CRS",
+        "HAD",
+        "HIL"
+      ],
+      "away": {
+        "id": "50002258",
+        "name_ch": "尼加拉瓜",
+        "name_en": "Nicaragua"
+      },
+      "crs_available": true,
+      "front_end_id": "FB8909",
+      "had": {
+        "no_vig_prob": {
+          "away": 0.69582505,
+          "draw": 0.17892644,
+          "home": 0.12524851
+        },
+        "odds": {
+          "away": 1.26,
+          "draw": 4.9,
+          "home": 7.0
+        },
+        "overround": 1.14058957,
+        "updated_at": "2026-11-13T12:00:00.791+08:00"
+      },
+      "hdc": null,
+      "hil": {
+        "lines": [
+          {
+            "condition": "2.5",
+            "main": true,
+            "odds": {
+              "H": 1.55,
+              "L": 2.29
+            }
+          },
+          {
+            "condition": "2.5/3.0",
+            "main": false,
+            "odds": {
+              "H": 1.69,
+              "L": 2.04
+            }
+          },
+          {
+            "condition": "3.0/3.5",
+            "main": false,
+            "odds": {
+              "H": 2.19,
+              "L": 1.6
+            }
+          },
+          {
+            "condition": "3.5",
+            "main": false,
+            "odds": {
+              "H": 2.45,
+              "L": 1.48
+            }
+          }
+        ],
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-11-13T12:00:00.791+08:00"
+      },
+      "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50080005",
+      "home": {
+        "id": "50002162",
+        "name_ch": "蒙特塞拉特",
+        "name_en": "Montserrat"
+      },
+      "id": "50080005",
+      "kickoff": "2026-11-14T08:00:00.000+08:00",
+      "match_date": "2026-11-14+08:00",
+      "status": "PREEVENT",
+      "tournament": {
+        "code": "CNL",
+        "front_end_id": "",
+        "id": "50076611",
+        "name_ch": "中北美國家聯賽",
+        "name_en": "CONCACAF Nations League"
+      },
+      "updated_at": "2026-11-13T12:00:00.791+08:00"
     },
     {
       "available_markets": [
@@ -2685,7 +2962,7 @@
         "name_ch": "國際賽",
         "name_en": "International Matches"
       },
-      "updated_at": "2026-11-12T15:07:25.342+08:00"
+      "updated_at": "2026-11-12T15:07:25.363+08:00"
     },
     {
       "available_markets": [
@@ -2734,35 +3011,22 @@
         "name_ch": "國際賽",
         "name_en": "International Matches"
       },
-      "updated_at": "2026-11-12T12:05:08.005+08:00"
+      "updated_at": "2026-11-12T19:30:01.472+08:00"
     },
     {
       "available_markets": [
-        "CRS",
-        "HAD",
-        "HDC",
-        "HIL"
+        "HDC"
       ],
       "away": {
         "id": "50000487",
         "name_ch": "玻利維亞",
         "name_en": "Bolivia"
       },
-      "crs_available": true,
+      "crs_available": false,
       "front_end_id": "FB8799",
       "had": {
-        "no_vig_prob": {
-          "away": 0.15720184,
-          "draw": 0.24798037,
-          "home": 0.59481778
-        },
-        "odds": {
-          "away": 5.6,
-          "draw": 3.55,
-          "home": 1.48
-        },
-        "overround": 1.13593725,
-        "updated_at": "2026-11-12T12:33:57.641+08:00"
+        "odds": {},
+        "updated_at": null
       },
       "hdc": {
         "lines": [
@@ -2778,36 +3042,7 @@
         "status": "SELLINGSTARTED",
         "updated_at": "2026-11-12T12:33:57.641+08:00"
       },
-      "hil": {
-        "lines": [
-          {
-            "condition": "2.5",
-            "main": true,
-            "odds": {
-              "H": 2.05,
-              "L": 1.68
-            }
-          },
-          {
-            "condition": "2.0/2.5",
-            "main": false,
-            "odds": {
-              "H": 1.8,
-              "L": 1.9
-            }
-          },
-          {
-            "condition": "3.5",
-            "main": false,
-            "odds": {
-              "H": 3.7,
-              "L": 1.22
-            }
-          }
-        ],
-        "status": "SELLINGSTARTED",
-        "updated_at": "2026-11-12T12:33:57.641+08:00"
-      },
+      "hil": null,
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50080647",
       "home": {
         "id": "50002443",
@@ -2825,7 +3060,56 @@
         "name_ch": "國際賽",
         "name_en": "International Matches"
       },
-      "updated_at": "2026-11-11T21:30:05.966+08:00"
+      "updated_at": "2026-11-13T10:50:55.107+08:00"
+    },
+    {
+      "available_markets": [
+        "HDC"
+      ],
+      "away": {
+        "id": "50000666",
+        "name_ch": "加拿大",
+        "name_en": "Canada"
+      },
+      "crs_available": false,
+      "front_end_id": "FB8908",
+      "had": {
+        "odds": {},
+        "updated_at": null
+      },
+      "hdc": {
+        "lines": [
+          {
+            "condition": "+1.0",
+            "main": true,
+            "odds": {
+              "A": 1.96,
+              "H": 1.81
+            }
+          }
+        ],
+        "status": "SELLINGSTARTED",
+        "updated_at": "2026-11-13T12:00:00.791+08:00"
+      },
+      "hil": null,
+      "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50079987",
+      "home": {
+        "id": "50001476",
+        "name_ch": "危地馬拉",
+        "name_en": "Guatemala"
+      },
+      "id": "50079987",
+      "kickoff": "2026-11-14T10:00:00.000+08:00",
+      "match_date": "2026-11-14+08:00",
+      "status": "PREEVENT",
+      "tournament": {
+        "code": "CNL",
+        "front_end_id": "",
+        "id": "50076611",
+        "name_ch": "中北美國家聯賽",
+        "name_en": "CONCACAF Nations League"
+      },
+      "updated_at": "2026-11-13T12:00:00.791+08:00"
     },
     {
       "available_markets": [
@@ -2874,7 +3158,7 @@
         "name_ch": "澳洲冠軍聯賽盃",
         "name_en": "Australian Championship"
       },
-      "updated_at": "2026-11-12T10:46:43.415+08:00"
+      "updated_at": "2026-11-12T19:30:01.472+08:00"
     },
     {
       "available_markets": [
@@ -2951,7 +3235,7 @@
         "name_ch": "澳洲冠軍聯賽盃",
         "name_en": "Australian Championship"
       },
-      "updated_at": "2026-11-08T08:05:22.935+08:00"
+      "updated_at": "2026-11-12T19:30:01.472+08:00"
     },
     {
       "available_markets": [
@@ -3000,7 +3284,7 @@
         "name_ch": "女子澳洲職業聯賽",
         "name_en": "A-League Women"
       },
-      "updated_at": "2026-11-12T10:46:43.181+08:00"
+      "updated_at": "2026-11-12T19:30:01.472+08:00"
     },
     {
       "available_markets": [
@@ -3049,7 +3333,7 @@
         "name_ch": "女子澳洲職業聯賽",
         "name_en": "A-League Women"
       },
-      "updated_at": "2026-11-12T10:46:47.214+08:00"
+      "updated_at": "2026-11-12T19:30:01.472+08:00"
     },
     {
       "available_markets": [
@@ -3098,7 +3382,7 @@
         "name_ch": "日本乙組聯賽",
         "name_en": "Japanese Division 2"
       },
-      "updated_at": "2026-11-12T11:18:10.066+08:00"
+      "updated_at": "2026-11-12T19:30:01.472+08:00"
     },
     {
       "available_markets": [
@@ -3175,7 +3459,7 @@
         "name_ch": "日本乙組聯賽",
         "name_en": "Japanese Division 2"
       },
-      "updated_at": "2026-10-31T13:04:35.730+08:00"
+      "updated_at": "2026-11-12T19:30:01.472+08:00"
     },
     {
       "available_markets": [
@@ -3252,7 +3536,7 @@
         "name_ch": "日本乙組聯賽",
         "name_en": "Japanese Division 2"
       },
-      "updated_at": "2026-10-31T13:04:35.834+08:00"
+      "updated_at": "2026-11-12T19:30:01.472+08:00"
     },
     {
       "available_markets": [
@@ -3343,7 +3627,7 @@
         "name_ch": "日本乙組聯賽",
         "name_en": "Japanese Division 2"
       },
-      "updated_at": "2026-10-31T13:04:35.883+08:00"
+      "updated_at": "2026-11-12T19:30:01.472+08:00"
     },
     {
       "available_markets": [
@@ -3392,7 +3676,7 @@
         "name_ch": "日本乙組聯賽",
         "name_en": "Japanese Division 2"
       },
-      "updated_at": "2026-11-12T11:24:08.796+08:00"
+      "updated_at": "2026-11-12T19:30:01.472+08:00"
     },
     {
       "available_markets": [
@@ -3441,7 +3725,7 @@
         "name_ch": "女子澳洲職業聯賽",
         "name_en": "A-League Women"
       },
-      "updated_at": "2026-11-12T10:46:44.129+08:00"
+      "updated_at": "2026-11-12T19:30:01.472+08:00"
     },
     {
       "available_markets": [],
@@ -3475,7 +3759,7 @@
         "name_ch": "澳洲冠軍聯賽盃",
         "name_en": "Australian Championship"
       },
-      "updated_at": "2026-11-12T10:46:43.670+08:00"
+      "updated_at": "2026-11-12T19:30:01.472+08:00"
     },
     {
       "available_markets": [
@@ -3524,7 +3808,7 @@
         "name_ch": "國際賽",
         "name_en": "International Matches"
       },
-      "updated_at": "2026-11-12T16:08:50.758+08:00"
+      "updated_at": "2026-11-12T19:30:01.472+08:00"
     },
     {
       "available_markets": [
@@ -3573,7 +3857,7 @@
         "name_ch": "英格蘭乙組聯賽",
         "name_en": "English League 2"
       },
-      "updated_at": "2026-11-12T10:46:42.433+08:00"
+      "updated_at": "2026-11-12T19:30:01.472+08:00"
     },
     {
       "available_markets": [
@@ -3622,7 +3906,7 @@
         "name_ch": "阿聯酋聯賽盃",
         "name_en": "UAE League Cup"
       },
-      "updated_at": "2026-11-12T10:46:43.971+08:00"
+      "updated_at": "2026-11-12T19:30:01.472+08:00"
     },
     {
       "available_markets": [
@@ -3671,7 +3955,7 @@
         "name_ch": "西班牙乙組聯賽",
         "name_en": "Spanish Division 2"
       },
-      "updated_at": "2026-11-12T11:25:48.247+08:00"
+      "updated_at": "2026-11-12T20:33:01.346+08:00"
     },
     {
       "available_markets": [
@@ -3720,7 +4004,7 @@
         "name_ch": "歐洲國家聯賽",
         "name_en": "Euro Nations League"
       },
-      "updated_at": "2026-11-12T10:46:41.944+08:00"
+      "updated_at": "2026-11-12T19:30:01.472+08:00"
     },
     {
       "available_markets": [
@@ -3797,7 +4081,7 @@
         "name_ch": "英格蘭甲組聯賽",
         "name_en": "English League 1"
       },
-      "updated_at": "2026-11-01T02:07:30.633+08:00"
+      "updated_at": "2026-11-12T19:30:01.472+08:00"
     },
     {
       "available_markets": [
@@ -3888,7 +4172,7 @@
         "name_ch": "英格蘭甲組聯賽",
         "name_en": "English League 1"
       },
-      "updated_at": "2026-11-01T02:09:13.785+08:00"
+      "updated_at": "2026-11-12T19:30:01.472+08:00"
     },
     {
       "available_markets": [
@@ -3965,35 +4249,22 @@
         "name_ch": "英格蘭甲組聯賽",
         "name_en": "English League 1"
       },
-      "updated_at": "2026-11-01T02:10:28.904+08:00"
+      "updated_at": "2026-11-12T19:30:01.472+08:00"
     },
     {
       "available_markets": [
-        "CRS",
-        "HAD",
-        "HDC",
-        "HIL"
+        "HDC"
       ],
       "away": {
         "id": "50002466",
         "name_ch": "普利茅夫",
         "name_en": "Plymouth"
       },
-      "crs_available": true,
+      "crs_available": false,
       "front_end_id": "FB8813",
       "had": {
-        "no_vig_prob": {
-          "away": 0.32203965,
-          "draw": 0.25576482,
-          "home": 0.42219552
-        },
-        "odds": {
-          "away": 2.74,
-          "draw": 3.45,
-          "home": 2.09
-        },
-        "overround": 1.13328748,
-        "updated_at": "2026-11-12T19:30:01.472+08:00"
+        "odds": {},
+        "updated_at": null
       },
       "hdc": {
         "lines": [
@@ -4009,36 +4280,7 @@
         "status": "SELLINGSTARTED",
         "updated_at": "2026-11-12T19:30:01.472+08:00"
       },
-      "hil": {
-        "lines": [
-          {
-            "condition": "2.5",
-            "main": true,
-            "odds": {
-              "H": 1.58,
-              "L": 2.22
-            }
-          },
-          {
-            "condition": "2.5/3.0",
-            "main": false,
-            "odds": {
-              "H": 1.74,
-              "L": 1.97
-            }
-          },
-          {
-            "condition": "3.5",
-            "main": false,
-            "odds": {
-              "H": 2.55,
-              "L": 1.45
-            }
-          }
-        ],
-        "status": "SELLINGSTARTED",
-        "updated_at": "2026-11-12T19:30:01.472+08:00"
-      },
+      "hil": null,
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50079795",
       "home": {
         "id": "50002819",
@@ -4056,7 +4298,7 @@
         "name_ch": "英格蘭甲組聯賽",
         "name_en": "English League 1"
       },
-      "updated_at": "2026-11-01T02:11:08.606+08:00"
+      "updated_at": "2026-11-13T11:03:06.446+08:00"
     },
     {
       "available_markets": [
@@ -4105,66 +4347,38 @@
         "name_ch": "英格蘭甲組聯賽",
         "name_en": "English League 1"
       },
-      "updated_at": "2026-11-12T11:19:20.596+08:00"
+      "updated_at": "2026-11-12T19:30:01.472+08:00"
     },
     {
       "available_markets": [
-        "CRS",
-        "HAD",
-        "HIL"
+        "HDC"
       ],
       "away": {
         "id": "50002256",
         "name_ch": "紐波特郡",
         "name_en": "Newport County"
       },
-      "crs_available": true,
+      "crs_available": false,
       "front_end_id": "FB8816",
       "had": {
-        "no_vig_prob": {
-          "away": 0.25598635,
-          "draw": 0.27173936,
-          "home": 0.47227429
-        },
-        "odds": {
-          "away": 3.45,
-          "draw": 3.25,
-          "home": 1.87
-        },
-        "overround": 1.13230674,
-        "updated_at": "2026-11-12T19:30:01.472+08:00"
+        "odds": {},
+        "updated_at": null
       },
-      "hdc": null,
-      "hil": {
+      "hdc": {
         "lines": [
           {
-            "condition": "2.5",
+            "condition": "0.0/-0.5",
             "main": true,
             "odds": {
-              "H": 1.91,
-              "L": 1.79
-            }
-          },
-          {
-            "condition": "2.5/3.0",
-            "main": false,
-            "odds": {
-              "H": 2.19,
-              "L": 1.6
-            }
-          },
-          {
-            "condition": "3.5",
-            "main": false,
-            "odds": {
-              "H": 3.35,
-              "L": 1.27
+              "A": 2.07,
+              "H": 1.72
             }
           }
         ],
         "status": "SELLINGSTARTED",
-        "updated_at": "2026-11-12T19:30:01.472+08:00"
+        "updated_at": "2026-11-13T11:12:07.102+08:00"
       },
+      "hil": null,
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50079803",
       "home": {
         "id": "50000893",
@@ -4182,7 +4396,7 @@
         "name_ch": "英格蘭乙組聯賽",
         "name_en": "English League 2"
       },
-      "updated_at": "2026-11-01T02:47:54.566+08:00"
+      "updated_at": "2026-11-13T11:10:23.603+08:00"
     },
     {
       "available_markets": [
@@ -4259,7 +4473,7 @@
         "name_ch": "英格蘭乙組聯賽",
         "name_en": "English League 2"
       },
-      "updated_at": "2026-11-01T02:48:06.966+08:00"
+      "updated_at": "2026-11-12T19:30:01.472+08:00"
     },
     {
       "available_markets": [
@@ -4336,7 +4550,7 @@
         "name_ch": "英格蘭乙組聯賽",
         "name_en": "English League 2"
       },
-      "updated_at": "2026-11-01T02:50:16.133+08:00"
+      "updated_at": "2026-11-12T19:30:01.472+08:00"
     },
     {
       "available_markets": [
@@ -4413,7 +4627,7 @@
         "name_ch": "英格蘭乙組聯賽",
         "name_en": "English League 2"
       },
-      "updated_at": "2026-11-01T02:52:32.044+08:00"
+      "updated_at": "2026-11-12T19:30:01.472+08:00"
     },
     {
       "available_markets": [
@@ -4490,7 +4704,7 @@
         "name_ch": "英格蘭乙組聯賽",
         "name_en": "English League 2"
       },
-      "updated_at": "2026-11-01T03:07:20.281+08:00"
+      "updated_at": "2026-11-12T19:30:01.472+08:00"
     },
     {
       "available_markets": [
@@ -4567,7 +4781,7 @@
         "name_ch": "英格蘭乙組聯賽",
         "name_en": "English League 2"
       },
-      "updated_at": "2026-11-01T03:07:44.684+08:00"
+      "updated_at": "2026-11-12T19:30:01.472+08:00"
     },
     {
       "available_markets": [
@@ -4644,7 +4858,7 @@
         "name_ch": "英格蘭乙組聯賽",
         "name_en": "English League 2"
       },
-      "updated_at": "2026-11-01T03:21:07.069+08:00"
+      "updated_at": "2026-11-12T19:30:01.472+08:00"
     },
     {
       "available_markets": [
@@ -4721,7 +4935,7 @@
         "name_ch": "英格蘭乙組聯賽",
         "name_en": "English League 2"
       },
-      "updated_at": "2026-11-01T03:43:16.162+08:00"
+      "updated_at": "2026-11-12T19:30:01.472+08:00"
     },
     {
       "available_markets": [
@@ -4770,7 +4984,7 @@
         "name_ch": "西班牙乙組聯賽",
         "name_en": "Spanish Division 2"
       },
-      "updated_at": "2026-11-12T11:19:32.652+08:00"
+      "updated_at": "2026-11-12T20:33:01.346+08:00"
     },
     {
       "available_markets": [
@@ -4861,7 +5075,7 @@
         "name_ch": "荷蘭乙組聯賽",
         "name_en": "Dutch Division 2"
       },
-      "updated_at": "2026-11-05T01:16:24.754+08:00"
+      "updated_at": "2026-11-12T19:30:01.472+08:00"
     },
     {
       "available_markets": [
@@ -4884,8 +5098,8 @@
             "condition": "-0.5/-1.0",
             "main": true,
             "odds": {
-              "A": 1.98,
-              "H": 1.79
+              "A": 1.88,
+              "H": 1.88
             }
           }
         ],
@@ -4910,7 +5124,7 @@
         "name_ch": "阿聯酋聯賽盃",
         "name_en": "UAE League Cup"
       },
-      "updated_at": "2026-11-12T10:46:44.008+08:00"
+      "updated_at": "2026-11-12T19:30:01.472+08:00"
     },
     {
       "available_markets": [
@@ -4927,16 +5141,16 @@
       "front_end_id": "FB8855",
       "had": {
         "no_vig_prob": {
-          "away": 0.79480412,
-          "draw": 0.1316765,
-          "home": 0.07351938
+          "away": 0.71772488,
+          "draw": 0.16050938,
+          "home": 0.12176574
         },
         "odds": {
-          "away": 1.11,
-          "draw": 6.7,
-          "home": 12.0
+          "away": 1.23,
+          "draw": 5.5,
+          "home": 7.25
         },
-        "overround": 1.13348797,
+        "overround": 1.13275735,
         "updated_at": "2026-11-12T19:30:01.472+08:00"
       },
       "hdc": null,
@@ -4987,7 +5201,7 @@
         "name_ch": "阿聯酋聯賽盃",
         "name_en": "UAE League Cup"
       },
-      "updated_at": "2026-11-08T08:05:21.573+08:00"
+      "updated_at": "2026-11-12T19:30:01.472+08:00"
     },
     {
       "available_markets": [
@@ -5036,7 +5250,7 @@
         "name_ch": "歐洲國家聯賽",
         "name_en": "Euro Nations League"
       },
-      "updated_at": "2026-11-12T10:46:43.618+08:00"
+      "updated_at": "2026-11-12T19:30:01.472+08:00"
     },
     {
       "available_markets": [
@@ -5085,7 +5299,7 @@
         "name_ch": "歐洲國家聯賽",
         "name_en": "Euro Nations League"
       },
-      "updated_at": "2026-11-12T10:46:43.875+08:00"
+      "updated_at": "2026-11-12T19:30:01.472+08:00"
     },
     {
       "available_markets": [
@@ -5162,7 +5376,7 @@
         "name_ch": "西班牙乙組聯賽",
         "name_en": "Spanish Division 2"
       },
-      "updated_at": "2026-11-01T01:30:27.748+08:00"
+      "updated_at": "2026-11-12T20:33:01.346+08:00"
     },
     {
       "available_markets": [
@@ -5211,7 +5425,7 @@
         "name_ch": "西班牙乙組聯賽",
         "name_en": "Spanish Division 2"
       },
-      "updated_at": "2026-11-12T11:19:45.522+08:00"
+      "updated_at": "2026-11-12T20:33:01.346+08:00"
     },
     {
       "available_markets": [
@@ -5260,7 +5474,7 @@
         "name_ch": "英格蘭乙組聯賽",
         "name_en": "English League 2"
       },
-      "updated_at": "2026-11-12T10:46:42.390+08:00"
+      "updated_at": "2026-11-12T19:30:01.472+08:00"
     },
     {
       "available_markets": [
@@ -5337,7 +5551,7 @@
         "name_ch": "荷蘭乙組聯賽",
         "name_en": "Dutch Division 2"
       },
-      "updated_at": "2026-11-05T01:16:24.205+08:00"
+      "updated_at": "2026-11-12T19:30:01.472+08:00"
     },
     {
       "available_markets": [
@@ -5414,7 +5628,7 @@
         "name_ch": "荷蘭乙組聯賽",
         "name_en": "Dutch Division 2"
       },
-      "updated_at": "2026-11-05T01:16:24.317+08:00"
+      "updated_at": "2026-11-12T19:30:01.472+08:00"
     },
     {
       "available_markets": [
@@ -5505,7 +5719,7 @@
         "name_ch": "荷蘭乙組聯賽",
         "name_en": "Dutch Division 2"
       },
-      "updated_at": "2026-11-05T01:16:24.419+08:00"
+      "updated_at": "2026-11-12T19:30:01.472+08:00"
     },
     {
       "available_markets": [
@@ -5582,7 +5796,7 @@
         "name_ch": "荷蘭乙組聯賽",
         "name_en": "Dutch Division 2"
       },
-      "updated_at": "2026-11-05T01:16:24.452+08:00"
+      "updated_at": "2026-11-12T19:30:01.472+08:00"
     },
     {
       "available_markets": [
@@ -5659,7 +5873,7 @@
         "name_ch": "荷蘭乙組聯賽",
         "name_en": "Dutch Division 2"
       },
-      "updated_at": "2026-11-05T01:16:24.557+08:00"
+      "updated_at": "2026-11-12T19:30:01.472+08:00"
     },
     {
       "available_markets": [
@@ -5736,7 +5950,7 @@
         "name_ch": "荷蘭乙組聯賽",
         "name_en": "Dutch Division 2"
       },
-      "updated_at": "2026-11-05T01:16:24.693+08:00"
+      "updated_at": "2026-11-12T19:30:01.472+08:00"
     },
     {
       "available_markets": [
@@ -5785,7 +5999,7 @@
         "name_ch": "歐洲國家聯賽",
         "name_en": "Euro Nations League"
       },
-      "updated_at": "2026-11-12T10:46:41.537+08:00"
+      "updated_at": "2026-11-12T19:30:01.472+08:00"
     },
     {
       "available_markets": [
@@ -5834,7 +6048,7 @@
         "name_ch": "歐洲國家聯賽",
         "name_en": "Euro Nations League"
       },
-      "updated_at": "2026-11-12T10:46:43.083+08:00"
+      "updated_at": "2026-11-12T19:30:01.472+08:00"
     },
     {
       "available_markets": [
@@ -5911,7 +6125,7 @@
         "name_ch": "歐洲國家聯賽",
         "name_en": "Euro Nations League"
       },
-      "updated_at": "2026-10-21T18:46:56.711+08:00"
+      "updated_at": "2026-11-12T19:30:01.472+08:00"
     },
     {
       "available_markets": [
@@ -6002,7 +6216,7 @@
         "name_ch": "歐洲國家聯賽",
         "name_en": "Euro Nations League"
       },
-      "updated_at": "2026-11-12T15:23:38.672+08:00"
+      "updated_at": "2026-11-12T19:30:01.472+08:00"
     },
     {
       "available_markets": [
@@ -6051,7 +6265,7 @@
         "name_ch": "歐洲國家聯賽",
         "name_en": "Euro Nations League"
       },
-      "updated_at": "2026-11-12T10:46:42.811+08:00"
+      "updated_at": "2026-11-12T19:30:01.472+08:00"
     },
     {
       "available_markets": [
@@ -6100,7 +6314,7 @@
         "name_ch": "西班牙乙組聯賽",
         "name_en": "Spanish Division 2"
       },
-      "updated_at": "2026-11-12T11:20:13.085+08:00"
+      "updated_at": "2026-11-12T20:33:01.346+08:00"
     },
     {
       "available_markets": [
@@ -6149,7 +6363,7 @@
         "name_ch": "阿根廷盃",
         "name_en": "Argentine Cup"
       },
-      "updated_at": "2026-11-12T11:20:25.601+08:00"
+      "updated_at": "2026-11-12T19:30:01.472+08:00"
     },
     {
       "available_markets": [
@@ -6198,7 +6412,7 @@
         "name_ch": "女子澳洲職業聯賽",
         "name_en": "A-League Women"
       },
-      "updated_at": "2026-11-12T10:46:44.089+08:00"
+      "updated_at": "2026-11-12T19:30:01.472+08:00"
     },
     {
       "available_markets": [
@@ -6289,7 +6503,7 @@
         "name_ch": "日本乙組聯賽",
         "name_en": "Japanese Division 2"
       },
-      "updated_at": "2026-11-01T12:01:11.267+08:00"
+      "updated_at": "2026-11-12T19:30:01.472+08:00"
     },
     {
       "available_markets": [
@@ -6338,7 +6552,7 @@
         "name_ch": "女子澳洲職業聯賽",
         "name_en": "A-League Women"
       },
-      "updated_at": "2026-11-12T10:46:44.261+08:00"
+      "updated_at": "2026-11-12T19:30:01.472+08:00"
     },
     {
       "available_markets": [
@@ -6415,7 +6629,7 @@
         "name_ch": "澳洲冠軍聯賽盃",
         "name_en": "Australian Championship"
       },
-      "updated_at": "2026-11-09T08:05:18.226+08:00"
+      "updated_at": "2026-11-12T19:30:01.472+08:00"
     },
     {
       "available_markets": [
@@ -6464,7 +6678,7 @@
         "name_ch": "澳洲冠軍聯賽盃",
         "name_en": "Australian Championship"
       },
-      "updated_at": "2026-11-12T10:46:44.708+08:00"
+      "updated_at": "2026-11-12T19:30:01.472+08:00"
     },
     {
       "available_markets": [
@@ -6513,7 +6727,7 @@
         "name_ch": "日本乙組聯賽",
         "name_en": "Japanese Division 2"
       },
-      "updated_at": "2026-11-12T11:30:48.270+08:00"
+      "updated_at": "2026-11-12T19:30:01.472+08:00"
     },
     {
       "available_markets": [
@@ -6590,7 +6804,7 @@
         "name_ch": "日本乙組聯賽",
         "name_en": "Japanese Division 2"
       },
-      "updated_at": "2026-11-10T11:39:09.454+08:00"
+      "updated_at": "2026-11-12T19:30:01.472+08:00"
     },
     {
       "available_markets": [
@@ -6667,7 +6881,7 @@
         "name_ch": "日本乙組聯賽",
         "name_en": "Japanese Division 2"
       },
-      "updated_at": "2026-11-01T13:01:14.864+08:00"
+      "updated_at": "2026-11-12T19:30:01.472+08:00"
     },
     {
       "available_markets": [
@@ -6716,7 +6930,7 @@
         "name_ch": "日本乙組聯賽",
         "name_en": "Japanese Division 2"
       },
-      "updated_at": "2026-11-12T11:20:52.684+08:00"
+      "updated_at": "2026-11-12T19:30:01.472+08:00"
     },
     {
       "available_markets": [
@@ -6765,7 +6979,7 @@
         "name_ch": "日本聯賽盃",
         "name_en": "Japanese League Cup"
       },
-      "updated_at": "2026-11-12T10:46:42.261+08:00"
+      "updated_at": "2026-11-12T19:30:01.472+08:00"
     },
     {
       "available_markets": [
@@ -6814,7 +7028,7 @@
         "name_ch": "日本聯賽盃",
         "name_en": "Japanese League Cup"
       },
-      "updated_at": "2026-11-12T10:46:42.133+08:00"
+      "updated_at": "2026-11-12T19:30:01.472+08:00"
     },
     {
       "available_markets": [
@@ -6863,7 +7077,7 @@
         "name_ch": "日本聯賽盃",
         "name_en": "Japanese League Cup"
       },
-      "updated_at": "2026-11-12T10:46:44.918+08:00"
+      "updated_at": "2026-11-12T19:30:01.472+08:00"
     },
     {
       "available_markets": [
@@ -6912,7 +7126,7 @@
         "name_ch": "日本聯賽盃",
         "name_en": "Japanese League Cup"
       },
-      "updated_at": "2026-11-12T10:46:42.345+08:00"
+      "updated_at": "2026-11-12T19:30:01.472+08:00"
     },
     {
       "available_markets": [
@@ -6929,16 +7143,16 @@
       "front_end_id": "FB8859",
       "had": {
         "no_vig_prob": {
-          "away": 0.56234298,
-          "draw": 0.23233644,
-          "home": 0.20532058
+          "away": 0.52407932,
+          "draw": 0.23796034,
+          "home": 0.23796034
         },
         "odds": {
-          "away": 1.57,
-          "draw": 3.8,
-          "home": 4.3
+          "away": 1.68,
+          "draw": 3.7,
+          "home": 3.7
         },
-        "overround": 1.13265871,
+        "overround": 1.13577864,
         "updated_at": "2026-11-12T19:30:01.472+08:00"
       },
       "hdc": null,
@@ -6989,7 +7203,7 @@
         "name_ch": "阿聯酋聯賽盃",
         "name_en": "UAE League Cup"
       },
-      "updated_at": "2026-11-08T15:41:45.374+08:00"
+      "updated_at": "2026-11-12T19:30:01.472+08:00"
     },
     {
       "available_markets": [
@@ -7038,7 +7252,7 @@
         "name_ch": "阿聯酋聯賽盃",
         "name_en": "UAE League Cup"
       },
-      "updated_at": "2026-11-12T10:46:44.858+08:00"
+      "updated_at": "2026-11-12T19:30:01.472+08:00"
     },
     {
       "available_markets": [
@@ -7087,7 +7301,7 @@
         "name_ch": "西班牙乙組聯賽",
         "name_en": "Spanish Division 2"
       },
-      "updated_at": "2026-11-12T11:21:37.083+08:00"
+      "updated_at": "2026-11-12T20:33:01.346+08:00"
     },
     {
       "available_markets": [
@@ -7136,7 +7350,7 @@
         "name_ch": "荷蘭乙組聯賽",
         "name_en": "Dutch Division 2"
       },
-      "updated_at": "2026-11-12T11:21:58.281+08:00"
+      "updated_at": "2026-11-12T19:30:01.472+08:00"
     },
     {
       "available_markets": [
@@ -7185,7 +7399,7 @@
         "name_ch": "西班牙乙組聯賽",
         "name_en": "Spanish Division 2"
       },
-      "updated_at": "2026-11-12T11:22:10.603+08:00"
+      "updated_at": "2026-11-12T20:33:01.346+08:00"
     },
     {
       "available_markets": [
@@ -7208,8 +7422,8 @@
             "condition": "+1.0",
             "main": true,
             "odds": {
-              "A": 1.77,
-              "H": 2.0
+              "A": 2.03,
+              "H": 1.75
             }
           }
         ],
@@ -7234,7 +7448,7 @@
         "name_ch": "阿聯酋聯賽盃",
         "name_en": "UAE League Cup"
       },
-      "updated_at": "2026-11-12T10:46:41.147+08:00"
+      "updated_at": "2026-11-12T19:30:01.472+08:00"
     },
     {
       "available_markets": [
@@ -7311,7 +7525,7 @@
         "name_ch": "阿聯酋聯賽盃",
         "name_en": "UAE League Cup"
       },
-      "updated_at": "2026-11-09T08:05:08.304+08:00"
+      "updated_at": "2026-11-12T19:30:01.472+08:00"
     },
     {
       "available_markets": [
@@ -7360,7 +7574,7 @@
         "name_ch": "西班牙乙組聯賽",
         "name_en": "Spanish Division 2"
       },
-      "updated_at": "2026-11-12T11:22:22.570+08:00"
+      "updated_at": "2026-11-12T20:33:01.346+08:00"
     },
     {
       "available_markets": [
@@ -7409,7 +7623,7 @@
         "name_ch": "西班牙乙組聯賽",
         "name_en": "Spanish Division 2"
       },
-      "updated_at": "2026-11-12T11:22:34.124+08:00"
+      "updated_at": "2026-11-12T20:33:01.346+08:00"
     }
   ],
   "odds_types": [
