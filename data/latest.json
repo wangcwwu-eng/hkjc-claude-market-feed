@@ -1,6 +1,6 @@
 {
-  "frozen_at_hkt": "2026-11-14T05:39:58.501981+08:00",
-  "frozen_at_utc": "2026-11-13T21:39:58.501981+00:00",
+  "frozen_at_hkt": "2026-11-14T09:45:40.273806+08:00",
+  "frozen_at_utc": "2026-11-14T01:45:40.273806+00:00",
   "independence_contract": {
     "contains_betting_selections": false,
     "contains_c2": false,
@@ -9,351 +9,11 @@
     "contains_model_predictions": false,
     "contains_pps": false
   },
-  "market_payload_sha256": "a02f21754def28a640774f5556092923c8b80949477cafd4715de49e85dc275f",
-  "match_count": 140,
+  "market_payload_sha256": "0750a1d3261385e3b4bf1d3e37348dd9382368ff2b0b8451c8698e6c530681e8",
+  "match_count": 134,
   "matches": [
     {
-      "available_markets": [
-        "HDC"
-      ],
-      "away": {
-        "id": "50001066",
-        "name_ch": "薩爾瓦多",
-        "name_en": "El Salvador"
-      },
-      "crs_available": false,
-      "front_end_id": "FB8910",
-      "had": {
-        "odds": {},
-        "updated_at": null
-      },
-      "hdc": {
-        "lines": [
-          {
-            "condition": "+1.0/+1.5",
-            "main": true,
-            "odds": {
-              "A": 1.8,
-              "H": 1.97
-            }
-          },
-          {
-            "condition": "+1.5/+2.0",
-            "main": false,
-            "odds": {
-              "A": 2.12,
-              "H": 1.68
-            }
-          }
-        ],
-        "status": "SELLINGSTARTED",
-        "updated_at": "2026-11-13T12:00:00.791+08:00"
-      },
-      "hil": null,
-      "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50080282",
-      "home": {
-        "id": "50354599",
-        "name_ch": "法屬聖馬丁",
-        "name_en": "Saint Martin"
-      },
-      "id": "50080282",
-      "kickoff": "2026-11-14T07:00:00.000+08:00",
-      "match_date": "2026-11-14+08:00",
-      "status": "PREEVENT",
-      "tournament": {
-        "code": "CNL",
-        "front_end_id": "",
-        "id": "50076611",
-        "name_ch": "中北美國家聯賽",
-        "name_en": "CONCACAF Nations League"
-      },
-      "updated_at": "2026-11-12T14:15:01.177+08:00"
-    },
-    {
-      "available_markets": [
-        "HDC"
-      ],
-      "away": {
-        "id": "50003222",
-        "name_ch": "烏拉圭",
-        "name_en": "Uruguay"
-      },
-      "crs_available": false,
-      "front_end_id": "FB8797",
-      "had": {
-        "odds": {},
-        "updated_at": null
-      },
-      "hdc": {
-        "lines": [
-          {
-            "condition": "-1.0",
-            "main": true,
-            "odds": {
-              "A": 1.76,
-              "H": 2.02
-            }
-          }
-        ],
-        "status": "SELLINGSTARTED",
-        "updated_at": "2026-11-12T12:00:04.892+08:00"
-      },
-      "hil": null,
-      "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50080644",
-      "home": {
-        "id": "50000199",
-        "name_ch": "阿根廷",
-        "name_en": "Argentina"
-      },
-      "id": "50080644",
-      "kickoff": "2026-11-14T07:00:00.000+08:00",
-      "match_date": "2026-11-14+08:00",
-      "status": "PREEVENT",
-      "tournament": {
-        "code": "INT",
-        "front_end_id": "",
-        "id": "50071381",
-        "name_ch": "國際賽",
-        "name_en": "International Matches"
-      },
-      "updated_at": "2026-11-12T11:17:54.156+08:00"
-    },
-    {
-      "available_markets": [
-        "CRS",
-        "HAD",
-        "HIL"
-      ],
-      "away": {
-        "id": "50002258",
-        "name_ch": "尼加拉瓜",
-        "name_en": "Nicaragua"
-      },
-      "crs_available": true,
-      "front_end_id": "FB8909",
-      "had": {
-        "no_vig_prob": {
-          "away": 0.68729423,
-          "draw": 0.18520771,
-          "home": 0.12749806
-        },
-        "odds": {
-          "away": 1.28,
-          "draw": 4.75,
-          "home": 6.9
-        },
-        "overround": 1.13670385,
-        "updated_at": "2026-11-13T12:00:00.791+08:00"
-      },
-      "hdc": null,
-      "hil": {
-        "lines": [
-          {
-            "condition": "2.5",
-            "main": true,
-            "odds": {
-              "H": 1.57,
-              "L": 2.25
-            }
-          },
-          {
-            "condition": "2.5/3.0",
-            "main": false,
-            "odds": {
-              "H": 1.73,
-              "L": 1.98
-            }
-          },
-          {
-            "condition": "3.0/3.5",
-            "main": false,
-            "odds": {
-              "H": 2.19,
-              "L": 1.6
-            }
-          },
-          {
-            "condition": "3.5",
-            "main": false,
-            "odds": {
-              "H": 2.55,
-              "L": 1.45
-            }
-          }
-        ],
-        "status": "SELLINGSTARTED",
-        "updated_at": "2026-11-13T12:00:00.791+08:00"
-      },
-      "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50080005",
-      "home": {
-        "id": "50002162",
-        "name_ch": "蒙特塞拉特",
-        "name_en": "Montserrat"
-      },
-      "id": "50080005",
-      "kickoff": "2026-11-14T08:00:00.000+08:00",
-      "match_date": "2026-11-14+08:00",
-      "status": "PREEVENT",
-      "tournament": {
-        "code": "CNL",
-        "front_end_id": "",
-        "id": "50076611",
-        "name_ch": "中北美國家聯賽",
-        "name_en": "CONCACAF Nations League"
-      },
-      "updated_at": "2026-11-12T15:27:09.476+08:00"
-    },
-    {
-      "available_markets": [
-        "HDC"
-      ],
-      "away": {
-        "id": "50000743",
-        "name_ch": "智利",
-        "name_en": "Chile"
-      },
-      "crs_available": false,
-      "front_end_id": "FB8798",
-      "had": {
-        "odds": {},
-        "updated_at": null
-      },
-      "hdc": {
-        "lines": [
-          {
-            "condition": "-1.0/-1.5",
-            "main": true,
-            "odds": {
-              "A": 1.81,
-              "H": 1.96
-            }
-          }
-        ],
-        "status": "SELLINGSTARTED",
-        "updated_at": "2026-11-12T12:00:04.892+08:00"
-      },
-      "hil": null,
-      "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50080645",
-      "home": {
-        "id": "50000798",
-        "name_ch": "哥倫比亞",
-        "name_en": "Colombia"
-      },
-      "id": "50080645",
-      "kickoff": "2026-11-14T08:00:00.000+08:00",
-      "match_date": "2026-11-14+08:00",
-      "status": "PREEVENT",
-      "tournament": {
-        "code": "INT",
-        "front_end_id": "",
-        "id": "50071381",
-        "name_ch": "國際賽",
-        "name_en": "International Matches"
-      },
-      "updated_at": "2026-11-12T15:07:25.342+08:00"
-    },
-    {
-      "available_markets": [
-        "HDC"
-      ],
-      "away": {
-        "id": "50000847",
-        "name_ch": "哥斯達黎加",
-        "name_en": "Costa Rica"
-      },
-      "crs_available": false,
-      "front_end_id": "FB8882",
-      "had": {
-        "odds": {},
-        "updated_at": null
-      },
-      "hdc": {
-        "lines": [
-          {
-            "condition": "-2.0",
-            "main": true,
-            "odds": {
-              "A": 1.71,
-              "H": 2.08
-            }
-          }
-        ],
-        "status": "SELLINGSTARTED",
-        "updated_at": "2026-11-12T19:30:01.472+08:00"
-      },
-      "hil": null,
-      "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50080646",
-      "home": {
-        "id": "50001042",
-        "name_ch": "厄瓜多爾",
-        "name_en": "Ecuador"
-      },
-      "id": "50080646",
-      "kickoff": "2026-11-14T08:00:00.000+08:00",
-      "match_date": "2026-11-14+08:00",
-      "status": "PREEVENT",
-      "tournament": {
-        "code": "INT",
-        "front_end_id": "",
-        "id": "50071381",
-        "name_ch": "國際賽",
-        "name_en": "International Matches"
-      },
-      "updated_at": "2026-11-12T12:05:08.005+08:00"
-    },
-    {
-      "available_markets": [
-        "HDC"
-      ],
-      "away": {
-        "id": "50000487",
-        "name_ch": "玻利維亞",
-        "name_en": "Bolivia"
-      },
-      "crs_available": false,
-      "front_end_id": "FB8799",
-      "had": {
-        "odds": {},
-        "updated_at": null
-      },
-      "hdc": {
-        "lines": [
-          {
-            "condition": "-0.5/-1.0",
-            "main": true,
-            "odds": {
-              "A": 1.75,
-              "H": 2.03
-            }
-          }
-        ],
-        "status": "SELLINGSTARTED",
-        "updated_at": "2026-11-12T12:33:57.641+08:00"
-      },
-      "hil": null,
-      "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50080647",
-      "home": {
-        "id": "50002443",
-        "name_ch": "秘魯",
-        "name_en": "Peru"
-      },
-      "id": "50080647",
-      "kickoff": "2026-11-14T09:00:00.000+08:00",
-      "match_date": "2026-11-14+08:00",
-      "status": "PREEVENT",
-      "tournament": {
-        "code": "INT",
-        "front_end_id": "",
-        "id": "50071381",
-        "name_ch": "國際賽",
-        "name_en": "International Matches"
-      },
-      "updated_at": "2026-11-13T17:27:19.394+08:00"
-    },
-    {
-      "available_markets": [
-        "HDC"
-      ],
+      "available_markets": [],
       "away": {
         "id": "50000666",
         "name_ch": "加拿大",
@@ -365,28 +25,7 @@
         "odds": {},
         "updated_at": null
       },
-      "hdc": {
-        "lines": [
-          {
-            "condition": "+1.0/+1.5",
-            "main": true,
-            "odds": {
-              "A": 1.97,
-              "H": 1.8
-            }
-          },
-          {
-            "condition": "+1.0",
-            "main": false,
-            "odds": {
-              "A": 1.72,
-              "H": 2.07
-            }
-          }
-        ],
-        "status": "SELLINGSTARTED",
-        "updated_at": "2026-11-13T12:00:00.791+08:00"
-      },
+      "hdc": null,
       "hil": null,
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50079987",
       "home": {
@@ -396,6 +35,35 @@
       },
       "id": "50079987",
       "kickoff": "2026-11-14T10:00:00.000+08:00",
+      "last_seen_markets": {
+        "HDC": {
+          "age_minutes_at_freeze": 245.7,
+          "observed_at_hkt": "2026-11-14T05:39:58.501981+08:00",
+          "payload": {
+            "lines": [
+              {
+                "condition": "+1.0/+1.5",
+                "main": true,
+                "odds": {
+                  "A": 1.97,
+                  "H": 1.8
+                }
+              },
+              {
+                "condition": "+1.0",
+                "main": false,
+                "odds": {
+                  "A": 1.72,
+                  "H": 2.07
+                }
+              }
+            ],
+            "status": "SELLINGSTARTED",
+            "updated_at": "2026-11-13T12:00:00.791+08:00"
+          },
+          "status": "STALE_LAST_SEEN"
+        }
+      },
       "match_date": "2026-11-14+08:00",
       "status": "PREEVENT",
       "tournament": {
@@ -425,11 +93,11 @@
       "hdc": {
         "lines": [
           {
-            "condition": "+1.0/+1.5",
+            "condition": "+1.0",
             "main": true,
             "odds": {
-              "A": 2.0,
-              "H": 1.74
+              "A": 1.9,
+              "H": 1.86
             }
           },
           {
@@ -441,11 +109,11 @@
             }
           },
           {
-            "condition": "+1.0",
+            "condition": "+1.0/+1.5",
             "main": false,
             "odds": {
-              "A": 1.75,
-              "H": 1.99
+              "A": 2.06,
+              "H": 1.7
             }
           }
         ],
@@ -619,8 +287,8 @@
             "condition": "-1.5/-2.0",
             "main": true,
             "odds": {
-              "A": 1.75,
-              "H": 1.95
+              "A": 1.8,
+              "H": 1.9
             }
           }
         ],
@@ -648,9 +316,7 @@
       "updated_at": "2026-11-12T10:46:47.214+08:00"
     },
     {
-      "available_markets": [
-        "HDC"
-      ],
+      "available_markets": [],
       "away": {
         "id": "50002148",
         "name_ch": "山形山神",
@@ -662,20 +328,7 @@
         "odds": {},
         "updated_at": null
       },
-      "hdc": {
-        "lines": [
-          {
-            "condition": "-0.5/-1.0",
-            "main": true,
-            "odds": {
-              "A": 1.92,
-              "H": 1.84
-            }
-          }
-        ],
-        "status": "SELLINGSTARTED",
-        "updated_at": "2026-11-12T19:30:01.472+08:00"
-      },
+      "hdc": null,
       "hil": null,
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50079746",
       "home": {
@@ -685,6 +338,27 @@
       },
       "id": "50079746",
       "kickoff": "2026-11-14T13:00:00.000+08:00",
+      "last_seen_markets": {
+        "HDC": {
+          "age_minutes_at_freeze": 245.7,
+          "observed_at_hkt": "2026-11-14T05:39:58.501981+08:00",
+          "payload": {
+            "lines": [
+              {
+                "condition": "-0.5/-1.0",
+                "main": true,
+                "odds": {
+                  "A": 1.92,
+                  "H": 1.84
+                }
+              }
+            ],
+            "status": "SELLINGSTARTED",
+            "updated_at": "2026-11-12T19:30:01.472+08:00"
+          },
+          "status": "STALE_LAST_SEEN"
+        }
+      },
       "match_date": "2026-11-14+08:00",
       "status": "PREEVENT",
       "tournament": {
@@ -1074,16 +748,16 @@
       "front_end_id": "FB8939",
       "had": {
         "no_vig_prob": {
-          "away": 0.14587874,
-          "draw": 0.22442884,
-          "home": 0.62969242
+          "away": 0.18998705,
+          "draw": 0.24618041,
+          "home": 0.56383254
         },
         "odds": {
-          "away": 6.0,
-          "draw": 3.9,
-          "home": 1.39
+          "away": 4.6,
+          "draw": 3.55,
+          "home": 1.55
         },
-        "overround": 1.14250138,
+        "overround": 1.14424274,
         "updated_at": "2026-11-13T19:30:11.589+08:00"
       },
       "hdc": null,
@@ -1607,7 +1281,7 @@
         "name_ch": "女子德國甲組聯賽",
         "name_en": "Women German Division 1"
       },
-      "updated_at": "2026-11-12T11:18:42.688+08:00"
+      "updated_at": "2026-11-14T05:46:58.918+08:00"
     },
     {
       "available_markets": [
@@ -1699,8 +1373,8 @@
             "condition": "-1.0",
             "main": true,
             "odds": {
-              "A": 1.87,
-              "H": 1.89
+              "A": 1.93,
+              "H": 1.83
             }
           },
           {
@@ -1756,8 +1430,8 @@
             "condition": "+2.0",
             "main": true,
             "odds": {
-              "A": 1.82,
-              "H": 1.95
+              "A": 1.88,
+              "H": 1.88
             }
           }
         ],
@@ -3755,8 +3429,8 @@
             "condition": "-1.5/-2.0",
             "main": true,
             "odds": {
-              "A": 1.9,
-              "H": 1.86
+              "A": 1.97,
+              "H": 1.8
             }
           }
         ],
@@ -3781,7 +3455,7 @@
         "name_ch": "歐洲國家聯賽",
         "name_en": "Euro Nations League"
       },
-      "updated_at": "2026-11-12T10:46:43.618+08:00"
+      "updated_at": "2026-11-14T02:06:12.460+08:00"
     },
     {
       "available_markets": [
@@ -4191,8 +3865,16 @@
       "hdc": {
         "lines": [
           {
-            "condition": "-1.0",
+            "condition": "-0.5/-1.0",
             "main": true,
+            "odds": {
+              "A": 2.0,
+              "H": 1.77
+            }
+          },
+          {
+            "condition": "-1.0",
+            "main": false,
             "odds": {
               "A": 1.77,
               "H": 2.0
@@ -4269,7 +3951,7 @@
         "name_ch": "英格蘭乙組聯賽",
         "name_en": "English League 2"
       },
-      "updated_at": "2026-11-12T10:46:42.390+08:00"
+      "updated_at": "2026-11-13T21:35:33.246+08:00"
     },
     {
       "available_markets": [
@@ -4286,16 +3968,16 @@
       "front_end_id": "FB8839",
       "had": {
         "no_vig_prob": {
-          "away": 0.26331389,
-          "draw": 0.21780285,
-          "home": 0.51888326
+          "away": 0.25605419,
+          "draw": 0.21812024,
+          "home": 0.52582557
         },
         "odds": {
-          "away": 3.35,
+          "away": 3.45,
           "draw": 4.05,
-          "home": 1.7
+          "home": 1.68
         },
-        "overround": 1.13365634,
+        "overround": 1.13200675,
         "updated_at": "2026-11-12T19:30:01.472+08:00"
       },
       "hdc": null,
@@ -4363,16 +4045,16 @@
       "front_end_id": "FB8840",
       "had": {
         "no_vig_prob": {
-          "away": 0.19357987,
-          "draw": 0.20724433,
-          "home": 0.59917579
+          "away": 0.19817281,
+          "draw": 0.20996881,
+          "home": 0.59185838
         },
         "odds": {
-          "away": 4.55,
-          "draw": 4.25,
-          "home": 1.47
+          "away": 4.45,
+          "draw": 4.2,
+          "home": 1.49
         },
-        "overround": 1.13534645,
+        "overround": 1.13395528,
         "updated_at": "2026-11-12T19:30:01.472+08:00"
       },
       "hdc": null,
@@ -5959,16 +5641,16 @@
       "front_end_id": "FB8978",
       "had": {
         "no_vig_prob": {
-          "away": 0.06311523,
-          "draw": 0.12623046,
-          "home": 0.81065431
+          "away": 0.06788891,
+          "draw": 0.12978762,
+          "home": 0.80232347
         },
         "odds": {
-          "away": 14.0,
-          "draw": 7.0,
-          "home": 1.09
+          "away": 13.0,
+          "draw": 6.8,
+          "home": 1.1
         },
-        "overround": 1.13171691,
+        "overround": 1.13307281,
         "updated_at": "2026-11-14T04:00:06.338+08:00"
       },
       "hdc": null,
@@ -5978,24 +5660,24 @@
             "condition": "3.5",
             "main": true,
             "odds": {
-              "H": 1.97,
-              "L": 1.74
+              "H": 2.08,
+              "L": 1.66
             }
           },
           {
             "condition": "3.5/4.0",
             "main": false,
             "odds": {
-              "H": 2.25,
-              "L": 1.57
+              "H": 2.4,
+              "L": 1.5
             }
           },
           {
             "condition": "4.5",
             "main": false,
             "odds": {
-              "H": 3.2,
-              "L": 1.29
+              "H": 3.45,
+              "L": 1.25
             }
           }
         ],
@@ -6019,7 +5701,7 @@
         "name_ch": "國際賽",
         "name_en": "International Matches"
       },
-      "updated_at": "2026-11-12T15:10:26.667+08:00"
+      "updated_at": "2026-11-14T04:00:06.454+08:00"
     },
     {
       "available_markets": [
@@ -6663,7 +6345,7 @@
         "name_ch": "日本聯賽盃",
         "name_en": "Japanese League Cup"
       },
-      "updated_at": "2026-11-12T10:46:42.261+08:00"
+      "updated_at": "2026-11-14T00:30:52.270+08:00"
     },
     {
       "available_markets": [
@@ -7002,16 +6684,16 @@
       "front_end_id": "FB8975",
       "had": {
         "no_vig_prob": {
-          "away": 0.08322497,
-          "draw": 0.13654096,
-          "home": 0.78023407
+          "away": 0.08927855,
+          "draw": 0.14039771,
+          "home": 0.77032374
         },
         "odds": {
-          "away": 10.5,
-          "draw": 6.4,
-          "home": 1.12
+          "away": 9.75,
+          "draw": 6.2,
+          "home": 1.13
         },
-        "overround": 1.14434524,
+        "overround": 1.14881018,
         "updated_at": "2026-11-13T23:42:22.035+08:00"
       },
       "hdc": null,
@@ -7885,7 +7567,7 @@
         "name_ch": "歐洲國家聯賽",
         "name_en": "Euro Nations League"
       },
-      "updated_at": "2026-11-12T10:46:41.191+08:00"
+      "updated_at": "2026-11-14T03:46:05.834+08:00"
     },
     {
       "available_markets": [
