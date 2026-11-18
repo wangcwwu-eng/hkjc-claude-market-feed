@@ -1,6 +1,6 @@
 {
-  "frozen_at_hkt": "2026-11-19T01:25:07.336656+08:00",
-  "frozen_at_utc": "2026-11-18T17:25:07.336656+00:00",
+  "frozen_at_hkt": "2026-11-19T07:27:49.738154+08:00",
+  "frozen_at_utc": "2026-11-18T23:27:49.738154+00:00",
   "independence_contract": {
     "contains_betting_selections": false,
     "contains_c2": false,
@@ -9,717 +9,9 @@
     "contains_model_predictions": false,
     "contains_pps": false
   },
-  "market_payload_sha256": "44117d53f3bd510eb7cf41f821cd2c37edee54eea6ea0f34e7fd5261e170fad2",
-  "match_count": 46,
+  "market_payload_sha256": "6ffd682e9d94b5f471477dd43fbaca2bd3296c0ba9a7e2de2e3c890be0226af9",
+  "match_count": 34,
   "matches": [
-    {
-      "available_markets": [
-        "HDC"
-      ],
-      "away": {
-        "id": "50355604",
-        "name_ch": "曼城女足",
-        "name_en": "Manchester City Women"
-      },
-      "crs_available": false,
-      "front_end_id": "FB9135",
-      "had": {
-        "odds": {},
-        "updated_at": null
-      },
-      "hdc": {
-        "lines": [
-          {
-            "condition": "+1.5/+2.0",
-            "main": true,
-            "odds": {
-              "A": 1.86,
-              "H": 1.84
-            }
-          }
-        ],
-        "status": "SELLINGSTARTED",
-        "updated_at": "2026-11-17T19:30:02.157+08:00"
-      },
-      "hil": null,
-      "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50080680",
-      "home": {
-        "id": "50353888",
-        "name_ch": "赫根女足",
-        "name_en": "Hacken Women"
-      },
-      "id": "50080680",
-      "kickoff": "2026-11-19T01:45:00.000+08:00",
-      "match_date": "2026-11-19+08:00",
-      "status": "PREEVENT",
-      "tournament": {
-        "code": "UCLW",
-        "front_end_id": "FB2350",
-        "id": "50071538",
-        "name_ch": "女子歐洲聯賽冠軍盃",
-        "name_en": "Women UE Champions"
-      },
-      "updated_at": "2026-11-17T19:30:02.157+08:00"
-    },
-    {
-      "available_markets": [],
-      "away": {
-        "id": "50355619",
-        "name_ch": "國際米蘭女足",
-        "name_en": "Inter Milan Women"
-      },
-      "crs_available": false,
-      "front_end_id": "FB9122",
-      "had": {
-        "odds": {},
-        "updated_at": null
-      },
-      "hdc": null,
-      "hil": null,
-      "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50080789",
-      "home": {
-        "id": "50356281",
-        "name_ch": "皇家馬德里女足",
-        "name_en": "Real Madrid Women"
-      },
-      "id": "50080789",
-      "kickoff": "2026-11-19T01:45:00.000+08:00",
-      "match_date": "2026-11-19+08:00",
-      "status": "PREEVENT",
-      "tournament": {
-        "code": "UCLW",
-        "front_end_id": "FB2350",
-        "id": "50071538",
-        "name_ch": "女子歐洲聯賽冠軍盃",
-        "name_en": "Women UE Champions"
-      },
-      "updated_at": "2026-11-16T22:25:02.453+08:00"
-    },
-    {
-      "available_markets": [],
-      "away": {
-        "id": "50002691",
-        "name_ch": "沙巴度爾",
-        "name_en": "Sabadell"
-      },
-      "crs_available": false,
-      "front_end_id": "FB9143",
-      "had": {
-        "odds": {},
-        "updated_at": null
-      },
-      "hdc": null,
-      "hil": null,
-      "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50081015",
-      "home": {
-        "id": "50308213",
-        "name_ch": "烏迪保",
-        "name_en": "Utebo"
-      },
-      "id": "50081015",
-      "kickoff": "2026-11-19T02:00:00.000+08:00",
-      "match_date": "2026-11-19+08:00",
-      "status": "PREEVENT",
-      "tournament": {
-        "code": "SFC",
-        "front_end_id": "FB9152",
-        "id": "50079132",
-        "name_ch": "西班牙盃",
-        "name_en": "Spanish Cup"
-      },
-      "updated_at": "2026-11-18T12:19:31.529+08:00"
-    },
-    {
-      "available_markets": [
-        "CRS",
-        "HAD",
-        "HIL"
-      ],
-      "away": {
-        "id": "50355598",
-        "name_ch": "白禮頓女足",
-        "name_en": "Brighton Women"
-      },
-      "crs_available": true,
-      "front_end_id": "FB9144",
-      "had": {
-        "no_vig_prob": {
-          "away": 0.17801922,
-          "draw": 0.20768909,
-          "home": 0.61429168
-        },
-        "odds": {
-          "away": 4.9,
-          "draw": 4.2,
-          "home": 1.42
-        },
-        "overround": 1.14640222,
-        "updated_at": "2026-11-17T20:26:18.453+08:00"
-      },
-      "hdc": null,
-      "hil": {
-        "lines": [
-          {
-            "condition": "3.5",
-            "main": true,
-            "odds": {
-              "H": 2.17,
-              "L": 1.61
-            }
-          },
-          {
-            "condition": "4.5",
-            "main": false,
-            "odds": {
-              "H": 3.45,
-              "L": 1.25
-            }
-          }
-        ],
-        "status": "SELLINGSTARTED",
-        "updated_at": "2026-11-17T20:26:18.453+08:00"
-      },
-      "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50080162",
-      "home": {
-        "id": "50462436",
-        "name_ch": "倫敦城雌獅女足",
-        "name_en": "London City Lionesses Women"
-      },
-      "id": "50080162",
-      "kickoff": "2026-11-19T03:00:00.000+08:00",
-      "match_date": "2026-11-19+08:00",
-      "status": "PREEVENT",
-      "tournament": {
-        "code": "ELCW",
-        "front_end_id": "",
-        "id": "50076502",
-        "name_ch": "女子英格蘭聯賽盃",
-        "name_en": "Women English League Cup"
-      },
-      "updated_at": "2026-11-17T20:26:18.453+08:00"
-    },
-    {
-      "available_markets": [
-        "HDC"
-      ],
-      "away": {
-        "id": "50355601",
-        "name_ch": "愛華頓女足",
-        "name_en": "Everton Women"
-      },
-      "crs_available": false,
-      "front_end_id": "FB9145",
-      "had": {
-        "odds": {},
-        "updated_at": null
-      },
-      "hdc": {
-        "lines": [
-          {
-            "condition": "-1.0/-1.5",
-            "main": true,
-            "odds": {
-              "A": 1.71,
-              "H": 2.01
-            }
-          },
-          {
-            "condition": "-1.0",
-            "main": false,
-            "odds": {
-              "A": 1.92,
-              "H": 1.78
-            }
-          }
-        ],
-        "status": "SELLINGSTARTED",
-        "updated_at": "2026-11-17T20:26:18.453+08:00"
-      },
-      "hil": null,
-      "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50080163",
-      "home": {
-        "id": "50355605",
-        "name_ch": "曼聯女足",
-        "name_en": "Manchester Utd Women"
-      },
-      "id": "50080163",
-      "kickoff": "2026-11-19T03:00:00.000+08:00",
-      "match_date": "2026-11-19+08:00",
-      "status": "PREEVENT",
-      "tournament": {
-        "code": "ELCW",
-        "front_end_id": "",
-        "id": "50076502",
-        "name_ch": "女子英格蘭聯賽盃",
-        "name_en": "Women English League Cup"
-      },
-      "updated_at": "2026-11-17T20:26:18.453+08:00"
-    },
-    {
-      "available_markets": [
-        "CRS",
-        "HAD",
-        "HDC",
-        "HIL"
-      ],
-      "away": {
-        "id": "50002016",
-        "name_ch": "馬略卡",
-        "name_en": "Mallorca"
-      },
-      "crs_available": true,
-      "front_end_id": "FB9141",
-      "had": {
-        "no_vig_prob": {
-          "away": 0.66865115,
-          "draw": 0.20526035,
-          "home": 0.1260885
-        },
-        "odds": {
-          "away": 1.32,
-          "draw": 4.3,
-          "home": 7.0
-        },
-        "overround": 1.13299104,
-        "updated_at": "2026-11-17T19:52:16.449+08:00"
-      },
-      "hdc": {
-        "lines": [
-          {
-            "condition": "+1.0/+1.5",
-            "main": true,
-            "odds": {
-              "A": 1.92,
-              "H": 1.84
-            }
-          },
-          {
-            "condition": "+1.0",
-            "main": false,
-            "odds": {
-              "A": 1.77,
-              "H": 2.0
-            }
-          }
-        ],
-        "status": "SELLINGSTARTED",
-        "updated_at": "2026-11-17T19:52:16.449+08:00"
-      },
-      "hil": {
-        "lines": [
-          {
-            "condition": "2.5",
-            "main": true,
-            "odds": {
-              "H": 1.66,
-              "L": 2.08
-            }
-          },
-          {
-            "condition": "2.5/3.0",
-            "main": false,
-            "odds": {
-              "H": 1.85,
-              "L": 1.85
-            }
-          },
-          {
-            "condition": "3.5",
-            "main": false,
-            "odds": {
-              "H": 2.75,
-              "L": 1.38
-            }
-          }
-        ],
-        "status": "SELLINGSTARTED",
-        "updated_at": "2026-11-17T19:52:16.449+08:00"
-      },
-      "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50080220",
-      "home": {
-        "id": "50000129",
-        "name_ch": "艾高恩奴",
-        "name_en": "Alcoyano"
-      },
-      "id": "50080220",
-      "kickoff": "2026-11-19T03:00:00.000+08:00",
-      "match_date": "2026-11-19+08:00",
-      "status": "PREEVENT",
-      "tournament": {
-        "code": "SFC",
-        "front_end_id": "FB9152",
-        "id": "50079132",
-        "name_ch": "西班牙盃",
-        "name_en": "Spanish Cup"
-      },
-      "updated_at": "2026-11-17T19:52:16.449+08:00"
-    },
-    {
-      "available_markets": [
-        "CRS",
-        "HAD",
-        "HIL"
-      ],
-      "away": {
-        "id": "50003058",
-        "name_ch": "特內里費",
-        "name_en": "Tenerife"
-      },
-      "crs_available": true,
-      "front_end_id": "FB9142",
-      "had": {
-        "no_vig_prob": {
-          "away": 0.54739524,
-          "draw": 0.26307652,
-          "home": 0.18952824
-        },
-        "odds": {
-          "away": 1.61,
-          "draw": 3.35,
-          "home": 4.65
-        },
-        "overround": 1.13467924,
-        "updated_at": "2026-11-17T19:52:16.449+08:00"
-      },
-      "hdc": null,
-      "hil": {
-        "lines": [
-          {
-            "condition": "2.5",
-            "main": true,
-            "odds": {
-              "H": 1.97,
-              "L": 1.74
-            }
-          },
-          {
-            "condition": "2.0/2.5",
-            "main": false,
-            "odds": {
-              "H": 1.73,
-              "L": 1.98
-            }
-          },
-          {
-            "condition": "3.5",
-            "main": false,
-            "odds": {
-              "H": 3.45,
-              "L": 1.25
-            }
-          }
-        ],
-        "status": "SELLINGSTARTED",
-        "updated_at": "2026-11-17T19:52:16.449+08:00"
-      },
-      "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50080344",
-      "home": {
-        "id": "50000620",
-        "name_ch": "CD巴達祖斯",
-        "name_en": "CD Badajoz"
-      },
-      "id": "50080344",
-      "kickoff": "2026-11-19T03:00:00.000+08:00",
-      "match_date": "2026-11-19+08:00",
-      "status": "PREEVENT",
-      "tournament": {
-        "code": "SFC",
-        "front_end_id": "FB9152",
-        "id": "50079132",
-        "name_ch": "西班牙盃",
-        "name_en": "Spanish Cup"
-      },
-      "updated_at": "2026-11-17T19:52:16.449+08:00"
-    },
-    {
-      "available_markets": [
-        "CRS",
-        "HAD",
-        "HIL"
-      ],
-      "away": {
-        "id": "50356311",
-        "name_ch": "格拉斯哥城女足",
-        "name_en": "Glasgow City Women"
-      },
-      "crs_available": true,
-      "front_end_id": "FB9151",
-      "had": {
-        "no_vig_prob": {
-          "away": 0.8676403,
-          "draw": 0.09661292,
-          "home": 0.03574678
-        },
-        "odds": {
-          "away": 1.03,
-          "draw": 9.25,
-          "home": 25.0
-        },
-        "overround": 1.11898189,
-        "updated_at": "2026-11-18T12:00:14.026+08:00"
-      },
-      "hdc": null,
-      "hil": {
-        "lines": [
-          {
-            "condition": "4.5",
-            "main": true,
-            "odds": {
-              "H": 2.15,
-              "L": 1.62
-            }
-          },
-          {
-            "condition": "3.5",
-            "main": false,
-            "odds": {
-              "H": 1.54,
-              "L": 2.3
-            }
-          },
-          {
-            "condition": "3.5/4.0",
-            "main": false,
-            "odds": {
-              "H": 1.59,
-              "L": 2.2
-            }
-          }
-        ],
-        "status": "SELLINGSTARTED",
-        "updated_at": "2026-11-18T12:00:14.026+08:00"
-      },
-      "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50080164",
-      "home": {
-        "id": "50356314",
-        "name_ch": "巴特里女足",
-        "name_en": "Partick Thistle Women"
-      },
-      "id": "50080164",
-      "kickoff": "2026-11-19T03:45:00.000+08:00",
-      "match_date": "2026-11-19+08:00",
-      "status": "PREEVENT",
-      "tournament": {
-        "code": "SPLW",
-        "front_end_id": "",
-        "id": "50073353",
-        "name_ch": "女子蘇格蘭超級聯賽",
-        "name_en": "Women Scottish Premier"
-      },
-      "updated_at": "2026-11-18T14:10:28.479+08:00"
-    },
-    {
-      "available_markets": [
-        "HDC"
-      ],
-      "away": {
-        "id": "50362133",
-        "name_ch": "奧特海維利女足",
-        "name_en": "OH Leuven Women"
-      },
-      "crs_available": false,
-      "front_end_id": "FB9136",
-      "had": {
-        "odds": {},
-        "updated_at": null
-      },
-      "hdc": {
-        "lines": [
-          {
-            "condition": "-2.0",
-            "main": true,
-            "odds": {
-              "A": 1.84,
-              "H": 1.86
-            }
-          },
-          {
-            "condition": "-1.5/-2.0",
-            "main": false,
-            "odds": {
-              "A": 1.93,
-              "H": 1.77
-            }
-          }
-        ],
-        "status": "SELLINGSTARTED",
-        "updated_at": "2026-11-17T19:30:02.157+08:00"
-      },
-      "hil": null,
-      "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50080772",
-      "home": {
-        "id": "50355620",
-        "name_ch": "祖雲達斯女足",
-        "name_en": "Juventus Women"
-      },
-      "id": "50080772",
-      "kickoff": "2026-11-19T04:00:00.000+08:00",
-      "match_date": "2026-11-19+08:00",
-      "status": "PREEVENT",
-      "tournament": {
-        "code": "UCLW",
-        "front_end_id": "FB2350",
-        "id": "50071538",
-        "name_ch": "女子歐洲聯賽冠軍盃",
-        "name_en": "Women UE Champions"
-      },
-      "updated_at": "2026-11-17T19:30:02.157+08:00"
-    },
-    {
-      "available_markets": [
-        "HDC"
-      ],
-      "away": {
-        "id": "50356306",
-        "name_ch": "巴黎聖日耳門女足",
-        "name_en": "Paris Saint Germain Women"
-      },
-      "crs_available": false,
-      "front_end_id": "FB9123",
-      "had": {
-        "odds": {},
-        "updated_at": null
-      },
-      "hdc": {
-        "lines": [
-          {
-            "condition": "-1.5/-2.0",
-            "main": true,
-            "odds": {
-              "A": 1.74,
-              "H": 1.97
-            }
-          }
-        ],
-        "status": "SELLINGSTARTED",
-        "updated_at": "2026-11-16T22:25:02.453+08:00"
-      },
-      "hil": null,
-      "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50080790",
-      "home": {
-        "id": "50355599",
-        "name_ch": "車路士女足",
-        "name_en": "Chelsea Women"
-      },
-      "id": "50080790",
-      "kickoff": "2026-11-19T04:00:00.000+08:00",
-      "match_date": "2026-11-19+08:00",
-      "status": "PREEVENT",
-      "tournament": {
-        "code": "UCLW",
-        "front_end_id": "FB2350",
-        "id": "50071538",
-        "name_ch": "女子歐洲聯賽冠軍盃",
-        "name_en": "Women UE Champions"
-      },
-      "updated_at": "2026-11-16T22:25:02.453+08:00"
-    },
-    {
-      "available_markets": [
-        "HDC"
-      ],
-      "away": {
-        "id": "50002739",
-        "name_ch": "山度士",
-        "name_en": "Santos"
-      },
-      "crs_available": false,
-      "front_end_id": "FB9049",
-      "had": {
-        "odds": {},
-        "updated_at": null
-      },
-      "hdc": {
-        "lines": [
-          {
-            "condition": "0.0/+0.5",
-            "main": true,
-            "odds": {
-              "A": 1.7,
-              "H": 2.12
-            }
-          }
-        ],
-        "status": "SELLINGSTARTED",
-        "updated_at": "2026-11-17T02:02:58.127+08:00"
-      },
-      "hil": null,
-      "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50079718",
-      "home": {
-        "id": "50000841",
-        "name_ch": "哥列迪巴",
-        "name_en": "Coritiba"
-      },
-      "id": "50079718",
-      "kickoff": "2026-11-19T06:30:00.000+08:00",
-      "match_date": "2026-11-19+08:00",
-      "status": "PREEVENT",
-      "tournament": {
-        "code": "BD1",
-        "front_end_id": "",
-        "id": "50060945",
-        "name_ch": "巴西甲組聯賽",
-        "name_en": "Brazilian Division 1"
-      },
-      "updated_at": "2026-11-16T12:00:04.847+08:00"
-    },
-    {
-      "available_markets": [
-        "HDC"
-      ],
-      "away": {
-        "id": "50000710",
-        "name_ch": "查比高恩斯",
-        "name_en": "Chapecoense"
-      },
-      "crs_available": false,
-      "front_end_id": "FB9056",
-      "had": {
-        "odds": {},
-        "updated_at": null
-      },
-      "hdc": {
-        "lines": [
-          {
-            "condition": "-1.0/-1.5",
-            "main": true,
-            "odds": {
-              "A": 1.79,
-              "H": 2.0
-            }
-          },
-          {
-            "condition": "-1.0",
-            "main": false,
-            "odds": {
-              "A": 1.96,
-              "H": 1.81
-            }
-          }
-        ],
-        "status": "SELLINGSTARTED",
-        "updated_at": "2026-11-17T02:03:02.684+08:00"
-      },
-      "hil": null,
-      "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50080003",
-      "home": {
-        "id": "50000787",
-        "name_ch": "雷莫",
-        "name_en": "Clube do Remo"
-      },
-      "id": "50080003",
-      "kickoff": "2026-11-19T07:00:00.000+08:00",
-      "match_date": "2026-11-19+08:00",
-      "status": "PREEVENT",
-      "tournament": {
-        "code": "BD1",
-        "front_end_id": "",
-        "id": "50060945",
-        "name_ch": "巴西甲組聯賽",
-        "name_en": "Brazilian Division 1"
-      },
-      "updated_at": "2026-11-16T12:00:04.847+08:00"
-    },
     {
       "available_markets": [
         "CRS",
@@ -736,26 +28,34 @@
       "front_end_id": "FB9051",
       "had": {
         "no_vig_prob": {
-          "away": 0.38114839,
-          "draw": 0.27208131,
-          "home": 0.3467703
+          "away": 0.34206616,
+          "draw": 0.26743354,
+          "home": 0.3905003
         },
         "odds": {
-          "away": 2.32,
-          "draw": 3.25,
-          "home": 2.55
+          "away": 2.58,
+          "draw": 3.3,
+          "home": 2.26
         },
-        "overround": 1.13088365,
+        "overround": 1.13310508,
         "updated_at": "2026-11-16T12:00:04.847+08:00"
       },
       "hdc": {
         "lines": [
           {
-            "condition": "0.0",
+            "condition": "0.0/-0.5",
             "main": true,
             "odds": {
-              "A": 1.81,
-              "H": 1.98
+              "A": 1.73,
+              "H": 2.06
+            }
+          },
+          {
+            "condition": "0.0",
+            "main": false,
+            "odds": {
+              "A": 1.96,
+              "H": 1.83
             }
           }
         ],
@@ -768,24 +68,24 @@
             "condition": "2.5",
             "main": true,
             "odds": {
-              "H": 1.69,
-              "L": 2.04
+              "H": 1.63,
+              "L": 2.13
             }
           },
           {
             "condition": "2.5/3.0",
             "main": false,
             "odds": {
-              "H": 1.88,
-              "L": 1.82
+              "H": 1.81,
+              "L": 1.89
             }
           },
           {
             "condition": "3.5",
             "main": false,
             "odds": {
-              "H": 2.75,
-              "L": 1.38
+              "H": 2.6,
+              "L": 1.43
             }
           }
         ],
@@ -812,9 +112,7 @@
       "updated_at": "2026-11-16T12:00:04.847+08:00"
     },
     {
-      "available_markets": [
-        "HDC"
-      ],
+      "available_markets": [],
       "away": {
         "id": "50000253",
         "name_ch": "帕拉尼恩斯",
@@ -826,20 +124,7 @@
         "odds": {},
         "updated_at": null
       },
-      "hdc": {
-        "lines": [
-          {
-            "condition": "-1.5/-2.0",
-            "main": true,
-            "odds": {
-              "A": 2.12,
-              "H": 1.7
-            }
-          }
-        ],
-        "status": "SELLINGSTARTED",
-        "updated_at": "2026-11-17T02:03:12.552+08:00"
-      },
+      "hdc": null,
       "hil": null,
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50079724",
       "home": {
@@ -881,8 +166,8 @@
             "condition": "0.0/-0.5",
             "main": true,
             "odds": {
-              "A": 1.82,
-              "H": 1.96
+              "A": 1.8,
+              "H": 1.99
             }
           }
         ],
@@ -930,8 +215,8 @@
             "condition": "-0.5/-1.0",
             "main": true,
             "odds": {
-              "A": 1.83,
-              "H": 1.95
+              "A": 2.01,
+              "H": 1.78
             }
           },
           {
@@ -1741,11 +1026,19 @@
       "hdc": {
         "lines": [
           {
-            "condition": "0.0",
+            "condition": "0.0/-0.5",
             "main": true,
             "odds": {
-              "A": 1.92,
-              "H": 1.78
+              "A": 1.75,
+              "H": 1.95
+            }
+          },
+          {
+            "condition": "0.0",
+            "main": false,
+            "odds": {
+              "A": 2.01,
+              "H": 1.71
             }
           }
         ],
