@@ -1,6 +1,6 @@
 {
-  "frozen_at_hkt": "2026-11-22T23:35:30.661102+08:00",
-  "frozen_at_utc": "2026-11-22T15:35:30.661102+00:00",
+  "frozen_at_hkt": "2026-11-23T05:12:38.640553+08:00",
+  "frozen_at_utc": "2026-11-22T21:12:38.640553+00:00",
   "independence_contract": {
     "contains_betting_selections": false,
     "contains_c2": false,
@@ -9,1611 +9,9 @@
     "contains_model_predictions": false,
     "contains_pps": false
   },
-  "market_payload_sha256": "ded9170cfadee7e29f26d2868ba9a548ec5540f1610a8a11f560a15f685af67f",
-  "match_count": 68,
+  "market_payload_sha256": "980a02a55cd68f78fe381bc531a758fe22b6e1d4c03902405415e506b36de604",
+  "match_count": 44,
   "matches": [
-    {
-      "available_markets": [
-        "HDC"
-      ],
-      "away": {
-        "id": "50001267",
-        "name_ch": "幸運薛達",
-        "name_en": "Fortuna Sittard"
-      },
-      "crs_available": false,
-      "front_end_id": "FB9245",
-      "had": {
-        "odds": {},
-        "updated_at": null
-      },
-      "hdc": {
-        "lines": [
-          {
-            "condition": "-0.5/-1.0",
-            "main": true,
-            "odds": {
-              "A": 1.92,
-              "H": 1.86
-            }
-          }
-        ],
-        "status": "SELLINGSTARTED",
-        "updated_at": "2026-11-19T19:30:01.807+08:00"
-      },
-      "hil": null,
-      "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50079915",
-      "home": {
-        "id": "50001431",
-        "name_ch": "伊高斯",
-        "name_en": "Go Ahead Eagles"
-      },
-      "id": "50079915",
-      "kickoff": "2026-11-22T23:45:00.000+08:00",
-      "match_date": "2026-11-22+08:00",
-      "status": "PREEVENT",
-      "tournament": {
-        "code": "DFL",
-        "front_end_id": "",
-        "id": "50072702",
-        "name_ch": "荷蘭甲組聯賽",
-        "name_en": "Dutch Division 1"
-      },
-      "updated_at": "2026-11-19T16:01:43.843+08:00"
-    },
-    {
-      "available_markets": [
-        "CRS",
-        "HAD",
-        "HIL"
-      ],
-      "away": {
-        "id": "50002709",
-        "name_ch": "薩爾斯堡",
-        "name_en": "Salzburg"
-      },
-      "crs_available": true,
-      "front_end_id": "FB9345",
-      "had": {
-        "no_vig_prob": {
-          "away": 0.55531125,
-          "draw": 0.22933634,
-          "home": 0.21535241
-        },
-        "odds": {
-          "away": 1.59,
-          "draw": 3.85,
-          "home": 4.1
-        },
-        "overround": 1.13257352,
-        "updated_at": "2026-11-20T19:35:07.226+08:00"
-      },
-      "hdc": null,
-      "hil": {
-        "lines": [
-          {
-            "condition": "3.5",
-            "main": true,
-            "odds": {
-              "H": 2.27,
-              "L": 1.56
-            }
-          },
-          {
-            "condition": "2.5",
-            "main": false,
-            "odds": {
-              "H": 1.49,
-              "L": 2.43
-            }
-          },
-          {
-            "condition": "3.0/3.5",
-            "main": false,
-            "odds": {
-              "H": 2.0,
-              "L": 1.72
-            }
-          }
-        ],
-        "status": "SELLINGSTARTED",
-        "updated_at": "2026-11-20T19:35:07.226+08:00"
-      },
-      "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50079858",
-      "home": {
-        "id": "50000324",
-        "name_ch": "奧地利維也納",
-        "name_en": "Austria Vienna"
-      },
-      "id": "50079858",
-      "kickoff": "2026-11-23T00:00:00.000+08:00",
-      "match_date": "2026-11-23+08:00",
-      "status": "PREEVENT",
-      "tournament": {
-        "code": "AT1",
-        "front_end_id": "",
-        "id": "50071739",
-        "name_ch": "奧地利甲組聯賽",
-        "name_en": "Austrian Bundesliga"
-      },
-      "updated_at": "2026-11-01T18:58:26.103+08:00"
-    },
-    {
-      "available_markets": [
-        "CRS",
-        "HAD",
-        "HIL"
-      ],
-      "away": {
-        "id": "50002654",
-        "name_ch": "洛辛堡",
-        "name_en": "Rosenborg"
-      },
-      "crs_available": true,
-      "front_end_id": "FB9299",
-      "had": {
-        "no_vig_prob": {
-          "away": 0.57342856,
-          "draw": 0.20300689,
-          "home": 0.22356455
-        },
-        "odds": {
-          "away": 1.54,
-          "draw": 4.35,
-          "home": 3.95
-        },
-        "overround": 1.13240026,
-        "updated_at": "2026-11-19T19:30:01.807+08:00"
-      },
-      "hdc": null,
-      "hil": {
-        "lines": [
-          {
-            "condition": "3.5",
-            "main": true,
-            "odds": {
-              "H": 1.71,
-              "L": 2.01
-            }
-          },
-          {
-            "condition": "3.5/4.0",
-            "main": false,
-            "odds": {
-              "H": 1.88,
-              "L": 1.82
-            }
-          },
-          {
-            "condition": "4.5",
-            "main": false,
-            "odds": {
-              "H": 2.65,
-              "L": 1.41
-            }
-          }
-        ],
-        "status": "SELLINGSTARTED",
-        "updated_at": "2026-11-19T19:30:01.807+08:00"
-      },
-      "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50080667",
-      "home": {
-        "id": "50000043",
-        "name_ch": "阿里辛特",
-        "name_en": "Aalesund"
-      },
-      "id": "50080667",
-      "kickoff": "2026-11-23T00:00:00.000+08:00",
-      "match_date": "2026-11-23+08:00",
-      "status": "PREEVENT",
-      "tournament": {
-        "code": "NTL",
-        "front_end_id": "",
-        "id": "50064599",
-        "name_ch": "挪威超級聯賽",
-        "name_en": "Norwegian Division 1"
-      },
-      "updated_at": "2026-11-10T18:25:08.652+08:00"
-    },
-    {
-      "available_markets": [
-        "CRS",
-        "HAD",
-        "HDC",
-        "HIL"
-      ],
-      "away": {
-        "id": "50002725",
-        "name_ch": "辛迪夫佐特",
-        "name_en": "Sandefjord"
-      },
-      "crs_available": true,
-      "front_end_id": "FB9300",
-      "had": {
-        "no_vig_prob": {
-          "away": 0.39589089,
-          "draw": 0.24523241,
-          "home": 0.3588767
-        },
-        "odds": {
-          "away": 2.23,
-          "draw": 3.6,
-          "home": 2.46
-        },
-        "overround": 1.13271234,
-        "updated_at": "2026-11-19T19:30:01.807+08:00"
-      },
-      "hdc": {
-        "lines": [
-          {
-            "condition": "0.0/+0.5",
-            "main": true,
-            "odds": {
-              "A": 2.09,
-              "H": 1.72
-            }
-          },
-          {
-            "condition": "0.0",
-            "main": false,
-            "odds": {
-              "A": 1.79,
-              "H": 2.0
-            }
-          }
-        ],
-        "status": "SELLINGSTARTED",
-        "updated_at": "2026-11-19T19:30:01.807+08:00"
-      },
-      "hil": {
-        "lines": [
-          {
-            "condition": "3.5",
-            "main": true,
-            "odds": {
-              "H": 2.15,
-              "L": 1.62
-            }
-          },
-          {
-            "condition": "3.0/3.5",
-            "main": false,
-            "odds": {
-              "H": 1.92,
-              "L": 1.78
-            }
-          },
-          {
-            "condition": "4.5",
-            "main": false,
-            "odds": {
-              "H": 3.65,
-              "L": 1.23
-            }
-          }
-        ],
-        "status": "SELLINGSTARTED",
-        "updated_at": "2026-11-19T19:30:01.807+08:00"
-      },
-      "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50080668",
-      "home": {
-        "id": "50001836",
-        "name_ch": "基斯迪辛德",
-        "name_en": "Kristiansund"
-      },
-      "id": "50080668",
-      "kickoff": "2026-11-23T00:00:00.000+08:00",
-      "match_date": "2026-11-23+08:00",
-      "status": "PREEVENT",
-      "tournament": {
-        "code": "NTL",
-        "front_end_id": "",
-        "id": "50064599",
-        "name_ch": "挪威超級聯賽",
-        "name_en": "Norwegian Division 1"
-      },
-      "updated_at": "2026-11-10T18:25:51.430+08:00"
-    },
-    {
-      "available_markets": [
-        "HDC"
-      ],
-      "away": {
-        "id": "50001950",
-        "name_ch": "莫斯科火車頭",
-        "name_en": "Lokomotiv Moscow"
-      },
-      "crs_available": false,
-      "front_end_id": "FB9400",
-      "had": {
-        "odds": {},
-        "updated_at": null
-      },
-      "hdc": {
-        "lines": [
-          {
-            "condition": "0.0/+0.5",
-            "main": true,
-            "odds": {
-              "A": 2.15,
-              "H": 1.68
-            }
-          },
-          {
-            "condition": "0.0",
-            "main": false,
-            "odds": {
-              "A": 1.81,
-              "H": 1.98
-            }
-          }
-        ],
-        "status": "SELLINGSTARTED",
-        "updated_at": "2026-11-20T19:35:07.226+08:00"
-      },
-      "hil": null,
-      "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50080879",
-      "home": {
-        "id": "50288123",
-        "name_ch": "莫斯科路迪拿",
-        "name_en": "Rodina Moscow"
-      },
-      "id": "50080879",
-      "kickoff": "2026-11-23T00:00:00.000+08:00",
-      "match_date": "2026-11-23+08:00",
-      "status": "PREEVENT",
-      "tournament": {
-        "code": "RPL",
-        "front_end_id": "",
-        "id": "50071760",
-        "name_ch": "俄羅斯超級聯賽",
-        "name_en": "Russian Premier"
-      },
-      "updated_at": "2026-11-19T16:12:44.064+08:00"
-    },
-    {
-      "available_markets": [
-        "HDC"
-      ],
-      "away": {
-        "id": "50002620",
-        "name_ch": "雷恩",
-        "name_en": "Rennes"
-      },
-      "crs_available": false,
-      "front_end_id": "FB9216",
-      "had": {
-        "odds": {},
-        "updated_at": null
-      },
-      "hdc": {
-        "lines": [
-          {
-            "condition": "0.0/+0.5",
-            "main": true,
-            "odds": {
-              "A": 1.9,
-              "H": 1.9
-            }
-          }
-        ],
-        "status": "SELLINGSTARTED",
-        "updated_at": "2026-11-19T19:30:01.807+08:00"
-      },
-      "hil": null,
-      "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50079866",
-      "home": {
-        "id": "50001957",
-        "name_ch": "羅連安特",
-        "name_en": "Lorient"
-      },
-      "id": "50079866",
-      "kickoff": "2026-11-23T00:15:00.000+08:00",
-      "match_date": "2026-11-23+08:00",
-      "status": "PREEVENT",
-      "tournament": {
-        "code": "FFL",
-        "front_end_id": "FB2257",
-        "id": "50072542",
-        "name_ch": "法國甲組聯賽",
-        "name_en": "French Division 1"
-      },
-      "updated_at": "2026-11-19T15:30:55.982+08:00"
-    },
-    {
-      "available_markets": [
-        "HDC"
-      ],
-      "away": {
-        "id": "50002035",
-        "name_ch": "曼聯",
-        "name_en": "Manchester Utd"
-      },
-      "crs_available": false,
-      "front_end_id": "FB8898",
-      "had": {
-        "odds": {},
-        "updated_at": null
-      },
-      "hdc": {
-        "lines": [
-          {
-            "condition": "-0.5/-1.0",
-            "main": true,
-            "odds": {
-              "A": 1.9,
-              "H": 1.9
-            }
-          }
-        ],
-        "status": "SELLINGSTARTED",
-        "updated_at": "2026-11-19T18:58:34.898+08:00"
-      },
-      "hil": null,
-      "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50079068",
-      "home": {
-        "id": "50001928",
-        "name_ch": "利物浦",
-        "name_en": "Liverpool"
-      },
-      "id": "50079068",
-      "kickoff": "2026-11-23T00:30:00.000+08:00",
-      "match_date": "2026-11-23+08:00",
-      "status": "PREEVENT",
-      "tournament": {
-        "code": "EPL",
-        "front_end_id": "FB1589",
-        "id": "50071337",
-        "name_ch": "英格蘭超級聯賽",
-        "name_en": "English Premier League"
-      },
-      "updated_at": "2026-11-13T14:36:37.709+08:00"
-    },
-    {
-      "available_markets": [
-        "HDC"
-      ],
-      "away": {
-        "id": "50001511",
-        "name_ch": "漢堡",
-        "name_en": "Hamburg"
-      },
-      "crs_available": false,
-      "front_end_id": "FB9224",
-      "had": {
-        "odds": {},
-        "updated_at": null
-      },
-      "hdc": {
-        "lines": [
-          {
-            "condition": "-1.0",
-            "main": true,
-            "odds": {
-              "A": 1.91,
-              "H": 1.89
-            }
-          }
-        ],
-        "status": "SELLINGSTARTED",
-        "updated_at": "2026-11-19T19:30:01.807+08:00"
-      },
-      "hil": null,
-      "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50079880",
-      "home": {
-        "id": "50003360",
-        "name_ch": "雲達不來梅",
-        "name_en": "Werder Bremen"
-      },
-      "id": "50079880",
-      "kickoff": "2026-11-23T00:30:00.000+08:00",
-      "match_date": "2026-11-23+08:00",
-      "status": "PREEVENT",
-      "tournament": {
-        "code": "GSL",
-        "front_end_id": "FB2258",
-        "id": "50072572",
-        "name_ch": "德國甲組聯賽",
-        "name_en": "German Division 1"
-      },
-      "updated_at": "2026-11-19T15:30:55.895+08:00"
-    },
-    {
-      "available_markets": [
-        "HDC"
-      ],
-      "away": {
-        "id": "50001314",
-        "name_ch": "費辛隆尼",
-        "name_en": "Frosinone"
-      },
-      "crs_available": false,
-      "front_end_id": "FB9229",
-      "had": {
-        "odds": {},
-        "updated_at": null
-      },
-      "hdc": {
-        "lines": [
-          {
-            "condition": "-1.0",
-            "main": true,
-            "odds": {
-              "A": 1.89,
-              "H": 1.91
-            }
-          }
-        ],
-        "status": "SELLINGSTARTED",
-        "updated_at": "2026-11-19T19:30:01.807+08:00"
-      },
-      "hil": null,
-      "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50079891",
-      "home": {
-        "id": "50000008",
-        "name_ch": "AC米蘭",
-        "name_en": "AC Milan"
-      },
-      "id": "50079891",
-      "kickoff": "2026-11-23T01:00:00.000+08:00",
-      "match_date": "2026-11-23+08:00",
-      "status": "PREEVENT",
-      "tournament": {
-        "code": "ISA",
-        "front_end_id": "FB2256",
-        "id": "50072541",
-        "name_ch": "意大利甲組聯賽",
-        "name_en": "Italian Division 1"
-      },
-      "updated_at": "2026-11-19T15:34:32.699+08:00"
-    },
-    {
-      "available_markets": [
-        "CRS",
-        "HAD",
-        "HIL"
-      ],
-      "away": {
-        "id": "50000833",
-        "name_ch": "哥本哈根",
-        "name_en": "Copenhagen"
-      },
-      "crs_available": true,
-      "front_end_id": "FB9287",
-      "had": {
-        "no_vig_prob": {
-          "away": 0.36171545,
-          "draw": 0.26745021,
-          "home": 0.37083433
-        },
-        "odds": {
-          "away": 2.44,
-          "draw": 3.3,
-          "home": 2.38
-        },
-        "overround": 1.13303444,
-        "updated_at": "2026-11-19T19:30:01.807+08:00"
-      },
-      "hdc": null,
-      "hil": {
-        "lines": [
-          {
-            "condition": "2.5",
-            "main": true,
-            "odds": {
-              "H": 1.68,
-              "L": 2.05
-            }
-          },
-          {
-            "condition": "2.5/3.0",
-            "main": false,
-            "odds": {
-              "H": 1.87,
-              "L": 1.83
-            }
-          },
-          {
-            "condition": "3.5",
-            "main": false,
-            "odds": {
-              "H": 2.62,
-              "L": 1.42
-            }
-          }
-        ],
-        "status": "SELLINGSTARTED",
-        "updated_at": "2026-11-19T19:30:01.807+08:00"
-      },
-      "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50080493",
-      "home": {
-        "id": "50002285",
-        "name_ch": "洛斯查蘭特",
-        "name_en": "Nordsjaelland"
-      },
-      "id": "50080493",
-      "kickoff": "2026-11-23T01:00:00.000+08:00",
-      "match_date": "2026-11-23+08:00",
-      "status": "PREEVENT",
-      "tournament": {
-        "code": "DK1",
-        "front_end_id": "",
-        "id": "50071735",
-        "name_ch": "丹麥超級聯賽",
-        "name_en": "Danish Superliga"
-      },
-      "updated_at": "2026-11-09T01:02:28.534+08:00"
-    },
-    {
-      "available_markets": [
-        "HDC"
-      ],
-      "away": {
-        "id": "50002002",
-        "name_ch": "馬拉加",
-        "name_en": "Malaga"
-      },
-      "crs_available": false,
-      "front_end_id": "FB9254",
-      "had": {
-        "odds": {},
-        "updated_at": null
-      },
-      "hdc": {
-        "lines": [
-          {
-            "condition": "-0.5/-1.0",
-            "main": true,
-            "odds": {
-              "A": 1.81,
-              "H": 1.99
-            }
-          }
-        ],
-        "status": "SELLINGSTARTED",
-        "updated_at": "2026-11-19T19:30:01.807+08:00"
-      },
-      "hil": null,
-      "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50080025",
-      "home": {
-        "id": "50002357",
-        "name_ch": "奧沙辛拿",
-        "name_en": "Osasuna"
-      },
-      "id": "50080025",
-      "kickoff": "2026-11-23T01:30:00.000+08:00",
-      "match_date": "2026-11-23+08:00",
-      "status": "PREEVENT",
-      "tournament": {
-        "code": "SFL",
-        "front_end_id": "FB2255",
-        "id": "50072540",
-        "name_ch": "西班牙甲組聯賽",
-        "name_en": "Spanish Division 1"
-      },
-      "updated_at": "2026-11-19T15:25:14.332+08:00"
-    },
-    {
-      "available_markets": [
-        "CRS",
-        "HAD",
-        "HDC",
-        "HIL"
-      ],
-      "away": {
-        "id": "50002313",
-        "name_ch": "奧特海維利",
-        "name_en": "OH Leuven"
-      },
-      "crs_available": true,
-      "front_end_id": "FB9380",
-      "had": {
-        "no_vig_prob": {
-          "away": 0.15225157,
-          "draw": 0.19844025,
-          "home": 0.64930818
-        },
-        "odds": {
-          "away": 5.8,
-          "draw": 4.45,
-          "home": 1.36
-        },
-        "overround": 1.13242701,
-        "updated_at": "2026-11-20T19:35:07.226+08:00"
-      },
-      "hdc": {
-        "lines": [
-          {
-            "condition": "-1.0/-1.5",
-            "main": true,
-            "odds": {
-              "A": 1.8,
-              "H": 1.99
-            }
-          }
-        ],
-        "status": "SELLINGSTARTED",
-        "updated_at": "2026-11-20T19:35:07.226+08:00"
-      },
-      "hil": {
-        "lines": [
-          {
-            "condition": "3.5",
-            "main": true,
-            "odds": {
-              "H": 2.35,
-              "L": 1.52
-            }
-          },
-          {
-            "condition": "3.0/3.5",
-            "main": false,
-            "odds": {
-              "H": 2.1,
-              "L": 1.65
-            }
-          },
-          {
-            "condition": "4.5",
-            "main": false,
-            "odds": {
-              "H": 3.95,
-              "L": 1.19
-            }
-          }
-        ],
-        "status": "SELLINGSTARTED",
-        "updated_at": "2026-11-20T19:35:07.226+08:00"
-      },
-      "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50080495",
-      "home": {
-        "id": "50000175",
-        "name_ch": "安德列治",
-        "name_en": "Anderlecht"
-      },
-      "id": "50080495",
-      "kickoff": "2026-11-23T01:30:00.000+08:00",
-      "match_date": "2026-11-23+08:00",
-      "status": "PREEVENT",
-      "tournament": {
-        "code": "BFL",
-        "front_end_id": "",
-        "id": "50072736",
-        "name_ch": "比利時甲組聯賽",
-        "name_en": "Belgian Division 1"
-      },
-      "updated_at": "2026-11-09T01:32:30.905+08:00"
-    },
-    {
-      "available_markets": [
-        "CRS",
-        "HAD",
-        "HIL"
-      ],
-      "away": {
-        "id": "50001060",
-        "name_ch": "伊巴",
-        "name_en": "Eibar"
-      },
-      "crs_available": true,
-      "front_end_id": "FB9382",
-      "had": {
-        "no_vig_prob": {
-          "away": 0.22024624,
-          "draw": 0.25535796,
-          "home": 0.5243958
-        },
-        "odds": {
-          "away": 4.0,
-          "draw": 3.45,
-          "home": 1.68
-        },
-        "overround": 1.13509317,
-        "updated_at": "2026-11-20T19:35:07.226+08:00"
-      },
-      "hdc": null,
-      "hil": {
-        "lines": [
-          {
-            "condition": "2.5",
-            "main": true,
-            "odds": {
-              "H": 1.76,
-              "L": 1.94
-            }
-          },
-          {
-            "condition": "2.5/3.0",
-            "main": false,
-            "odds": {
-              "H": 1.98,
-              "L": 1.73
-            }
-          },
-          {
-            "condition": "3.5",
-            "main": false,
-            "odds": {
-              "H": 2.98,
-              "L": 1.33
-            }
-          }
-        ],
-        "status": "SELLINGSTARTED",
-        "updated_at": "2026-11-20T19:35:07.226+08:00"
-      },
-      "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50080499",
-      "home": {
-        "id": "50001424",
-        "name_ch": "基羅納",
-        "name_en": "Girona"
-      },
-      "id": "50080499",
-      "kickoff": "2026-11-23T01:30:00.000+08:00",
-      "match_date": "2026-11-23+08:00",
-      "status": "PREEVENT",
-      "tournament": {
-        "code": "SF2",
-        "front_end_id": "",
-        "id": "50073227",
-        "name_ch": "西班牙乙組聯賽",
-        "name_en": "Spanish Division 2"
-      },
-      "updated_at": "2026-11-09T03:44:52.048+08:00"
-    },
-    {
-      "available_markets": [
-        "CRS",
-        "HAD",
-        "HIL"
-      ],
-      "away": {
-        "id": "50002975",
-        "name_ch": "標準列治",
-        "name_en": "Standard"
-      },
-      "crs_available": true,
-      "front_end_id": "FB9381",
-      "had": {
-        "no_vig_prob": {
-          "away": 0.46205219,
-          "draw": 0.24859709,
-          "home": 0.28935072
-        },
-        "odds": {
-          "away": 1.91,
-          "draw": 3.55,
-          "home": 3.05
-        },
-        "overround": 1.1331192,
-        "updated_at": "2026-11-20T19:35:07.226+08:00"
-      },
-      "hdc": null,
-      "hil": {
-        "lines": [
-          {
-            "condition": "3.5",
-            "main": true,
-            "odds": {
-              "H": 2.33,
-              "L": 1.53
-            }
-          },
-          {
-            "condition": "2.5",
-            "main": false,
-            "odds": {
-              "H": 1.5,
-              "L": 2.4
-            }
-          },
-          {
-            "condition": "3.0/3.5",
-            "main": false,
-            "odds": {
-              "H": 2.07,
-              "L": 1.67
-            }
-          }
-        ],
-        "status": "SELLINGSTARTED",
-        "updated_at": "2026-11-20T19:35:07.226+08:00"
-      },
-      "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50080496",
-      "home": {
-        "id": "50001954",
-        "name_ch": "隆梅爾",
-        "name_en": "Lommel SK"
-      },
-      "id": "50080496",
-      "kickoff": "2026-11-23T02:15:00.000+08:00",
-      "match_date": "2026-11-23+08:00",
-      "status": "PREEVENT",
-      "tournament": {
-        "code": "BFL",
-        "front_end_id": "",
-        "id": "50072736",
-        "name_ch": "比利時甲組聯賽",
-        "name_en": "Belgian Division 1"
-      },
-      "updated_at": "2026-11-09T02:17:33.258+08:00"
-    },
-    {
-      "available_markets": [
-        "HDC"
-      ],
-      "away": {
-        "id": "50001914",
-        "name_ch": "利尼史特朗",
-        "name_en": "Lillestrom"
-      },
-      "crs_available": false,
-      "front_end_id": "FB9297",
-      "had": {
-        "odds": {},
-        "updated_at": null
-      },
-      "hdc": {
-        "lines": [
-          {
-            "condition": "0.0/-0.5",
-            "main": true,
-            "odds": {
-              "A": 1.99,
-              "H": 1.8
-            }
-          }
-        ],
-        "status": "SELLINGSTARTED",
-        "updated_at": "2026-11-19T19:30:01.807+08:00"
-      },
-      "hil": null,
-      "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50080662",
-      "home": {
-        "id": "50002750",
-        "name_ch": "薩普斯堡",
-        "name_en": "Sarpsborg"
-      },
-      "id": "50080662",
-      "kickoff": "2026-11-23T02:15:00.000+08:00",
-      "match_date": "2026-11-23+08:00",
-      "status": "PREEVENT",
-      "tournament": {
-        "code": "NTL",
-        "front_end_id": "",
-        "id": "50064599",
-        "name_ch": "挪威超級聯賽",
-        "name_en": "Norwegian Division 1"
-      },
-      "updated_at": "2026-11-19T16:13:17.270+08:00"
-    },
-    {
-      "available_markets": [
-        "CRS",
-        "HAD",
-        "HDC",
-        "HIL"
-      ],
-      "away": {
-        "id": "50285722",
-        "name_ch": "甘拿斯亞文度沙",
-        "name_en": "Gimnasia Mendoza"
-      },
-      "crs_available": true,
-      "front_end_id": "FB9309",
-      "had": {
-        "no_vig_prob": {
-          "away": 0.11443373,
-          "draw": 0.21370155,
-          "home": 0.67186472
-        },
-        "odds": {
-          "away": 7.75,
-          "draw": 4.15,
-          "home": 1.32
-        },
-        "overround": 1.12757187,
-        "updated_at": "2026-11-19T19:30:01.807+08:00"
-      },
-      "hdc": {
-        "lines": [
-          {
-            "condition": "-1.0/-1.5",
-            "main": true,
-            "odds": {
-              "A": 1.86,
-              "H": 1.92
-            }
-          }
-        ],
-        "status": "SELLINGSTARTED",
-        "updated_at": "2026-11-19T19:30:01.807+08:00"
-      },
-      "hil": {
-        "lines": [
-          {
-            "condition": "2.5",
-            "main": true,
-            "odds": {
-              "H": 1.8,
-              "L": 1.9
-            }
-          },
-          {
-            "condition": "2.5/3.0",
-            "main": false,
-            "odds": {
-              "H": 2.02,
-              "L": 1.7
-            }
-          },
-          {
-            "condition": "3.5",
-            "main": false,
-            "odds": {
-              "H": 2.92,
-              "L": 1.34
-            }
-          }
-        ],
-        "status": "SELLINGSTARTED",
-        "updated_at": "2026-11-19T19:30:01.807+08:00"
-      },
-      "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50080795",
-      "home": {
-        "id": "50002653",
-        "name_ch": "羅沙里奧中央",
-        "name_en": "Rosario Central"
-      },
-      "id": "50080795",
-      "kickoff": "2026-11-23T02:58:00.000+08:00",
-      "match_date": "2026-11-23+08:00",
-      "status": "PREEVENT",
-      "tournament": {
-        "code": "APL",
-        "front_end_id": "FB9199",
-        "id": "50071523",
-        "name_ch": "阿根廷甲組聯賽",
-        "name_en": "Argentine Division 1"
-      },
-      "updated_at": "2026-11-18T10:11:01.311+08:00"
-    },
-    {
-      "available_markets": [
-        "CRS",
-        "HAD",
-        "HIL"
-      ],
-      "away": {
-        "id": "50001265",
-        "name_ch": "福塔雷薩",
-        "name_en": "Fortaleza"
-      },
-      "crs_available": true,
-      "front_end_id": "FB9414",
-      "had": {
-        "no_vig_prob": {
-          "away": 0.21793286,
-          "draw": 0.30753592,
-          "home": 0.47453123
-        },
-        "odds": {
-          "away": 4.05,
-          "draw": 2.87,
-          "home": 1.86
-        },
-        "overround": 1.13298004,
-        "updated_at": "2026-11-20T19:35:07.226+08:00"
-      },
-      "hdc": null,
-      "hil": {
-        "lines": [
-          {
-            "condition": "2.5",
-            "main": true,
-            "odds": {
-              "H": 2.6,
-              "L": 1.43
-            }
-          },
-          {
-            "condition": "2.0/2.5",
-            "main": false,
-            "odds": {
-              "H": 2.27,
-              "L": 1.56
-            }
-          },
-          {
-            "condition": "3.5",
-            "main": false,
-            "odds": {
-              "H": 4.95,
-              "L": 1.12
-            }
-          }
-        ],
-        "status": "SELLINGSTARTED",
-        "updated_at": "2026-11-20T19:35:07.226+08:00"
-      },
-      "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50081030",
-      "home": {
-        "id": "50000894",
-        "name_ch": "基斯奧馬",
-        "name_en": "Criciuma"
-      },
-      "id": "50081030",
-      "kickoff": "2026-11-23T02:58:00.000+08:00",
-      "match_date": "2026-11-23+08:00",
-      "status": "PREEVENT",
-      "tournament": {
-        "code": "BD2",
-        "front_end_id": "",
-        "id": "50069839",
-        "name_ch": "巴西乙組聯賽",
-        "name_en": "Brazilian Division 2"
-      },
-      "updated_at": "2026-11-18T10:15:15.640+08:00"
-    },
-    {
-      "available_markets": [
-        "HDC"
-      ],
-      "away": {
-        "id": "50000787",
-        "name_ch": "雷莫",
-        "name_en": "Clube do Remo"
-      },
-      "crs_available": false,
-      "front_end_id": "FB9338",
-      "had": {
-        "odds": {},
-        "updated_at": null
-      },
-      "hdc": {
-        "lines": [
-          {
-            "condition": "-1.0",
-            "main": true,
-            "odds": {
-              "A": 1.89,
-              "H": 1.89
-            }
-          }
-        ],
-        "status": "SELLINGSTARTED",
-        "updated_at": "2026-11-20T19:35:07.226+08:00"
-      },
-      "hil": null,
-      "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50079711",
-      "home": {
-        "id": "50000253",
-        "name_ch": "帕拉尼恩斯",
-        "name_en": "Athletico Paranaense"
-      },
-      "id": "50079711",
-      "kickoff": "2026-11-23T03:00:00.000+08:00",
-      "match_date": "2026-11-23+08:00",
-      "status": "PREEVENT",
-      "tournament": {
-        "code": "BD1",
-        "front_end_id": "",
-        "id": "50060945",
-        "name_ch": "巴西甲組聯賽",
-        "name_en": "Brazilian Division 1"
-      },
-      "updated_at": "2026-11-19T16:13:54.845+08:00"
-    },
-    {
-      "available_markets": [
-        "HDC"
-      ],
-      "away": {
-        "id": "50001879",
-        "name_ch": "勒芒",
-        "name_en": "Le Mans"
-      },
-      "crs_available": false,
-      "front_end_id": "FB9211",
-      "had": {
-        "odds": {},
-        "updated_at": null
-      },
-      "hdc": {
-        "lines": [
-          {
-            "condition": "-1.0/-1.5",
-            "main": true,
-            "odds": {
-              "A": 1.95,
-              "H": 1.85
-            }
-          }
-        ],
-        "status": "SELLINGSTARTED",
-        "updated_at": "2026-11-19T19:30:01.807+08:00"
-      },
-      "hil": null,
-      "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50079860",
-      "home": {
-        "id": "50002057",
-        "name_ch": "馬賽",
-        "name_en": "Marseille"
-      },
-      "id": "50079860",
-      "kickoff": "2026-11-23T03:45:00.000+08:00",
-      "match_date": "2026-11-23+08:00",
-      "status": "PREEVENT",
-      "tournament": {
-        "code": "FFL",
-        "front_end_id": "FB2257",
-        "id": "50072542",
-        "name_ch": "法國甲組聯賽",
-        "name_en": "French Division 1"
-      },
-      "updated_at": "2026-11-19T15:30:56.102+08:00"
-    },
-    {
-      "available_markets": [
-        "HDC"
-      ],
-      "away": {
-        "id": "50001610",
-        "name_ch": "國際米蘭",
-        "name_en": "Inter Milan"
-      },
-      "crs_available": false,
-      "front_end_id": "FB9288",
-      "had": {
-        "odds": {},
-        "updated_at": null
-      },
-      "hdc": {
-        "lines": [
-          {
-            "condition": "+1.0/+1.5",
-            "main": true,
-            "odds": {
-              "A": 2.01,
-              "H": 1.8
-            }
-          },
-          {
-            "condition": "+1.0",
-            "main": false,
-            "odds": {
-              "A": 1.8,
-              "H": 2.01
-            }
-          }
-        ],
-        "status": "SELLINGSTARTED",
-        "updated_at": "2026-11-19T19:30:01.807+08:00"
-      },
-      "hil": null,
-      "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50080500",
-      "home": {
-        "id": "50000252",
-        "name_ch": "阿特蘭大",
-        "name_en": "Atalanta"
-      },
-      "id": "50080500",
-      "kickoff": "2026-11-23T03:45:00.000+08:00",
-      "match_date": "2026-11-23+08:00",
-      "status": "PREEVENT",
-      "tournament": {
-        "code": "ISA",
-        "front_end_id": "FB2256",
-        "id": "50072541",
-        "name_ch": "意大利甲組聯賽",
-        "name_en": "Italian Division 1"
-      },
-      "updated_at": "2026-11-19T15:34:32.546+08:00"
-    },
-    {
-      "available_markets": [
-        "HDC"
-      ],
-      "away": {
-        "id": "50000267",
-        "name_ch": "馬德里體育會",
-        "name_en": "Atletico Madrid"
-      },
-      "crs_available": false,
-      "front_end_id": "FB9251",
-      "had": {
-        "odds": {},
-        "updated_at": null
-      },
-      "hdc": {
-        "lines": [
-          {
-            "condition": "+1.0",
-            "main": true,
-            "odds": {
-              "A": 1.9,
-              "H": 1.9
-            }
-          }
-        ],
-        "status": "SELLINGSTARTED",
-        "updated_at": "2026-11-19T19:30:01.807+08:00"
-      },
-      "hil": null,
-      "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50080021",
-      "home": {
-        "id": "50001393",
-        "name_ch": "基達菲",
-        "name_en": "Getafe"
-      },
-      "id": "50080021",
-      "kickoff": "2026-11-23T04:00:00.000+08:00",
-      "match_date": "2026-11-23+08:00",
-      "status": "PREEVENT",
-      "tournament": {
-        "code": "SFL",
-        "front_end_id": "FB2255",
-        "id": "50072540",
-        "name_ch": "西班牙甲組聯賽",
-        "name_en": "Spanish Division 1"
-      },
-      "updated_at": "2026-11-19T15:25:14.441+08:00"
-    },
-    {
-      "available_markets": [
-        "CRS",
-        "HAD",
-        "HIL"
-      ],
-      "away": {
-        "id": "50000121",
-        "name_ch": "阿爾巴塞特",
-        "name_en": "Albacete"
-      },
-      "crs_available": true,
-      "front_end_id": "FB9383",
-      "had": {
-        "no_vig_prob": {
-          "away": 0.26676385,
-          "draw": 0.28862974,
-          "home": 0.44460641
-        },
-        "odds": {
-          "away": 3.3,
-          "draw": 3.05,
-          "home": 1.98
-        },
-        "overround": 1.13594966,
-        "updated_at": "2026-11-20T19:35:07.226+08:00"
-      },
-      "hdc": null,
-      "hil": {
-        "lines": [
-          {
-            "condition": "2.5",
-            "main": true,
-            "odds": {
-              "H": 2.08,
-              "L": 1.66
-            }
-          },
-          {
-            "condition": "2.0/2.5",
-            "main": false,
-            "odds": {
-              "H": 1.83,
-              "L": 1.87
-            }
-          },
-          {
-            "condition": "3.5",
-            "main": false,
-            "odds": {
-              "H": 3.7,
-              "L": 1.22
-            }
-          }
-        ],
-        "status": "SELLINGSTARTED",
-        "updated_at": "2026-11-20T19:35:07.226+08:00"
-      },
-      "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50080502",
-      "home": {
-        "id": "50000597",
-        "name_ch": "貝高斯",
-        "name_en": "Burgos"
-      },
-      "id": "50080502",
-      "kickoff": "2026-11-23T04:00:00.000+08:00",
-      "match_date": "2026-11-23+08:00",
-      "status": "PREEVENT",
-      "tournament": {
-        "code": "SF2",
-        "front_end_id": "",
-        "id": "50073227",
-        "name_ch": "西班牙乙組聯賽",
-        "name_en": "Spanish Division 2"
-      },
-      "updated_at": "2026-11-09T04:02:41.725+08:00"
-    },
-    {
-      "available_markets": [
-        "CRS",
-        "HAD",
-        "HIL"
-      ],
-      "away": {
-        "id": "50000449",
-        "name_ch": "賓菲加",
-        "name_en": "Benfica"
-      },
-      "crs_available": true,
-      "front_end_id": "FB9330",
-      "had": {
-        "no_vig_prob": {
-          "away": 0.8140797,
-          "draw": 0.12676384,
-          "home": 0.05915646
-        },
-        "odds": {
-          "away": 1.09,
-          "draw": 7.0,
-          "home": 15.0
-        },
-        "overround": 1.126955,
-        "updated_at": "2026-11-20T17:59:15.181+08:00"
-      },
-      "hdc": null,
-      "hil": {
-        "lines": [
-          {
-            "condition": "3.5",
-            "main": true,
-            "odds": {
-              "H": 1.85,
-              "L": 1.85
-            }
-          },
-          {
-            "condition": "2.5",
-            "main": false,
-            "odds": {
-              "H": 1.41,
-              "L": 2.65
-            }
-          },
-          {
-            "condition": "2.5/3.0",
-            "main": false,
-            "odds": {
-              "H": 1.48,
-              "L": 2.45
-            }
-          },
-          {
-            "condition": "3.0/3.5",
-            "main": false,
-            "odds": {
-              "H": 1.68,
-              "L": 2.05
-            }
-          },
-          {
-            "condition": "3.5/4.0",
-            "main": false,
-            "odds": {
-              "H": 2.08,
-              "L": 1.66
-            }
-          },
-          {
-            "condition": "4.5",
-            "main": false,
-            "odds": {
-              "H": 2.92,
-              "L": 1.34
-            }
-          }
-        ],
-        "status": "SELLINGSTARTED",
-        "updated_at": "2026-11-20T17:59:15.181+08:00"
-      },
-      "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50081003",
-      "home": {
-        "id": "50003097",
-        "name_ch": "杜連斯",
-        "name_en": "Torreense"
-      },
-      "id": "50081003",
-      "kickoff": "2026-11-23T04:45:00.000+08:00",
-      "match_date": "2026-11-23+08:00",
-      "status": "PREEVENT",
-      "tournament": {
-        "code": "PFC",
-        "front_end_id": "FB9200",
-        "id": "50078330",
-        "name_ch": "葡萄牙盃",
-        "name_en": "Portuguese Cup"
-      },
-      "updated_at": "2026-11-19T13:59:05.687+08:00"
-    },
-    {
-      "available_markets": [
-        "CRS",
-        "HAD",
-        "HIL"
-      ],
-      "away": {
-        "id": "50003210",
-        "name_ch": "天主教大學",
-        "name_en": "Universidad Catolica"
-      },
-      "crs_available": true,
-      "front_end_id": "FB9351",
-      "had": {
-        "no_vig_prob": {
-          "away": 0.31768314,
-          "draw": 0.25975268,
-          "home": 0.42256418
-        },
-        "odds": {
-          "away": 2.78,
-          "draw": 3.4,
-          "home": 2.09
-        },
-        "overround": 1.13229878,
-        "updated_at": "2026-11-20T19:35:07.226+08:00"
-      },
-      "hdc": null,
-      "hil": {
-        "lines": [
-          {
-            "condition": "2.5",
-            "main": true,
-            "odds": {
-              "H": 1.59,
-              "L": 2.2
-            }
-          },
-          {
-            "condition": "3.0/3.5",
-            "main": false,
-            "odds": {
-              "H": 2.22,
-              "L": 1.58
-            }
-          },
-          {
-            "condition": "3.5",
-            "main": false,
-            "odds": {
-              "H": 2.5,
-              "L": 1.46
-            }
-          }
-        ],
-        "status": "SELLINGSTARTED",
-        "updated_at": "2026-11-20T19:35:07.226+08:00"
-      },
-      "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50080256",
-      "home": {
-        "id": "50000796",
-        "name_ch": "高路高路",
-        "name_en": "Colo Colo"
-      },
-      "id": "50080256",
-      "kickoff": "2026-11-23T04:57:00.000+08:00",
-      "match_date": "2026-11-23+08:00",
-      "status": "PREEVENT",
-      "tournament": {
-        "code": "CD1",
-        "front_end_id": "",
-        "id": "50060946",
-        "name_ch": "智利甲組聯賽",
-        "name_en": "Chilean Division 1"
-      },
-      "updated_at": "2026-11-18T10:04:47.046+08:00"
-    },
     {
       "available_markets": [
         "HDC"
@@ -1632,8 +30,16 @@
       "hdc": {
         "lines": [
           {
-            "condition": "-1.0",
+            "condition": "-1.0/-1.5",
             "main": true,
+            "odds": {
+              "A": 1.82,
+              "H": 1.96
+            }
+          },
+          {
+            "condition": "-1.0",
+            "main": false,
             "odds": {
               "A": 2.04,
               "H": 1.76
@@ -1678,16 +84,16 @@
       "front_end_id": "FB9408",
       "had": {
         "no_vig_prob": {
-          "away": 0.20774919,
-          "draw": 0.28481744,
-          "home": 0.50743337
+          "away": 0.20056256,
+          "draw": 0.28933615,
+          "home": 0.5101013
         },
         "odds": {
-          "away": 4.25,
-          "draw": 3.1,
-          "home": 1.74
+          "away": 4.4,
+          "draw": 3.05,
+          "home": 1.73
         },
-        "overround": 1.13258741,
+        "overround": 1.13317626,
         "updated_at": "2026-11-20T19:35:07.226+08:00"
       },
       "hdc": null,
@@ -1697,24 +103,24 @@
             "condition": "2.5",
             "main": true,
             "odds": {
-              "H": 2.22,
-              "L": 1.58
+              "H": 2.38,
+              "L": 1.51
             }
           },
           {
             "condition": "2.0/2.5",
             "main": false,
             "odds": {
-              "H": 1.93,
-              "L": 1.77
+              "H": 2.05,
+              "L": 1.68
             }
           },
           {
             "condition": "3.5",
             "main": false,
             "odds": {
-              "H": 4.05,
-              "L": 1.18
+              "H": 4.3,
+              "L": 1.16
             }
           }
         ],
@@ -1756,16 +162,16 @@
       "front_end_id": "FB9343",
       "had": {
         "no_vig_prob": {
-          "away": 0.16948635,
-          "draw": 0.23502107,
-          "home": 0.59549258
+          "away": 0.16340716,
+          "draw": 0.23221018,
+          "home": 0.60438266
         },
         "odds": {
-          "away": 5.2,
-          "draw": 3.75,
-          "home": 1.48
+          "away": 5.4,
+          "draw": 3.8,
+          "home": 1.46
         },
-        "overround": 1.13465003,
+        "overround": 1.13327459,
         "updated_at": "2026-11-20T19:35:07.226+08:00"
       },
       "hdc": {
@@ -1774,8 +180,8 @@
             "condition": "-0.5/-1.0",
             "main": true,
             "odds": {
-              "A": 2.07,
-              "H": 1.73
+              "A": 2.1,
+              "H": 1.7
             }
           }
         ],
@@ -1832,9 +238,7 @@
       "updated_at": "2026-10-30T22:37:22.245+08:00"
     },
     {
-      "available_markets": [
-        "HDC"
-      ],
+      "available_markets": [],
       "away": {
         "id": "50001866",
         "name_ch": "拉魯斯",
@@ -1846,20 +250,7 @@
         "odds": {},
         "updated_at": null
       },
-      "hdc": {
-        "lines": [
-          {
-            "condition": "-0.5/-1.0",
-            "main": true,
-            "odds": {
-              "A": 1.95,
-              "H": 1.83
-            }
-          }
-        ],
-        "status": "SELLINGSTARTED",
-        "updated_at": "2026-11-19T19:30:01.807+08:00"
-      },
+      "hdc": null,
       "hil": null,
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50080792",
       "home": {
@@ -1869,6 +260,27 @@
       },
       "id": "50080792",
       "kickoff": "2026-11-23T05:58:00.000+08:00",
+      "last_seen_markets": {
+        "HDC": {
+          "age_minutes_at_freeze": 337.1,
+          "observed_at_hkt": "2026-11-22T23:35:30.661102+08:00",
+          "payload": {
+            "lines": [
+              {
+                "condition": "-0.5/-1.0",
+                "main": true,
+                "odds": {
+                  "A": 1.95,
+                  "H": 1.83
+                }
+              }
+            ],
+            "status": "SELLINGSTARTED",
+            "updated_at": "2026-11-19T19:30:01.807+08:00"
+          },
+          "status": "STALE_LAST_SEEN"
+        }
+      },
       "match_date": "2026-11-23+08:00",
       "status": "PREEVENT",
       "tournament": {
@@ -1992,8 +404,8 @@
             "condition": "0.0/-0.5",
             "main": true,
             "odds": {
-              "A": 1.89,
-              "H": 1.87
+              "A": 1.96,
+              "H": 1.81
             }
           }
         ],
@@ -2041,8 +453,8 @@
             "condition": "0.0/-0.5",
             "main": true,
             "odds": {
-              "A": 1.93,
-              "H": 1.85
+              "A": 1.86,
+              "H": 1.92
             }
           }
         ],
@@ -2070,9 +482,7 @@
       "updated_at": "2026-11-19T16:19:49.065+08:00"
     },
     {
-      "available_markets": [
-        "HDC"
-      ],
+      "available_markets": [],
       "away": {
         "id": "50000714",
         "name_ch": "夏洛特FC",
@@ -2084,20 +494,7 @@
         "odds": {},
         "updated_at": null
       },
-      "hdc": {
-        "lines": [
-          {
-            "condition": "-1.0",
-            "main": true,
-            "odds": {
-              "A": 1.9,
-              "H": 1.88
-            }
-          }
-        ],
-        "status": "SELLINGSTARTED",
-        "updated_at": "2026-11-20T19:35:07.226+08:00"
-      },
+      "hdc": null,
       "hil": null,
       "hkjc_all_odds_url": "https://bet.hkjc.com/ch/football/allodds/50080707",
       "home": {
@@ -2107,6 +504,27 @@
       },
       "id": "50080707",
       "kickoff": "2026-11-23T07:30:00.000+08:00",
+      "last_seen_markets": {
+        "HDC": {
+          "age_minutes_at_freeze": 337.1,
+          "observed_at_hkt": "2026-11-22T23:35:30.661102+08:00",
+          "payload": {
+            "lines": [
+              {
+                "condition": "-1.0",
+                "main": true,
+                "odds": {
+                  "A": 1.9,
+                  "H": 1.88
+                }
+              }
+            ],
+            "status": "SELLINGSTARTED",
+            "updated_at": "2026-11-20T19:35:07.226+08:00"
+          },
+          "status": "STALE_LAST_SEEN"
+        }
+      },
       "match_date": "2026-11-23+08:00",
       "status": "PREEVENT",
       "tournament": {
@@ -2188,8 +606,8 @@
             "condition": "0.0/-0.5",
             "main": true,
             "odds": {
-              "A": 1.97,
-              "H": 1.8
+              "A": 1.96,
+              "H": 1.81
             }
           }
         ],
@@ -2234,8 +652,16 @@
       "hdc": {
         "lines": [
           {
-            "condition": "-1.0",
+            "condition": "-1.0/-1.5",
             "main": true,
+            "odds": {
+              "A": 1.8,
+              "H": 1.99
+            }
+          },
+          {
+            "condition": "-1.0",
+            "main": false,
             "odds": {
               "A": 2.01,
               "H": 1.78
@@ -3303,16 +1729,16 @@
       "front_end_id": "FB9423",
       "had": {
         "no_vig_prob": {
-          "away": 0.34173496,
-          "draw": 0.22607082,
-          "home": 0.43219422
+          "away": 0.35316947,
+          "draw": 0.22639069,
+          "home": 0.42043984
         },
         "odds": {
-          "away": 2.58,
+          "away": 2.5,
           "draw": 3.9,
-          "home": 2.04
+          "home": 2.1
         },
-        "overround": 1.13420323,
+        "overround": 1.13260073,
         "updated_at": "2026-11-22T01:34:19.658+08:00"
       },
       "hdc": {
@@ -3321,8 +1747,8 @@
             "condition": "0.0/-0.5",
             "main": true,
             "odds": {
-              "A": 1.84,
-              "H": 1.92
+              "A": 1.8,
+              "H": 1.97
             }
           }
         ],
@@ -4321,7 +2747,7 @@
   "source": "HKJC public GraphQL",
   "source_endpoint": "https://info.cld.hkjc.com/graphql/base/",
   "window": {
-    "end_date": "2026-11-29",
-    "start_date": "2026-11-22"
+    "end_date": "2026-11-30",
+    "start_date": "2026-11-23"
   }
 }
